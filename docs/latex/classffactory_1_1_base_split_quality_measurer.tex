@@ -1,0 +1,77 @@
+\hypertarget{classffactory_1_1_base_split_quality_measurer}{\section{ffactory\-:\-:Base\-Split\-Quality\-Measurer Class Reference}
+\label{classffactory_1_1_base_split_quality_measurer}\index{ffactory\-::\-Base\-Split\-Quality\-Measurer@{ffactory\-::\-Base\-Split\-Quality\-Measurer}}
+}
+
+
+{\ttfamily \#include $<$base\-Split\-Quality\-Measurer.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Split\-Quality\-Measurer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_base_split_quality_measurer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual Data\-Type \hyperlink{classffactory_1_1_base_split_quality_measurer_a64904410d1071ba5aaa6928f0ea7f1a5}{get\-Score} (\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} $\ast$left, \hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} $\ast$right)=0
+\item 
+\hypertarget{classffactory_1_1_base_split_quality_measurer_a47054f960d2f5e0a6cba92ac34f38e1f}{\hyperlink{classffactory_1_1_base_impurity_measure}{Base\-Impurity\-Measure} $\ast$ {\bfseries get\-Impurity\-Measure\-Function} ()}\label{classffactory_1_1_base_split_quality_measurer_a47054f960d2f5e0a6cba92ac34f38e1f}
+
+\item 
+\hypertarget{classffactory_1_1_base_split_quality_measurer_af4dc1a72248b7c5f3eeca0c805b7488e}{void {\bfseries set\-Impurity\-Measure\-Function} (Base\-Impurity\-Measure\-Unique\-Ptr impurity\-Function)}\label{classffactory_1_1_base_split_quality_measurer_af4dc1a72248b7c5f3eeca0c805b7488e}
+
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_base_split_quality_measurer_a0bd98e9b10ef01211e0839e9a6f22d26}{get\-Info} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Split quality analysis tool 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_split_quality_measurer_a0bd98e9b10ef01211e0839e9a6f22d26}{\index{ffactory\-::\-Base\-Split\-Quality\-Measurer@{ffactory\-::\-Base\-Split\-Quality\-Measurer}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::BaseSplitQualityMeasurer@{ffactory\-::\-Base\-Split\-Quality\-Measurer}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Base\-Split\-Quality\-Measurer\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_base_split_quality_measurer_a0bd98e9b10ef01211e0839e9a6f22d26}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about object 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_a061e6165abeadad3fac626253d14a0c6}{ffactory\-::\-Base}.
+
+
+
+Reimplemented in \hyperlink{classffactory_1_1_simple_split_quality_measurer_a2d35a560f2ba91a6be600c8d42f3332e}{ffactory\-::\-Simple\-Split\-Quality\-Measurer}.
+
+\hypertarget{classffactory_1_1_base_split_quality_measurer_a64904410d1071ba5aaa6928f0ea7f1a5}{\index{ffactory\-::\-Base\-Split\-Quality\-Measurer@{ffactory\-::\-Base\-Split\-Quality\-Measurer}!get\-Score@{get\-Score}}
+\index{get\-Score@{get\-Score}!ffactory::BaseSplitQualityMeasurer@{ffactory\-::\-Base\-Split\-Quality\-Measurer}}
+\subsubsection[{get\-Score}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Type ffactory\-::\-Base\-Split\-Quality\-Measurer\-::get\-Score (
+\begin{DoxyParamCaption}
+\item[{{\bf Partition\-Statistics} $\ast$}]{left, }
+\item[{{\bf Partition\-Statistics} $\ast$}]{right}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_split_quality_measurer_a64904410d1071ba5aaa6928f0ea7f1a5}
+Obtain split quality based on left and right partition statistics 
+\begin{DoxyParams}{Parameters}
+{\em left} & \\
+\hline
+{\em right} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classffactory_1_1_simple_split_quality_measurer_af2c639dd96f8c376f0852ed6e0a2f279}{ffactory\-::\-Simple\-Split\-Quality\-Measurer}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/splits/quality\-Measurer/base\-Split\-Quality\-Measurer.\-h\end{DoxyCompactItemize}

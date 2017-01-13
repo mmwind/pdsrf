@@ -1,0 +1,73 @@
+\hypertarget{classffactory_1_1_base_split}{\section{ffactory\-:\-:Base\-Split Class Reference}
+\label{classffactory_1_1_base_split}\index{ffactory\-::\-Base\-Split@{ffactory\-::\-Base\-Split}}
+}
+
+
+{\ttfamily \#include $<$base\-Split.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_split_a0d58b369b12890e76ea0548c9fdab217}{Index\-Vector {\bfseries get\-Feature\-Index} () const }\label{classffactory_1_1_base_split_a0d58b369b12890e76ea0548c9fdab217}
+
+\item 
+\hypertarget{classffactory_1_1_base_split_a078ac711bddfb871e5473a1fa3da124f}{void {\bfseries set\-Feature\-Index\-Set} (Index\-Vector \&feature\-Index\-Set)}\label{classffactory_1_1_base_split_a078ac711bddfb871e5473a1fa3da124f}
+
+\item 
+\hypertarget{classffactory_1_1_base_split_abbccdac7fa366b151326b730aa6ccf38}{Data\-Vector {\bfseries get\-Feature\-Value} () const }\label{classffactory_1_1_base_split_abbccdac7fa366b151326b730aa6ccf38}
+
+\item 
+\hypertarget{classffactory_1_1_base_split_adaa4d2651f77b5946b487cac0d45c4cb}{void {\bfseries set\-Feature\-Value} (double feature\-Value)}\label{classffactory_1_1_base_split_adaa4d2651f77b5946b487cac0d45c4cb}
+
+\item 
+virtual bool \hyperlink{classffactory_1_1_base_split_a86e2a328692f90e3993b117ce17bf452}{decide} (Data\-Vector feature\-Vector)
+\item 
+virtual Data\-Type \hyperlink{classffactory_1_1_base_split_ae2195df1e6a0f7774e12c65a89975f4c}{get\-Impurity\-Score} (\hyperlink{classffactory_1_1_dataset}{Dataset} d)=0
+\item 
+\hypertarget{classffactory_1_1_base_split_a7151988e8ff47ef87890da1b08f9008b}{\hyperlink{classffactory_1_1_base_impurity_measure}{Base\-Impurity\-Measure} $\ast$ {\bfseries get\-Impurity\-Measure\-Function} ()}\label{classffactory_1_1_base_split_a7151988e8ff47ef87890da1b08f9008b}
+
+\item 
+\hypertarget{classffactory_1_1_base_split_a3edcedf23d144f69e04693f7a5fd8de8}{void {\bfseries set\-Impurity\-Measure\-Function} (\hyperlink{classffactory_1_1_base_impurity_measure}{Base\-Impurity\-Measure} $\ast$impurity\-Function)}\label{classffactory_1_1_base_split_a3edcedf23d144f69e04693f7a5fd8de8}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Split abstraction to get interface to many types of linear splits (axial-\/parallel and oblique) 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_split_a86e2a328692f90e3993b117ce17bf452}{\index{ffactory\-::\-Base\-Split@{ffactory\-::\-Base\-Split}!decide@{decide}}
+\index{decide@{decide}!ffactory::BaseSplit@{ffactory\-::\-Base\-Split}}
+\subsubsection[{decide}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool ffactory\-::\-Base\-Split\-::decide (
+\begin{DoxyParamCaption}
+\item[{Data\-Vector}]{feature\-Vector}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classffactory_1_1_base_split_a86e2a328692f90e3993b117ce17bf452}
+Used to perform split decision 
+\begin{DoxyParams}{Parameters}
+{\em feature\-Vector} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_base_split_ae2195df1e6a0f7774e12c65a89975f4c}{\index{ffactory\-::\-Base\-Split@{ffactory\-::\-Base\-Split}!get\-Impurity\-Score@{get\-Impurity\-Score}}
+\index{get\-Impurity\-Score@{get\-Impurity\-Score}!ffactory::BaseSplit@{ffactory\-::\-Base\-Split}}
+\subsubsection[{get\-Impurity\-Score}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Type ffactory\-::\-Base\-Split\-::get\-Impurity\-Score (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset}}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_split_ae2195df1e6a0f7774e12c65a89975f4c}
+Calculate impurity to obtain split quality on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \hyperlink{classffactory_1_1_dataset}{Dataset} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Quality score of split 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/splits/base\-Split.\-h\end{DoxyCompactItemize}

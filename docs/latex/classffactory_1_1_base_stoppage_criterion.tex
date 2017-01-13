@@ -1,0 +1,71 @@
+\hypertarget{classffactory_1_1_base_stoppage_criterion}{\section{ffactory\-:\-:Base\-Stoppage\-Criterion Class Reference}
+\label{classffactory_1_1_base_stoppage_criterion}\index{ffactory\-::\-Base\-Stoppage\-Criterion@{ffactory\-::\-Base\-Stoppage\-Criterion}}
+}
+
+
+{\ttfamily \#include $<$base\-Stoppage\-Criterion.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Stoppage\-Criterion\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.666667cm]{classffactory_1_1_base_stoppage_criterion}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{classffactory_1_1_base_stoppage_criterion_a47728f0c9b241133e228ea5956248241}{Is\-Stoppage\-Needed} (\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$current\-Node, Data\-Vector \&class\-Prob\-Distr)=0
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_base_stoppage_criterion_a0543f9c748cb8092e08314a8d2d40c79}{get\-Info} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_base}{Base} class for all stoppage criteria for tree Ru\-:Базовый класс для всех критериев останова 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_stoppage_criterion_a0543f9c748cb8092e08314a8d2d40c79}{\index{ffactory\-::\-Base\-Stoppage\-Criterion@{ffactory\-::\-Base\-Stoppage\-Criterion}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::BaseStoppageCriterion@{ffactory\-::\-Base\-Stoppage\-Criterion}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Base\-Stoppage\-Criterion\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_base_stoppage_criterion_a0543f9c748cb8092e08314a8d2d40c79}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about object 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_a061e6165abeadad3fac626253d14a0c6}{ffactory\-::\-Base}.
+
+
+
+Reimplemented in \hyperlink{classffactory_1_1_balance_points_stoppage_criterion_ae5414001f1c98a7fccf961a5015b3aa5}{ffactory\-::\-Balance\-Points\-Stoppage\-Criterion}, \hyperlink{classffactory_1_1_depth_stoppage_criterion_aeb81f88755a7dbae93a176ce8cee5624}{ffactory\-::\-Depth\-Stoppage\-Criterion}, \hyperlink{classffactory_1_1_points_number_stoppage_criterion_af8eaa4b922862c103528d9326115c74f}{ffactory\-::\-Points\-Number\-Stoppage\-Criterion}, and \hyperlink{classffactory_1_1_empty_stoppage_criterion_a19181caac08aad7d05fcc07307c93c70}{ffactory\-::\-Empty\-Stoppage\-Criterion}.
+
+\hypertarget{classffactory_1_1_base_stoppage_criterion_a47728f0c9b241133e228ea5956248241}{\index{ffactory\-::\-Base\-Stoppage\-Criterion@{ffactory\-::\-Base\-Stoppage\-Criterion}!Is\-Stoppage\-Needed@{Is\-Stoppage\-Needed}}
+\index{Is\-Stoppage\-Needed@{Is\-Stoppage\-Needed}!ffactory::BaseStoppageCriterion@{ffactory\-::\-Base\-Stoppage\-Criterion}}
+\subsubsection[{Is\-Stoppage\-Needed}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool ffactory\-::\-Base\-Stoppage\-Criterion\-::\-Is\-Stoppage\-Needed (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Tree\-Node} $\ast$}]{current\-Node, }
+\item[{Data\-Vector \&}]{class\-Prob\-Distr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_stoppage_criterion_a47728f0c9b241133e228ea5956248241}
+Stoppage criterion implementation here 
+\begin{DoxyParams}{Parameters}
+{\em current\-Node} & \\
+\hline
+{\em class\-Prob\-Distr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classffactory_1_1_balance_points_stoppage_criterion_ad27450524ea56f2b3925f56014c5ea7d}{ffactory\-::\-Balance\-Points\-Stoppage\-Criterion}, \hyperlink{classffactory_1_1_depth_stoppage_criterion_a363d36a365b10f5d6ad05937c9944ea7}{ffactory\-::\-Depth\-Stoppage\-Criterion}, \hyperlink{classffactory_1_1_points_number_stoppage_criterion_af92444c0b1627a64e82d64f3ee7268d4}{ffactory\-::\-Points\-Number\-Stoppage\-Criterion}, and \hyperlink{classffactory_1_1_empty_stoppage_criterion_a5dca6353a6a813e09c77b53db8e57fd9}{ffactory\-::\-Empty\-Stoppage\-Criterion}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/stoppage\-Criteria/base\-Stoppage\-Criterion.\-h\end{DoxyCompactItemize}

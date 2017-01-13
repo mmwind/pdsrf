@@ -1,0 +1,88 @@
+\hypertarget{classffactory_1_1_binary_split}{\section{ffactory\-:\-:Binary\-Split Class Reference}
+\label{classffactory_1_1_binary_split}\index{ffactory\-::\-Binary\-Split@{ffactory\-::\-Binary\-Split}}
+}
+
+
+{\ttfamily \#include $<$binary\-Split.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Binary\-Split\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_binary_split}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_binary_split_a14f42275da38adef19a4e8427f2f0973}{unsigned int {\bfseries get\-Feature\-Index} () const }\label{classffactory_1_1_binary_split_a14f42275da38adef19a4e8427f2f0973}
+
+\item 
+\hypertarget{classffactory_1_1_binary_split_a3d43e118b0fde08f33c0afc8fb3e49e1}{void {\bfseries set\-Feature\-Index} (unsigned int feature\-Index)}\label{classffactory_1_1_binary_split_a3d43e118b0fde08f33c0afc8fb3e49e1}
+
+\item 
+\hypertarget{classffactory_1_1_binary_split_ae53e23f8dfc47a400948a7fc4bf4efce}{double {\bfseries get\-Feature\-Value} () const }\label{classffactory_1_1_binary_split_ae53e23f8dfc47a400948a7fc4bf4efce}
+
+\item 
+\hypertarget{classffactory_1_1_binary_split_a8926e9153314fd9cb1e6503183138143}{void {\bfseries set\-Feature\-Value} (double feature\-Value)}\label{classffactory_1_1_binary_split_a8926e9153314fd9cb1e6503183138143}
+
+\item 
+bool \hyperlink{classffactory_1_1_binary_split_a62bca13d9f4e5f796b776125acdc4072}{decide} (Data\-Vector $\ast$feature\-Vector)
+\item 
+double \hyperlink{classffactory_1_1_binary_split_a5baf70825250efd379c3894567669507}{get\-Score} ()
+\item 
+void \hyperlink{classffactory_1_1_binary_split_aac5dcfdcf09394dc8f9acf7bd0d74ee6}{set\-Score} (double score)
+\item 
+\hypertarget{classffactory_1_1_binary_split_ab6a6b527cd16f536d630622b4702b668}{Attribute\-Type {\bfseries get\-Feature\-Type} () const }\label{classffactory_1_1_binary_split_ab6a6b527cd16f536d630622b4702b668}
+
+\item 
+\hypertarget{classffactory_1_1_binary_split_a662bb99767628549a0101d8dfd557b5c}{void {\bfseries set\-Feature\-Type} (Attribute\-Type feature\-Type)}\label{classffactory_1_1_binary_split_a662bb99767628549a0101d8dfd557b5c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Binary split class propose data structure to store split variable id, value and score calculated by derived classes 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_binary_split_a62bca13d9f4e5f796b776125acdc4072}{\index{ffactory\-::\-Binary\-Split@{ffactory\-::\-Binary\-Split}!decide@{decide}}
+\index{decide@{decide}!ffactory::BinarySplit@{ffactory\-::\-Binary\-Split}}
+\subsubsection[{decide}]{\setlength{\rightskip}{0pt plus 5cm}bool ffactory\-::\-Binary\-Split\-::decide (
+\begin{DoxyParamCaption}
+\item[{Data\-Vector $\ast$}]{feature\-Vector}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_binary_split_a62bca13d9f4e5f796b776125acdc4072}
+Function of splitting 
+\begin{DoxyParams}{Parameters}
+{\em feature\-Vector} & point values \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+boolean value feature value $>$ split value 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_binary_split_a5baf70825250efd379c3894567669507}{\index{ffactory\-::\-Binary\-Split@{ffactory\-::\-Binary\-Split}!get\-Score@{get\-Score}}
+\index{get\-Score@{get\-Score}!ffactory::BinarySplit@{ffactory\-::\-Binary\-Split}}
+\subsubsection[{get\-Score}]{\setlength{\rightskip}{0pt plus 5cm}double ffactory\-::\-Binary\-Split\-::get\-Score (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_binary_split_a5baf70825250efd379c3894567669507}
+Split quality value. \begin{DoxyReturn}{Returns}
+score 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_binary_split_aac5dcfdcf09394dc8f9acf7bd0d74ee6}{\index{ffactory\-::\-Binary\-Split@{ffactory\-::\-Binary\-Split}!set\-Score@{set\-Score}}
+\index{set\-Score@{set\-Score}!ffactory::BinarySplit@{ffactory\-::\-Binary\-Split}}
+\subsubsection[{set\-Score}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Binary\-Split\-::set\-Score (
+\begin{DoxyParamCaption}
+\item[{double}]{score}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_binary_split_aac5dcfdcf09394dc8f9acf7bd0d74ee6}
+Split quality value. Can be set externally. 
+\begin{DoxyParams}{Parameters}
+{\em score} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/splits/binary\-Split.\-h\end{DoxyCompactItemize}

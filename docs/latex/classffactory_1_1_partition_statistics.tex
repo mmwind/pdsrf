@@ -1,0 +1,306 @@
+\hypertarget{classffactory_1_1_partition_statistics}{\section{ffactory\-:\-:Partition\-Statistics Class Reference}
+\label{classffactory_1_1_partition_statistics}\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}}
+}
+
+
+{\ttfamily \#include $<$Partition\-Statistics.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_afc85cfef9d4853d5ea8995329daa641e}{void {\bfseries copy\-Statistics} (\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} \&stat)}\label{classffactory_1_1_partition_statistics_afc85cfef9d4853d5ea8995329daa641e}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a0a7ab8fec6d7825f3fd1c86c110b8cb1}{\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} \& {\bfseries operator=} (\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} \&other)}\label{classffactory_1_1_partition_statistics_a0a7ab8fec6d7825f3fd1c86c110b8cb1}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_ac51554ea5f08d0277dd69d6878b7a928}{{\bfseries Partition\-Statistics} (\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} \&other)}\label{classffactory_1_1_partition_statistics_ac51554ea5f08d0277dd69d6878b7a928}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a7180a6a215b82b62f836994fe5a0832c}{{\bfseries Partition\-Statistics} (Index\-Type num\-Classes, Index\-Type num\-Features, std\-::vector$<$ \hyperlink{classffactory_1_1_sample}{Sample} $>$ $\ast$data=N\-U\-L\-L, \hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$dr=N\-U\-L\-L, \hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$global\-Ranges=N\-U\-L\-L)}\label{classffactory_1_1_partition_statistics_a7180a6a215b82b62f836994fe5a0832c}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a30876f6676c6aee2060f5657261df141}{void {\bfseries add\-Samples} (std\-::vector$<$ \hyperlink{classffactory_1_1_sample}{Sample} $>$ $\ast$data)}\label{classffactory_1_1_partition_statistics_a30876f6676c6aee2060f5657261df141}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a7b57d257f59718ede48cf21e94da8b8f}{void {\bfseries add\-Samples\-In\-Range} (std\-::vector$<$ \hyperlink{classffactory_1_1_sample}{Sample} $>$ $\ast$data)}\label{classffactory_1_1_partition_statistics_a7b57d257f59718ede48cf21e94da8b8f}
+
+\item 
+virtual \hyperlink{classffactory_1_1_partition_statistics_a4c838e480cc0fb6c9ac93e9abf0e9613}{$\sim$\-Partition\-Statistics} ()
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a6e953b946f5a7fd73210524c4e76a2a7}{void {\bfseries add\-Categorial\-Partition\-Ranges} (Index\-Type attr\-Idx, Data\-Type category)}\label{classffactory_1_1_partition_statistics_a6e953b946f5a7fd73210524c4e76a2a7}
+
+\item 
+void \hyperlink{classffactory_1_1_partition_statistics_a991b8a7b65034632781fb1650654e7d0}{remove\-Sample} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$const s)
+\item 
+void \hyperlink{classffactory_1_1_partition_statistics_a340f7b5f795fcdbe2d448ccfce86a32e}{add\-Point} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$const s)
+\item 
+void \hyperlink{classffactory_1_1_partition_statistics_a1acdc107481f49362175355b8530e32c}{add\-Point\-In\-Range} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$const s)
+\item 
+void \hyperlink{classffactory_1_1_partition_statistics_afe3bee838f0967a7840573eafb9194d8}{init\-Data\-Ranges} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$dr=N\-U\-L\-L)
+\item 
+void \hyperlink{classffactory_1_1_partition_statistics_a73651a96a6221a45e850876241563ee6}{init\-Sample\-Statistics} (std\-::vector$<$ \hyperlink{classffactory_1_1_sample}{Sample} $>$ $\ast$data=N\-U\-L\-L, bool ranged=false)
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a22629165f1a25adf4aadff726c6a9865}{Index\-Type {\bfseries get\-Points\-By\-Class} (Index\-Type class\-Num)}\label{classffactory_1_1_partition_statistics_a22629165f1a25adf4aadff726c6a9865}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a5428078a79dd269c83dd3946da040a61}{void {\bfseries copy\-Counts\-Vector} (Data\-Vector \&ret)}\label{classffactory_1_1_partition_statistics_a5428078a79dd269c83dd3946da040a61}
+
+\item 
+Data\-Vector $\ast$ \hyperlink{classffactory_1_1_partition_statistics_a5571f476498033258a9097f6a30f8880}{get\-Counts\-Vector} ()
+\item 
+Data\-Vector $\ast$ \hyperlink{classffactory_1_1_partition_statistics_a967daa2a8b7296c698716c3d57f6c8ca}{get\-Distr\-Vector} ()
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_ae909e4332c06458e32874f05e744649c}{void {\bfseries set\-Distr\-Vector} (Data\-Vector $\ast$distr)}\label{classffactory_1_1_partition_statistics_ae909e4332c06458e32874f05e744649c}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a6811e642a9d065d487916e5dbf124968}{Data\-Type {\bfseries get\-Distr\-Norma} ()}\label{classffactory_1_1_partition_statistics_a6811e642a9d065d487916e5dbf124968}
+
+\item 
+void \hyperlink{classffactory_1_1_partition_statistics_a3f3d0e23f7e40bab43b506f48bd07cb2}{set\-Counts\-Vector} (Data\-Vector $\ast$v)
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a1aa320c481a97754c27182550cf06c70}{void {\bfseries set\-Min\-Ranges} (Data\-Vector \&min\-Val)}\label{classffactory_1_1_partition_statistics_a1aa320c481a97754c27182550cf06c70}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a312051eacaf54770f007e1e6ecf1c452}{void {\bfseries set\-Max\-Ranges} (Data\-Vector \&max\-Val)}\label{classffactory_1_1_partition_statistics_a312051eacaf54770f007e1e6ecf1c452}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a48434449877b5b868487f775a7d21d8e}{Data\-Vector $\ast$ {\bfseries get\-Min\-Ranges} ()}\label{classffactory_1_1_partition_statistics_a48434449877b5b868487f775a7d21d8e}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_aa8eb596c8cff186be603bf3849b3ee5c}{Data\-Vector $\ast$ {\bfseries get\-Max\-Ranges} ()}\label{classffactory_1_1_partition_statistics_aa8eb596c8cff186be603bf3849b3ee5c}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a60a7df87a21da8d7384e2f69e82721e8}{Data\-Type {\bfseries get\-Min\-Range\-Value} (Index\-Type i)}\label{classffactory_1_1_partition_statistics_a60a7df87a21da8d7384e2f69e82721e8}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a49c5a48e507e9a5143d5393d9172a6b4}{Data\-Type {\bfseries get\-Max\-Range\-Value} (Index\-Type i)}\label{classffactory_1_1_partition_statistics_a49c5a48e507e9a5143d5393d9172a6b4}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_ae0f4a1cb7e7359eaa96428416b509cd0}{void {\bfseries set\-Min\-Range\-Value} (Index\-Type i, Data\-Type v)}\label{classffactory_1_1_partition_statistics_ae0f4a1cb7e7359eaa96428416b509cd0}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_ae169f19b52eed8918922eb6359f64714}{void {\bfseries set\-Max\-Range\-Value} (Index\-Type i, Data\-Type v)}\label{classffactory_1_1_partition_statistics_ae169f19b52eed8918922eb6359f64714}
+
+\item 
+unsigned int \hyperlink{classffactory_1_1_partition_statistics_acbd019517c1ef06686f2ddd341de9cf7}{get\-Points\-Number} ()
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a86d7b509f6622364c1332c8822009579}{void {\bfseries set\-Points\-Number} (unsigned int points\-Number)}\label{classffactory_1_1_partition_statistics_a86d7b509f6622364c1332c8822009579}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a8c765472ce7bed5a57bb90d3fd5bb4a5}{unsigned int {\bfseries get\-Num\-Classes} ()}\label{classffactory_1_1_partition_statistics_a8c765472ce7bed5a57bb90d3fd5bb4a5}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a5cd21c718b1c2943bae15814356c401c}{void {\bfseries set\-Num\-Classes} (unsigned int num\-Classes)}\label{classffactory_1_1_partition_statistics_a5cd21c718b1c2943bae15814356c401c}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_aeda0f1d110402fc2f4f7fae9d91e3a7f}{unsigned int {\bfseries get\-Num\-Features} ()}\label{classffactory_1_1_partition_statistics_aeda0f1d110402fc2f4f7fae9d91e3a7f}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_ae7bf8852bae9b41c33648e1c56dfeed6}{void {\bfseries set\-Num\-Features} (unsigned int num\-Features)}\label{classffactory_1_1_partition_statistics_ae7bf8852bae9b41c33648e1c56dfeed6}
+
+\item 
+bool \hyperlink{classffactory_1_1_partition_statistics_abfc82c4f58a2aac9e1e973f523eb518f}{is\-In\-Ranges} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$s)
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a6a55fa5cd07f699548228fa2fc8e4145}{\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$ {\bfseries get\-Ranges} ()}\label{classffactory_1_1_partition_statistics_a6a55fa5cd07f699548228fa2fc8e4145}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_ade813f7891be11a26099ee3a3f43226c}{void {\bfseries set\-Ranges} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} \&dranges)}\label{classffactory_1_1_partition_statistics_ade813f7891be11a26099ee3a3f43226c}
+
+\item 
+bool \hyperlink{classffactory_1_1_partition_statistics_aa927287d8be8aff9837578c5a06c770b}{is\-Uniform} ()
+\item 
+bool \hyperlink{classffactory_1_1_partition_statistics_a4ec7df5caa2f742cde745d89aa8ccec6}{is\-Empty} ()
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a96e49d994399370182a3482183466a1f}{Index\-Type {\bfseries get\-Major\-Class} ()}\label{classffactory_1_1_partition_statistics_a96e49d994399370182a3482183466a1f}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a8b6fdc3ff4f64114922278ac8db8da39}{\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$ {\bfseries get\-Global\-Ranges} ()}\label{classffactory_1_1_partition_statistics_a8b6fdc3ff4f64114922278ac8db8da39}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a9d1f36a35f75db82e26043569e47b8e9}{void {\bfseries set\-Global\-Ranges} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$global\-Ranges)}\label{classffactory_1_1_partition_statistics_a9d1f36a35f75db82e26043569e47b8e9}
+
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_partition_statistics_a9a398b8dce4258794ebba89ef78f1978}{get\-Info} ()
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a74a0483397cf04ede026c060e84dd32c}{std\-::vector$<$ \hyperlink{classffactory_1_1_attribute}{Attribute} $>$ $\ast$ {\bfseries get\-Attributes} ()}\label{classffactory_1_1_partition_statistics_a74a0483397cf04ede026c060e84dd32c}
+
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a8d43214c3e6c91a45962423ad1dd2c37}{void {\bfseries set\-Attributes} (std\-::vector$<$ \hyperlink{classffactory_1_1_attribute}{Attribute} $>$ $\ast$attributes)}\label{classffactory_1_1_partition_statistics_a8d43214c3e6c91a45962423ad1dd2c37}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_partition_statistics_a0662dda42083e5190318f03977b28006}{std\-::ostream \& {\bfseries operator$<$$<$} (std\-::ostream \&stream, \hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} \&b)}\label{classffactory_1_1_partition_statistics_a0662dda42083e5190318f03977b28006}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Propose facilities to get info about points in data-\/space partition 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classffactory_1_1_partition_statistics_a4c838e480cc0fb6c9ac93e9abf0e9613}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!$\sim$\-Partition\-Statistics@{$\sim$\-Partition\-Statistics}}
+\index{$\sim$\-Partition\-Statistics@{$\sim$\-Partition\-Statistics}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{$\sim$\-Partition\-Statistics}]{\setlength{\rightskip}{0pt plus 5cm}virtual ffactory\-::\-Partition\-Statistics\-::$\sim$\-Partition\-Statistics (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_partition_statistics_a4c838e480cc0fb6c9ac93e9abf0e9613}
+virual destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_partition_statistics_a340f7b5f795fcdbe2d448ccfce86a32e}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!add\-Point@{add\-Point}}
+\index{add\-Point@{add\-Point}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{add\-Point}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Partition\-Statistics\-::add\-Point (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$const}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a340f7b5f795fcdbe2d448ccfce86a32e}
+Take point into account. Ranges values will be corrected if needed. 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_partition_statistics_a1acdc107481f49362175355b8530e32c}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!add\-Point\-In\-Range@{add\-Point\-In\-Range}}
+\index{add\-Point\-In\-Range@{add\-Point\-In\-Range}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{add\-Point\-In\-Range}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Partition\-Statistics\-::add\-Point\-In\-Range (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$const}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a1acdc107481f49362175355b8530e32c}
+Take point into account if it is in range. 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_partition_statistics_a5571f476498033258a9097f6a30f8880}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!get\-Counts\-Vector@{get\-Counts\-Vector}}
+\index{get\-Counts\-Vector@{get\-Counts\-Vector}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{get\-Counts\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Vector$\ast$ ffactory\-::\-Partition\-Statistics\-::get\-Counts\-Vector (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a5571f476498033258a9097f6a30f8880}
+Get pointer to vector with counts of points by class \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_partition_statistics_a967daa2a8b7296c698716c3d57f6c8ca}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!get\-Distr\-Vector@{get\-Distr\-Vector}}
+\index{get\-Distr\-Vector@{get\-Distr\-Vector}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{get\-Distr\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Vector$\ast$ ffactory\-::\-Partition\-Statistics\-::get\-Distr\-Vector (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a967daa2a8b7296c698716c3d57f6c8ca}
+Get pointer to vector with class distribution (weighted samples) \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_partition_statistics_a9a398b8dce4258794ebba89ef78f1978}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Partition\-Statistics\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_partition_statistics_a9a398b8dce4258794ebba89ef78f1978}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about object 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_partition_statistics_acbd019517c1ef06686f2ddd341de9cf7}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!get\-Points\-Number@{get\-Points\-Number}}
+\index{get\-Points\-Number@{get\-Points\-Number}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{get\-Points\-Number}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int ffactory\-::\-Partition\-Statistics\-::get\-Points\-Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_acbd019517c1ef06686f2ddd341de9cf7}
+Get total points number in the partition \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_partition_statistics_afe3bee838f0967a7840573eafb9194d8}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!init\-Data\-Ranges@{init\-Data\-Ranges}}
+\index{init\-Data\-Ranges@{init\-Data\-Ranges}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{init\-Data\-Ranges}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Partition\-Statistics\-::init\-Data\-Ranges (
+\begin{DoxyParamCaption}
+\item[{{\bf Data\-Ranges} $\ast$}]{dr = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_afe3bee838f0967a7840573eafb9194d8}
+Set data ranges(if set) and initialize data structures for data ranges 
+\begin{DoxyParams}{Parameters}
+{\em dr} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_partition_statistics_a73651a96a6221a45e850876241563ee6}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!init\-Sample\-Statistics@{init\-Sample\-Statistics}}
+\index{init\-Sample\-Statistics@{init\-Sample\-Statistics}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{init\-Sample\-Statistics}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Partition\-Statistics\-::init\-Sample\-Statistics (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ {\bf Sample} $>$ $\ast$}]{data = {\ttfamily NULL}, }
+\item[{bool}]{ranged = {\ttfamily false}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a73651a96a6221a45e850876241563ee6}
+Add samples to statistics in range(if ranged is set) of calculate range 
+\begin{DoxyParams}{Parameters}
+{\em data} & \\
+\hline
+{\em ranged} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_partition_statistics_a4ec7df5caa2f742cde745d89aa8ccec6}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!is\-Empty@{is\-Empty}}
+\index{is\-Empty@{is\-Empty}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{is\-Empty}]{\setlength{\rightskip}{0pt plus 5cm}bool ffactory\-::\-Partition\-Statistics\-::is\-Empty (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a4ec7df5caa2f742cde745d89aa8ccec6}
+Returns true if partition is empty \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_partition_statistics_abfc82c4f58a2aac9e1e973f523eb518f}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!is\-In\-Ranges@{is\-In\-Ranges}}
+\index{is\-In\-Ranges@{is\-In\-Ranges}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{is\-In\-Ranges}]{\setlength{\rightskip}{0pt plus 5cm}bool ffactory\-::\-Partition\-Statistics\-::is\-In\-Ranges (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_abfc82c4f58a2aac9e1e973f523eb518f}
+In contrary to \hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges}. is\-In\-Ranges this method take global ranges into account 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_partition_statistics_aa927287d8be8aff9837578c5a06c770b}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!is\-Uniform@{is\-Uniform}}
+\index{is\-Uniform@{is\-Uniform}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{is\-Uniform}]{\setlength{\rightskip}{0pt plus 5cm}bool ffactory\-::\-Partition\-Statistics\-::is\-Uniform (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_aa927287d8be8aff9837578c5a06c770b}
+Returns true if there is only one class points in partition in case of empty partition it also returns true \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_partition_statistics_a991b8a7b65034632781fb1650654e7d0}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!remove\-Sample@{remove\-Sample}}
+\index{remove\-Sample@{remove\-Sample}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{remove\-Sample}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Partition\-Statistics\-::remove\-Sample (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$const}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a991b8a7b65034632781fb1650654e7d0}
+Removes sample from statistics. It should be used carefully because of sample weights changing. All points must be removed before change or after recomputing of class distribution! 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_partition_statistics_a3f3d0e23f7e40bab43b506f48bd07cb2}{\index{ffactory\-::\-Partition\-Statistics@{ffactory\-::\-Partition\-Statistics}!set\-Counts\-Vector@{set\-Counts\-Vector}}
+\index{set\-Counts\-Vector@{set\-Counts\-Vector}!ffactory::PartitionStatistics@{ffactory\-::\-Partition\-Statistics}}
+\subsubsection[{set\-Counts\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Partition\-Statistics\-::set\-Counts\-Vector (
+\begin{DoxyParamCaption}
+\item[{Data\-Vector $\ast$}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_partition_statistics_a3f3d0e23f7e40bab43b506f48bd07cb2}
+Set vector with counts of points by class (for copy constructor only) \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/Partition\-Statistics.\-h\end{DoxyCompactItemize}

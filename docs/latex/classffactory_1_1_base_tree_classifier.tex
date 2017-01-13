@@ -1,0 +1,99 @@
+\hypertarget{classffactory_1_1_base_tree_classifier}{\section{ffactory\-:\-:Base\-Tree\-Classifier Class Reference}
+\label{classffactory_1_1_base_tree_classifier}\index{ffactory\-::\-Base\-Tree\-Classifier@{ffactory\-::\-Base\-Tree\-Classifier}}
+}
+
+
+{\ttfamily \#include $<$base\-Tree\-Classifier.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Tree\-Classifier\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.196347cm]{classffactory_1_1_base_tree_classifier}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_tree_classifier_a247e330e8ce0f78f3036d7fc1a8d1f77}{\hyperlink{classffactory_1_1_base_split_candidate_generator}{Base\-Split\-Candidate\-Generator} $\ast$ {\bfseries get\-Split\-Generator} ()}\label{classffactory_1_1_base_tree_classifier_a247e330e8ce0f78f3036d7fc1a8d1f77}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_classifier_af645d0173a84e1c4b6653ed3b158a591}{void {\bfseries set\-Split\-Generator} (Base\-Split\-Candidate\-Generator\-Unique\-Ptr split\-Generator)}\label{classffactory_1_1_base_tree_classifier_af645d0173a84e1c4b6653ed3b158a591}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_classifier_ac1918fd2d7a54e6158db436d0437aa1b}{\hyperlink{classffactory_1_1_base_split_quality_measurer}{Base\-Split\-Quality\-Measurer} $\ast$ {\bfseries get\-Split\-Quality\-Measurer} ()}\label{classffactory_1_1_base_tree_classifier_ac1918fd2d7a54e6158db436d0437aa1b}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_classifier_a35b137b7c73418168c8cd643602ee920}{void {\bfseries set\-Split\-Quality\-Measurer} (Base\-Split\-Quality\-Measurer\-Unique\-Ptr split\-Quality\-Measurer)}\label{classffactory_1_1_base_tree_classifier_a35b137b7c73418168c8cd643602ee920}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_classifier_ab4ee8d40db7e78c11d4dc69a613ffbaa}{\hyperlink{classffactory_1_1_base_stoppage_criterion}{Base\-Stoppage\-Criterion} $\ast$ {\bfseries get\-Stoppage\-Criterion} ()}\label{classffactory_1_1_base_tree_classifier_ab4ee8d40db7e78c11d4dc69a613ffbaa}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_classifier_a1437f2fa8542f814827abc73c92c8f26}{void {\bfseries set\-Stoppage\-Criterion} (Base\-Stoppage\-Criterion\-Unique\-Ptr stoppage\-Criterion)}\label{classffactory_1_1_base_tree_classifier_a1437f2fa8542f814827abc73c92c8f26}
+
+\item 
+void \hyperlink{classffactory_1_1_base_tree_classifier_aaf2902effacd5f8c3ea74d80d52d2922}{check\-Settings} ()
+\item 
+Partition\-Statistics\-Unique\-Ptr \hyperlink{classffactory_1_1_base_tree_classifier_a2e74c97ec3e034a521b75596fe0d6724}{make\-Partitioning\-Stats} (\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} $\ast$const partition, \hyperlink{classffactory_1_1_binary_split}{Binary\-Split} $\ast$const \hyperlink{namespaceffactory_a1fec00d28dbea621e480fd9f221d972e}{split}, \hyperlink{namespaceffactory_a405b9095f0a093ae4770f7638f0eb730}{Binary\-Tree\-Node\-Type} const type)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classffactory_1_1_base_tree_classifier_afa7b131c6d2d3f27b9b79c32f8f9d81e}{make\-Split\-Ranges} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$old\-Ranges, \hyperlink{classffactory_1_1_binary_split}{Binary\-Split} $\ast$const \hyperlink{namespaceffactory_a1fec00d28dbea621e480fd9f221d972e}{split}, \hyperlink{namespaceffactory_a405b9095f0a093ae4770f7638f0eb730}{Binary\-Tree\-Node\-Type} const type)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_base}{Base} tree classifier class 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_tree_classifier_aaf2902effacd5f8c3ea74d80d52d2922}{\index{ffactory\-::\-Base\-Tree\-Classifier@{ffactory\-::\-Base\-Tree\-Classifier}!check\-Settings@{check\-Settings}}
+\index{check\-Settings@{check\-Settings}!ffactory::BaseTreeClassifier@{ffactory\-::\-Base\-Tree\-Classifier}}
+\subsubsection[{check\-Settings}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Base\-Tree\-Classifier\-::check\-Settings (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_tree_classifier_aaf2902effacd5f8c3ea74d80d52d2922}
+Check if all required variables were set. \hypertarget{classffactory_1_1_base_tree_classifier_a2e74c97ec3e034a521b75596fe0d6724}{\index{ffactory\-::\-Base\-Tree\-Classifier@{ffactory\-::\-Base\-Tree\-Classifier}!make\-Partitioning\-Stats@{make\-Partitioning\-Stats}}
+\index{make\-Partitioning\-Stats@{make\-Partitioning\-Stats}!ffactory::BaseTreeClassifier@{ffactory\-::\-Base\-Tree\-Classifier}}
+\subsubsection[{make\-Partitioning\-Stats}]{\setlength{\rightskip}{0pt plus 5cm}Partition\-Statistics\-Unique\-Ptr ffactory\-::\-Base\-Tree\-Classifier\-::make\-Partitioning\-Stats (
+\begin{DoxyParamCaption}
+\item[{{\bf Partition\-Statistics} $\ast$const}]{partition, }
+\item[{{\bf Binary\-Split} $\ast$const}]{split, }
+\item[{{\bf Binary\-Tree\-Node\-Type} const}]{type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_tree_classifier_a2e74c97ec3e034a521b75596fe0d6724}
+Generate two space partitions {\itshape left} and {\itshape right} produced by splitting using {\itshape split} adherence to {\itshape old\-Ranges} 
+\begin{DoxyParams}{Parameters}
+{\em old\-Ranges} & \\
+\hline
+{\em split} & \\
+\hline
+{\em left} & \\
+\hline
+{\em right} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_base_tree_classifier_afa7b131c6d2d3f27b9b79c32f8f9d81e}{\index{ffactory\-::\-Base\-Tree\-Classifier@{ffactory\-::\-Base\-Tree\-Classifier}!make\-Split\-Ranges@{make\-Split\-Ranges}}
+\index{make\-Split\-Ranges@{make\-Split\-Ranges}!ffactory::BaseTreeClassifier@{ffactory\-::\-Base\-Tree\-Classifier}}
+\subsubsection[{make\-Split\-Ranges}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Base\-Tree\-Classifier\-::make\-Split\-Ranges (
+\begin{DoxyParamCaption}
+\item[{{\bf Data\-Ranges} $\ast$}]{old\-Ranges, }
+\item[{{\bf Binary\-Split} $\ast$const}]{split, }
+\item[{{\bf Binary\-Tree\-Node\-Type} const}]{type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}}\label{classffactory_1_1_base_tree_classifier_afa7b131c6d2d3f27b9b79c32f8f9d81e}
+Generates left/right splitting ranges 
+\begin{DoxyParams}{Parameters}
+{\em old\-Ranges} & \\
+\hline
+{\em split} & \\
+\hline
+{\em type} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/base\-Tree\-Classifier.\-h\end{DoxyCompactItemize}

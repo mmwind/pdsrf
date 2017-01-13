@@ -1,0 +1,68 @@
+\hypertarget{classffactory_1_1_simple_split_quality_measurer}{\section{ffactory\-:\-:Simple\-Split\-Quality\-Measurer Class Reference}
+\label{classffactory_1_1_simple_split_quality_measurer}\index{ffactory\-::\-Simple\-Split\-Quality\-Measurer@{ffactory\-::\-Simple\-Split\-Quality\-Measurer}}
+}
+
+
+{\ttfamily \#include $<$simple\-Split\-Quality\-Measurer.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Simple\-Split\-Quality\-Measurer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_simple_split_quality_measurer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual Data\-Type \hyperlink{classffactory_1_1_simple_split_quality_measurer_af2c639dd96f8c376f0852ed6e0a2f279}{get\-Score} (\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} $\ast$left, \hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} $\ast$right)
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_simple_split_quality_measurer_a2d35a560f2ba91a6be600c8d42f3332e}{get\-Info} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Simple split quality measurer 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_simple_split_quality_measurer_a2d35a560f2ba91a6be600c8d42f3332e}{\index{ffactory\-::\-Simple\-Split\-Quality\-Measurer@{ffactory\-::\-Simple\-Split\-Quality\-Measurer}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::SimpleSplitQualityMeasurer@{ffactory\-::\-Simple\-Split\-Quality\-Measurer}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Simple\-Split\-Quality\-Measurer\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_simple_split_quality_measurer_a2d35a560f2ba91a6be600c8d42f3332e}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about object 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_split_quality_measurer_a0bd98e9b10ef01211e0839e9a6f22d26}{ffactory\-::\-Base\-Split\-Quality\-Measurer}.
+
+\hypertarget{classffactory_1_1_simple_split_quality_measurer_af2c639dd96f8c376f0852ed6e0a2f279}{\index{ffactory\-::\-Simple\-Split\-Quality\-Measurer@{ffactory\-::\-Simple\-Split\-Quality\-Measurer}!get\-Score@{get\-Score}}
+\index{get\-Score@{get\-Score}!ffactory::SimpleSplitQualityMeasurer@{ffactory\-::\-Simple\-Split\-Quality\-Measurer}}
+\subsubsection[{get\-Score}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Type ffactory\-::\-Simple\-Split\-Quality\-Measurer\-::get\-Score (
+\begin{DoxyParamCaption}
+\item[{{\bf Partition\-Statistics} $\ast$}]{left, }
+\item[{{\bf Partition\-Statistics} $\ast$}]{right}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classffactory_1_1_simple_split_quality_measurer_af2c639dd96f8c376f0852ed6e0a2f279}
+Obtain split quality based on left and right partition statistics 
+\begin{DoxyParams}{Parameters}
+{\em left} & \\
+\hline
+{\em right} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_split_quality_measurer_a64904410d1071ba5aaa6928f0ea7f1a5}{ffactory\-::\-Base\-Split\-Quality\-Measurer}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/splits/quality\-Measurer/simple\-Split\-Quality\-Measurer.\-h\item 
+src/classifiers/trees/splits/quality\-Measurer/simple\-Split\-Quality\-Measurer.\-cpp\end{DoxyCompactItemize}

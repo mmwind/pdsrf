@@ -1,0 +1,75 @@
+\hypertarget{classffactory_1_1_base_node_quality_measurer}{\section{ffactory\-:\-:Base\-Node\-Quality\-Measurer Class Reference}
+\label{classffactory_1_1_base_node_quality_measurer}\index{ffactory\-::\-Base\-Node\-Quality\-Measurer@{ffactory\-::\-Base\-Node\-Quality\-Measurer}}
+}
+
+
+{\ttfamily \#include $<$base\-Node\-Quality\-Measurer.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Node\-Quality\-Measurer\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classffactory_1_1_base_node_quality_measurer}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual Data\-Type \hyperlink{classffactory_1_1_base_node_quality_measurer_a2451bb93502b2350ba20e17f928ab313}{get\-Score} (\hyperlink{classffactory_1_1_binary_split}{Binary\-Split} $\ast$\hyperlink{namespaceffactory_a1fec00d28dbea621e480fd9f221d972e}{split}, \hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d, Mask\-Vector $\ast$mask)=0
+\item 
+\hypertarget{classffactory_1_1_base_node_quality_measurer_a4da2a8c3bf717d62cb1263922585522a}{virtual void {\bfseries Fill\-Best\-Node} (\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} N)}\label{classffactory_1_1_base_node_quality_measurer_a4da2a8c3bf717d62cb1263922585522a}
+
+\item 
+\hypertarget{classffactory_1_1_base_node_quality_measurer_a34d90b57839b4f4187d16b88db6f9b87}{\hyperlink{classffactory_1_1_base_impurity_measure}{Base\-Impurity\-Measure} $\ast$ {\bfseries get\-Impurity\-Measure\-Function} ()}\label{classffactory_1_1_base_node_quality_measurer_a34d90b57839b4f4187d16b88db6f9b87}
+
+\item 
+\hypertarget{classffactory_1_1_base_node_quality_measurer_a34306d184defa83f0608a3cd5a5c6e32}{void {\bfseries set\-Impurity\-Measure\-Function} (Base\-Impurity\-Measure\-Unique\-Ptr impurity\-Function)}\label{classffactory_1_1_base_node_quality_measurer_a34306d184defa83f0608a3cd5a5c6e32}
+
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_base_node_quality_measurer_a7d93ff368d8b2b439c0f7310213bf63f}{get\-Info} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Tool to inspect node split quality 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_node_quality_measurer_a7d93ff368d8b2b439c0f7310213bf63f}{\index{ffactory\-::\-Base\-Node\-Quality\-Measurer@{ffactory\-::\-Base\-Node\-Quality\-Measurer}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::BaseNodeQualityMeasurer@{ffactory\-::\-Base\-Node\-Quality\-Measurer}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Base\-Node\-Quality\-Measurer\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_base_node_quality_measurer_a7d93ff368d8b2b439c0f7310213bf63f}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about object 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_a061e6165abeadad3fac626253d14a0c6}{ffactory\-::\-Base}.
+
+\hypertarget{classffactory_1_1_base_node_quality_measurer_a2451bb93502b2350ba20e17f928ab313}{\index{ffactory\-::\-Base\-Node\-Quality\-Measurer@{ffactory\-::\-Base\-Node\-Quality\-Measurer}!get\-Score@{get\-Score}}
+\index{get\-Score@{get\-Score}!ffactory::BaseNodeQualityMeasurer@{ffactory\-::\-Base\-Node\-Quality\-Measurer}}
+\subsubsection[{get\-Score}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Type ffactory\-::\-Base\-Node\-Quality\-Measurer\-::get\-Score (
+\begin{DoxyParamCaption}
+\item[{{\bf Binary\-Split} $\ast$}]{split, }
+\item[{{\bf Dataset} $\ast$}]{d, }
+\item[{Mask\-Vector $\ast$}]{mask}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_node_quality_measurer_a2451bb93502b2350ba20e17f928ab313}
+Obtain {\itshape split} quality on dataset {\itshape d} maksed with {\itshape mask} 
+\begin{DoxyParams}{Parameters}
+{\em split} & \\
+\hline
+{\em d} & \\
+\hline
+{\em mask} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Data\-Type value 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/splits/quality\-Measurer/base\-Node\-Quality\-Measurer.\-h\end{DoxyCompactItemize}

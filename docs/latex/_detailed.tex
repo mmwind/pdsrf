@@ -1,0 +1,61 @@
+\hypertarget{_detailed_one_sec}{}\section{20.\-20.\-2015}\label{_detailed_one_sec}
+Отлажен класс Decision\-Stump +
+
+Добавлен Verbose метод для класса Base\-Classifier +
+
+Добавлен Base\-Classifier.\-get\-Info() +
+
+Decision\-Stump.\-predict(\-Dataset d)
+
+Attribute тип добавлен, но не закончен. Пока остаётся висеть.
+
+
+
+ \hypertarget{_detailed_two_sec}{}\section{22.\-20.\-2015}\label{_detailed_two_sec}
+Базовый класс генератор сплит-\/кандидатов Base\-Split\-Candidate\-Generator
+
+Абстракция для поддержки различных типов разбиений. Пока остаётся висеть.
+
+Внедрён базовый класс Base для всех объектов
+
+Добавлено базовое исключение для всех объектов проекта
+
+Sample\-Split\-Candidate\-Generator интегрировани в Decision stump
+
+Базовый класс Base выставлен родительским для всех соответствующих классов
+
+Возможность цитирования \cite{louppe2014understanding} добавлена. Для этого требуется latex и perl в P\-A\-T\-H 
+
+ \hypertarget{_detailed_two_sec}{}\section{22.\-20.\-2015}\label{_detailed_two_sec}
+Todolist страница добалена 
+
+ \hypertarget{_detailed_three_sec}{}\section{23.\-20.\-2015}\label{_detailed_three_sec}
+Добавлен класс Base\-Preprocessor, Randomizer, etc Переработана архитектура проекта 
+
+\hypertarget{_detailed_four_sec}{}\section{26.\-20.\-2015}\label{_detailed_four_sec}
+C\-S\-V file support added in draft(debug required)
+
+Pattern class Abstract\-Factory added
+
+Factory pattern used to produce unified interface to file readers.
+
+E\-I\-G\-E\-N error assertion macro redefined to produce exception\hypertarget{_detailed_five_sec}{}\section{27.\-20.\-2015}\label{_detailed_five_sec}
+Оказалось, что E\-I\-G\-E\-N error assertion macro выскакивает и в не ошибочных ситуациях. Поэтому пока оставим это без изменений. C\-S\-V Reader закончен\hypertarget{_detailed_six_sec}{}\section{28.\-20.\-2015}\label{_detailed_six_sec}
+Добавлены классы Base\-Tree\-Node, Base\-Tree
+
+Исправлен Randomizer из Random\-Split\-Generator
+
+Base\-Split\-Candidate\-Generator.\-get\-Subset\-By\-Split для разделения на подмножества по выбраному сгенерированному сплиту
+
+Теперь сплиты будут работать маскируя сэмплы\hypertarget{_detailed_seven_sec}{}\section{30.\-20.\-2015}\label{_detailed_seven_sec}
+Base\-Split\-Candidate\-Generator.\-get\-Subset\-By\-Split перенесён в Base\-Tree.
+
+Добавлена рекурсивная процедура обучения дерева learn\hypertarget{_detailed_seven_sec}{}\section{30.\-20.\-2015}\label{_detailed_seven_sec}
+Реализован экспорт дерева в R скрипт для partykit 
+
+ \hypertarget{_detailed_todo_sec}{}\section{T\-O\-D\-Olist}\label{_detailed_todo_sec}
+Генеартор сплит-\/кандидатов создаёт массив каждый раз при следующем ветвлении, но это можно делать один раз, а потом просто отсеивать сплиты вне текущей ячейки.
+
+
+
+ 

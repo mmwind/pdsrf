@@ -1,0 +1,134 @@
+\hypertarget{classffactory_1_1_sample}{\section{ffactory\-:\-:Sample Class Reference}
+\label{classffactory_1_1_sample}\index{ffactory\-::\-Sample@{ffactory\-::\-Sample}}
+}
+
+
+{\ttfamily \#include $<$Sample.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_sample_a6d3f2879613fbe80f101e8f8af87f40a}{{\bfseries Sample} (unsigned int size=0)}\label{classffactory_1_1_sample_a6d3f2879613fbe80f101e8f8af87f40a}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a24c0e29e03a2c1ce189920c848b4a9e5}{int {\bfseries get\-Id} () const }\label{classffactory_1_1_sample_a24c0e29e03a2c1ce189920c848b4a9e5}
+
+\item 
+\hypertarget{classffactory_1_1_sample_ae7f343bafa89806d75c3beea76215bec}{void {\bfseries set\-Id} (int id)}\label{classffactory_1_1_sample_ae7f343bafa89806d75c3beea76215bec}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a9069a51ee24a184d5eedc58fd5b4da13}{double {\bfseries get\-W} () const }\label{classffactory_1_1_sample_a9069a51ee24a184d5eedc58fd5b4da13}
+
+\item 
+\hypertarget{classffactory_1_1_sample_ab357f855dfdb00fc8dd80ba66e796ff6}{void {\bfseries set\-W} (double w)}\label{classffactory_1_1_sample_ab357f855dfdb00fc8dd80ba66e796ff6}
+
+\item 
+\hypertarget{classffactory_1_1_sample_ae0c49aa36c4efae8a28a944eb357eeb5}{Index\-Type {\bfseries get\-Y} ()}\label{classffactory_1_1_sample_ae0c49aa36c4efae8a28a944eb357eeb5}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a47eb71ba1a8292193603fec16d1b6c93}{void {\bfseries set\-Y} (Index\-Type y)}\label{classffactory_1_1_sample_a47eb71ba1a8292193603fec16d1b6c93}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a02262c332e309bcb0ca6104d48a5008f}{Data\-Vector $\ast$ {\bfseries get\-Vector} ()}\label{classffactory_1_1_sample_a02262c332e309bcb0ca6104d48a5008f}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a74e563854f48b923833d3854775a66de}{Index\-Type {\bfseries size} ()}\label{classffactory_1_1_sample_a74e563854f48b923833d3854775a66de}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a67b290e1cedd354733592241c80ba6f1}{Index\-Type {\bfseries get\-Num\-Features} ()}\label{classffactory_1_1_sample_a67b290e1cedd354733592241c80ba6f1}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a3369e6c9c9307e526ff9529c888527b7}{Data\-Type {\bfseries get\-Value} (Index\-Type i)}\label{classffactory_1_1_sample_a3369e6c9c9307e526ff9529c888527b7}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a2c78715df2fc14ca7e0e966dc581fdd8}{void {\bfseries set\-Vector} (Data\-Vector \&newx)}\label{classffactory_1_1_sample_a2c78715df2fc14ca7e0e966dc581fdd8}
+
+\item 
+\hypertarget{classffactory_1_1_sample_a8336459065003781c9ba56f7b704a8df}{void {\bfseries set\-Value} (unsigned int i, Data\-Type v)}\label{classffactory_1_1_sample_a8336459065003781c9ba56f7b704a8df}
+
+\item 
+void \hyperlink{classffactory_1_1_sample_aa70ede381c2b10d0addc5ba339d9c705}{full\-With} (Data\-Type v)
+\item 
+void \hyperlink{classffactory_1_1_sample_acf58702023003d4369178f84cd8cf83e}{resize} (unsigned int size)
+\item 
+void \hyperlink{classffactory_1_1_sample_abdd511f0b8a780760cd286c0ac040535}{full\-Random} (Data\-Type \&minv, Data\-Type \&maxv, unsigned int seed)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\-::ostream \& \hyperlink{classffactory_1_1_sample_a4eb73fff7adcf55cf5bc433a43efcf84}{operator$<$$<$} (std\-::ostream \&stream, \hyperlink{classffactory_1_1_sample}{Sample} \&s)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_sample}{Sample} class supports various types of data containers including Eigen library types for storing data samples. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_sample_abdd511f0b8a780760cd286c0ac040535}{\index{ffactory\-::\-Sample@{ffactory\-::\-Sample}!full\-Random@{full\-Random}}
+\index{full\-Random@{full\-Random}!ffactory::Sample@{ffactory\-::\-Sample}}
+\subsubsection[{full\-Random}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Sample\-::full\-Random (
+\begin{DoxyParamCaption}
+\item[{Data\-Type \&}]{minv, }
+\item[{Data\-Type \&}]{maxv, }
+\item[{unsigned int}]{seed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_sample_abdd511f0b8a780760cd286c0ac040535}
+Fulls all elements of sample data vector with uniformly distributed pseudo-\/random values with specified seed and ranges 
+\begin{DoxyParams}{Parameters}
+{\em minv} & \\
+\hline
+{\em maxv} & \\
+\hline
+{\em seed} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_sample_aa70ede381c2b10d0addc5ba339d9c705}{\index{ffactory\-::\-Sample@{ffactory\-::\-Sample}!full\-With@{full\-With}}
+\index{full\-With@{full\-With}!ffactory::Sample@{ffactory\-::\-Sample}}
+\subsubsection[{full\-With}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Sample\-::full\-With (
+\begin{DoxyParamCaption}
+\item[{Data\-Type}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_sample_aa70ede381c2b10d0addc5ba339d9c705}
+Fulls all elements of sample data vector with specified value 
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_sample_acf58702023003d4369178f84cd8cf83e}{\index{ffactory\-::\-Sample@{ffactory\-::\-Sample}!resize@{resize}}
+\index{resize@{resize}!ffactory::Sample@{ffactory\-::\-Sample}}
+\subsubsection[{resize}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Sample\-::resize (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_sample_acf58702023003d4369178f84cd8cf83e}
+Changes size of vector. Please note than all data content will be forgotten! 
+\begin{DoxyParams}{Parameters}
+{\em size} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{classffactory_1_1_sample_a4eb73fff7adcf55cf5bc433a43efcf84}{\index{ffactory\-::\-Sample@{ffactory\-::\-Sample}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ffactory::Sample@{ffactory\-::\-Sample}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}std\-::ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\-::ostream \&}]{stream, }
+\item[{{\bf Sample} \&}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{classffactory_1_1_sample_a4eb73fff7adcf55cf5bc433a43efcf84}
+Stream output 
+\begin{DoxyParams}{Parameters}
+{\em stream} & \\
+\hline
+{\em matrix} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/data/Sample.\-h\end{DoxyCompactItemize}

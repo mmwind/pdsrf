@@ -1,0 +1,126 @@
+\hypertarget{classtf_1_1_sample}{}\section{tf\+:\+:Sample Class Reference}
+\label{classtf_1_1_sample}\index{tf\+::\+Sample@{tf\+::\+Sample}}
+
+
+{\ttfamily \#include $<$sample.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classtf_1_1_sample_ac69f45c80396c7e5524bc663c6de41b0}{}{\bfseries Sample} (unsigned int size=0)\label{classtf_1_1_sample_ac69f45c80396c7e5524bc663c6de41b0}
+
+\item 
+\hypertarget{classtf_1_1_sample_ae9bf3c03723d874162ad2347a0dbee2b}{}int {\bfseries get\+Id} () const \label{classtf_1_1_sample_ae9bf3c03723d874162ad2347a0dbee2b}
+
+\item 
+\hypertarget{classtf_1_1_sample_ae10456a41be0384510a44b04bcd59d3b}{}void {\bfseries set\+Id} (int id)\label{classtf_1_1_sample_ae10456a41be0384510a44b04bcd59d3b}
+
+\item 
+\hypertarget{classtf_1_1_sample_a6cc2aeeb0dd9218f4f826073dbb6d9d9}{}double {\bfseries get\+W} () const \label{classtf_1_1_sample_a6cc2aeeb0dd9218f4f826073dbb6d9d9}
+
+\item 
+\hypertarget{classtf_1_1_sample_a9809eb4fc32724de25d7fe52b54559a8}{}void {\bfseries set\+W} (double w)\label{classtf_1_1_sample_a9809eb4fc32724de25d7fe52b54559a8}
+
+\item 
+\hypertarget{classtf_1_1_sample_a651bfdf931a70054c60ce625185621a7}{}int {\bfseries get\+Y} () const \label{classtf_1_1_sample_a651bfdf931a70054c60ce625185621a7}
+
+\item 
+\hypertarget{classtf_1_1_sample_afc6c6f78091b242f857b5f8944d97996}{}void {\bfseries set\+Y} (int y)\label{classtf_1_1_sample_afc6c6f78091b242f857b5f8944d97996}
+
+\item 
+\hypertarget{classtf_1_1_sample_ac92647efed703b3441a65d97a7967fe8}{}const Data\+Vector \& {\bfseries get\+Vector} () const \label{classtf_1_1_sample_ac92647efed703b3441a65d97a7967fe8}
+
+\item 
+\hypertarget{classtf_1_1_sample_a81d435398df6f4fadcdc65eed2d9e460}{}void {\bfseries set\+Vector} (const Data\+Vector \&x)\label{classtf_1_1_sample_a81d435398df6f4fadcdc65eed2d9e460}
+
+\item 
+\hypertarget{classtf_1_1_sample_aa61fa8f5846da22c39f1ff274a7431e3}{}void {\bfseries set\+Value} (unsigned int i, const Data\+Type \&v)\label{classtf_1_1_sample_aa61fa8f5846da22c39f1ff274a7431e3}
+
+\item 
+\hypertarget{classtf_1_1_sample_a139925470ab28d28bcdd8dc8945ca4b2}{}const Data\+Type {\bfseries get\+Value} (unsigned int i)\label{classtf_1_1_sample_a139925470ab28d28bcdd8dc8945ca4b2}
+
+\item 
+\hypertarget{classtf_1_1_sample_a2e5f1413e903ce417f4cae5ee7ff81f7}{}unsigned int {\bfseries length} ()\label{classtf_1_1_sample_a2e5f1413e903ce417f4cae5ee7ff81f7}
+
+\item 
+void \hyperlink{classtf_1_1_sample_a14a7a69c3503dca821894101bac068f5}{full\+With} (Data\+Type v)
+\item 
+void \hyperlink{classtf_1_1_sample_a8efb97745cf3077ab441e133135f69cb}{resize} (unsigned int size)
+\item 
+void \hyperlink{classtf_1_1_sample_a3b7d493f3f4e98f8049403202706f2c6}{full\+Random} (Data\+Type minv, Data\+Type maxv, unsigned int seed)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \hyperlink{classtf_1_1_sample_a64b00da31562a56f33f5ba04bdad899b}{operator$<$$<$} (std\+::ostream \&stream, const \hyperlink{classtf_1_1_sample}{Sample} \&s)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classtf_1_1_sample}{Sample} class supports various types of data containers including Eigen library types for storing data samples. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classtf_1_1_sample_a3b7d493f3f4e98f8049403202706f2c6}{}\index{tf\+::\+Sample@{tf\+::\+Sample}!full\+Random@{full\+Random}}
+\index{full\+Random@{full\+Random}!tf\+::\+Sample@{tf\+::\+Sample}}
+\subsubsection[{full\+Random(\+Data\+Type minv, Data\+Type maxv, unsigned int seed)}]{\setlength{\rightskip}{0pt plus 5cm}void tf\+::\+Sample\+::full\+Random (
+\begin{DoxyParamCaption}
+\item[{Data\+Type}]{minv, }
+\item[{Data\+Type}]{maxv, }
+\item[{unsigned int}]{seed}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classtf_1_1_sample_a3b7d493f3f4e98f8049403202706f2c6}
+Fulls all elements of sample data vector with uniformly distributed pseudo-\/random values with specified seed and ranges 
+\begin{DoxyParams}{Parameters}
+{\em seed} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classtf_1_1_sample_a14a7a69c3503dca821894101bac068f5}{}\index{tf\+::\+Sample@{tf\+::\+Sample}!full\+With@{full\+With}}
+\index{full\+With@{full\+With}!tf\+::\+Sample@{tf\+::\+Sample}}
+\subsubsection[{full\+With(\+Data\+Type v)}]{\setlength{\rightskip}{0pt plus 5cm}void tf\+::\+Sample\+::full\+With (
+\begin{DoxyParamCaption}
+\item[{Data\+Type}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classtf_1_1_sample_a14a7a69c3503dca821894101bac068f5}
+Fulls all elements of sample data vector with specified value 
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classtf_1_1_sample_a8efb97745cf3077ab441e133135f69cb}{}\index{tf\+::\+Sample@{tf\+::\+Sample}!resize@{resize}}
+\index{resize@{resize}!tf\+::\+Sample@{tf\+::\+Sample}}
+\subsubsection[{resize(unsigned int size)}]{\setlength{\rightskip}{0pt plus 5cm}void tf\+::\+Sample\+::resize (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{size}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classtf_1_1_sample_a8efb97745cf3077ab441e133135f69cb}
+Changes size of vector. Please note than all data content will be forgotten! 
+\begin{DoxyParams}{Parameters}
+{\em size} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{classtf_1_1_sample_a64b00da31562a56f33f5ba04bdad899b}{}\index{tf\+::\+Sample@{tf\+::\+Sample}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!tf\+::\+Sample@{tf\+::\+Sample}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}std\+::ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\+::ostream \&}]{stream, }
+\item[{const {\bf Sample} \&}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\label{classtf_1_1_sample_a64b00da31562a56f33f5ba04bdad899b}
+Stream output 
+\begin{DoxyParams}{Parameters}
+{\em stream} & \\
+\hline
+{\em matrix} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/data/sample.\+h\end{DoxyCompactItemize}

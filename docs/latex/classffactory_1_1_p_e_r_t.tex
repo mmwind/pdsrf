@@ -1,0 +1,149 @@
+\hypertarget{classffactory_1_1_p_e_r_t}{\section{ffactory\-:\-:P\-E\-R\-T Class Reference}
+\label{classffactory_1_1_p_e_r_t}\index{ffactory\-::\-P\-E\-R\-T@{ffactory\-::\-P\-E\-R\-T}}
+}
+
+
+{\ttfamily \#include $<$P\-E\-R\-T.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:P\-E\-R\-T\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classffactory_1_1_p_e_r_t}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a84126fe057ac1d5fefa7614e40e3c44f}{void {\bfseries set\-Num\-Splits} (Index\-Type i)}\label{classffactory_1_1_p_e_r_t_a84126fe057ac1d5fefa7614e40e3c44f}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_ab8dc4c0ef0bb9e57a9566d228fae1a5c}{Index\-Vector $\ast$ {\bfseries get\-Ensemble\-Subset} (Index\-Type cidx)}\label{classffactory_1_1_p_e_r_t_ab8dc4c0ef0bb9e57a9566d228fae1a5c}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_ab61dc93a09796cabcb768736b474936a}{{\bfseries P\-E\-R\-T} (unsigned int random\-Seed)}\label{classffactory_1_1_p_e_r_t_ab61dc93a09796cabcb768736b474936a}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a7219a3191f29d30e6433d75f2df34ef9}{Dataset\-Unique\-Ptr {\bfseries get\-O\-O\-B} (Index\-Type cidx)}\label{classffactory_1_1_p_e_r_t_a7219a3191f29d30e6433d75f2df34ef9}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a48231d3910da2008512a94105e2f5836}{Data\-Type {\bfseries get\-Classifier\-O\-O\-B\-Error} (Index\-Type cidx)}\label{classffactory_1_1_p_e_r_t_a48231d3910da2008512a94105e2f5836}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a2743aa5746c5b37330fab7b1c0e19cfd}{Data\-Type {\bfseries get\-O\-O\-B\-Error} ()}\label{classffactory_1_1_p_e_r_t_a2743aa5746c5b37330fab7b1c0e19cfd}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a7307eec8f7846531f824ca22faec9ae8}{void {\bfseries set\-Mtry\-And\-Splits\-Number} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$bc)}\label{classffactory_1_1_p_e_r_t_a7307eec8f7846531f824ca22faec9ae8}
+
+\item 
+virtual void \hyperlink{classffactory_1_1_p_e_r_t_a17f2d0a156cb207384e4bb31263ca922}{train\-New\-Classifier} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a5ba25ed09280bc086ac27c24a8a881f3}{void {\bfseries set\-Classifier\-Weight} (Index\-Type cidx, Data\-Type w)}\label{classffactory_1_1_p_e_r_t_a5ba25ed09280bc086ac27c24a8a881f3}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a60e035f895310548467746d59ecc751e}{Data\-Type {\bfseries get\-Classifier\-Weight} (Index\-Type cidx)}\label{classffactory_1_1_p_e_r_t_a60e035f895310548467746d59ecc751e}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_aa99c28e8d09f4583eb4dd92c804725c1}{void {\bfseries set\-Classifers\-Weights} (Data\-Vector \&mat)}\label{classffactory_1_1_p_e_r_t_aa99c28e8d09f4583eb4dd92c804725c1}
+
+\item 
+virtual double \hyperlink{classffactory_1_1_p_e_r_t_a7e8906ac8c355ab9832578d8acd41db0}{train} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_p_e_r_t_a5a5c35207769f3027dce04b69843bcc9}{predict\-Class\-Prob} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$sample)
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a4105aa61ff4a216a3f4bb3c164ae873a}{unsigned int {\bfseries get\-Classifiers\-Number} ()}\label{classffactory_1_1_p_e_r_t_a4105aa61ff4a216a3f4bb3c164ae873a}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a8c00288c0b43d44a8c0945b7767c118a}{unsigned int {\bfseries get\-Random\-Seed} () const }\label{classffactory_1_1_p_e_r_t_a8c00288c0b43d44a8c0945b7767c118a}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_af201f49e3a6c3c7e0cdc834849b9375d}{void {\bfseries set\-Random\-Seed} (unsigned int random\-Seed)}\label{classffactory_1_1_p_e_r_t_af201f49e3a6c3c7e0cdc834849b9375d}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a8105465a70933f22e2f690210b68e590}{unsigned int {\bfseries get\-Train\-Subset\-Size} ()}\label{classffactory_1_1_p_e_r_t_a8105465a70933f22e2f690210b68e590}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a9ab5d65e2ef12450d51da4c006cb2e89}{void {\bfseries set\-Train\-Subset\-Size} (unsigned int train\-Subset\-Size)}\label{classffactory_1_1_p_e_r_t_a9ab5d65e2ef12450d51da4c006cb2e89}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a2f6456fa7c6b6f5995a35d2beaa2a8ad}{std\-::vector$<$ Index\-Vector $>$ {\bfseries ensemble\-Subsets}}\label{classffactory_1_1_p_e_r_t_a2f6456fa7c6b6f5995a35d2beaa2a8ad}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a5eb6dc6c880e7ecc7f63860fb99d09b4}{std\-::vector$<$ Data\-Type $>$ {\bfseries ensemble\-Weights}}\label{classffactory_1_1_p_e_r_t_a5eb6dc6c880e7ecc7f63860fb99d09b4}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_af63451cb13ae43eb8874d05a4a558f17}{unsigned int {\bfseries random\-Seed}}\label{classffactory_1_1_p_e_r_t_af63451cb13ae43eb8874d05a4a558f17}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_aeb0eaa57b7bb0651635603a5087ab1c2}{Index\-Type {\bfseries train\-Subset\-Size}}\label{classffactory_1_1_p_e_r_t_aeb0eaa57b7bb0651635603a5087ab1c2}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_ab8d234515517566eb3e073bf77e1a5f3}{Randomizer {\bfseries r}}\label{classffactory_1_1_p_e_r_t_ab8d234515517566eb3e073bf77e1a5f3}
+
+\item 
+\hypertarget{classffactory_1_1_p_e_r_t_a5694095a8ba39cdcf6beb06126c56d8b}{Index\-Type {\bfseries num\-Splits}}\label{classffactory_1_1_p_e_r_t_a5694095a8ba39cdcf6beb06126c56d8b}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Weighted Bagging ensemble classifiers for any classifier 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_p_e_r_t_a5a5c35207769f3027dce04b69843bcc9}{\index{ffactory\-::\-P\-E\-R\-T@{ffactory\-::\-P\-E\-R\-T}!predict\-Class\-Prob@{predict\-Class\-Prob}}
+\index{predict\-Class\-Prob@{predict\-Class\-Prob}!ffactory::PERT@{ffactory\-::\-P\-E\-R\-T}}
+\subsubsection[{predict\-Class\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Vector\-Unique\-Ptr ffactory\-::\-P\-E\-R\-T\-::predict\-Class\-Prob (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$}]{sample}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_p_e_r_t_a5a5c35207769f3027dce04b69843bcc9}
+Predict class probability of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index of class 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_ensemble_classifier_ac6da7b47a25c7c6481d6476891085d16}{ffactory\-::\-Base\-Ensemble\-Classifier}.
+
+\hypertarget{classffactory_1_1_p_e_r_t_a7e8906ac8c355ab9832578d8acd41db0}{\index{ffactory\-::\-P\-E\-R\-T@{ffactory\-::\-P\-E\-R\-T}!train@{train}}
+\index{train@{train}!ffactory::PERT@{ffactory\-::\-P\-E\-R\-T}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-P\-E\-R\-T\-::train (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_p_e_r_t_a7e8906ac8c355ab9832578d8acd41db0}
+Train classifier on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value of specified error measure on dataset {\itshape d} 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_ensemble_classifier_a6ea804da2a71766b49372cbddb12cd50}{ffactory\-::\-Base\-Ensemble\-Classifier}.
+
+\hypertarget{classffactory_1_1_p_e_r_t_a17f2d0a156cb207384e4bb31263ca922}{\index{ffactory\-::\-P\-E\-R\-T@{ffactory\-::\-P\-E\-R\-T}!train\-New\-Classifier@{train\-New\-Classifier}}
+\index{train\-New\-Classifier@{train\-New\-Classifier}!ffactory::PERT@{ffactory\-::\-P\-E\-R\-T}}
+\subsubsection[{train\-New\-Classifier}]{\setlength{\rightskip}{0pt plus 5cm}virtual void ffactory\-::\-P\-E\-R\-T\-::train\-New\-Classifier (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_p_e_r_t_a17f2d0a156cb207384e4bb31263ca922}
+Generate new subset of train dataset and train new classifier on it. Result is pushed to vectors {\itshape ensemble} and {\itshape ensemble\-Subsets} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \hyperlink{classffactory_1_1_dataset}{Dataset} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/models/P\-E\-R\-T.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,98 @@
+\hypertarget{classffactory_1_1_p_d_streaming_r_f}{\section{ffactory\-:\-:P\-D\-Streaming\-R\-F Class Reference}
+\label{classffactory_1_1_p_d_streaming_r_f}\index{ffactory\-::\-P\-D\-Streaming\-R\-F@{ffactory\-::\-P\-D\-Streaming\-R\-F}}
+}
+Inheritance diagram for ffactory\-:\-:P\-D\-Streaming\-R\-F\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classffactory_1_1_p_d_streaming_r_f}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_ad0a5b8537a0a561b01157798509222e1}{{\bfseries P\-D\-Streaming\-R\-F} (Index\-Type seed)}\label{classffactory_1_1_p_d_streaming_r_f_ad0a5b8537a0a561b01157798509222e1}
+
+\item 
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_ac0e9a5abfec40422f8fe1245c7e089b5}{Data\-Vector $\ast$ {\bfseries get\-Predicted\-Leaf\-Ids} ()}\label{classffactory_1_1_p_d_streaming_r_f_ac0e9a5abfec40422f8fe1245c7e089b5}
+
+\item 
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_a4c0ef7f79e57b905c95a0e08f8fd3b5c}{Data\-Vector $\ast$ {\bfseries get\-Predicted\-Errors} ()}\label{classffactory_1_1_p_d_streaming_r_f_a4c0ef7f79e57b905c95a0e08f8fd3b5c}
+
+\item 
+virtual void \hyperlink{classffactory_1_1_p_d_streaming_r_f_a4e9a1bdf1dcf3951dd7ef2d1c35330ab}{setup\-New\-Classifier} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$clf)
+\item 
+virtual double \hyperlink{classffactory_1_1_p_d_streaming_r_f_a711860e77360cb3fa8ff2a3160657997}{train} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_p_d_streaming_r_f_a4a3fc1045d27d15c0a4209378ea7789b}{predict\-Class\-Prob} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$sample)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_a24068369d548c9b2353b61c261331db6}{Data\-Vector {\bfseries predicted\-Leaf\-Ids}}\label{classffactory_1_1_p_d_streaming_r_f_a24068369d548c9b2353b61c261331db6}
+
+\item 
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_ad33628c037f8eb05bc0457040b0d8556}{Data\-Vector {\bfseries predicted\-Errors}}\label{classffactory_1_1_p_d_streaming_r_f_ad33628c037f8eb05bc0457040b0d8556}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_a4a3fc1045d27d15c0a4209378ea7789b}{\index{ffactory\-::\-P\-D\-Streaming\-R\-F@{ffactory\-::\-P\-D\-Streaming\-R\-F}!predict\-Class\-Prob@{predict\-Class\-Prob}}
+\index{predict\-Class\-Prob@{predict\-Class\-Prob}!ffactory::PDStreamingRF@{ffactory\-::\-P\-D\-Streaming\-R\-F}}
+\subsubsection[{predict\-Class\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Vector\-Unique\-Ptr ffactory\-::\-P\-D\-Streaming\-R\-F\-::predict\-Class\-Prob (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$}]{sample}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_p_d_streaming_r_f_a4a3fc1045d27d15c0a4209378ea7789b}
+Predict class probability of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index of class 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_weighted_bagging_classifier_ae9653ff238505bd33cca67ed4e20513c}{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ Extremely\-Randomized\-Tree $>$}.
+
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_a4e9a1bdf1dcf3951dd7ef2d1c35330ab}{\index{ffactory\-::\-P\-D\-Streaming\-R\-F@{ffactory\-::\-P\-D\-Streaming\-R\-F}!setup\-New\-Classifier@{setup\-New\-Classifier}}
+\index{setup\-New\-Classifier@{setup\-New\-Classifier}!ffactory::PDStreamingRF@{ffactory\-::\-P\-D\-Streaming\-R\-F}}
+\subsubsection[{setup\-New\-Classifier}]{\setlength{\rightskip}{0pt plus 5cm}virtual void ffactory\-::\-P\-D\-Streaming\-R\-F\-::setup\-New\-Classifier (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{clf}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_p_d_streaming_r_f_a4e9a1bdf1dcf3951dd7ef2d1c35330ab}
+Method propose facilities to setup base classifier after construction 
+\begin{DoxyParams}{Parameters}
+{\em clf} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_weighted_bagging_classifier_a4e29b9710c24ecbf3a2f1748b062cce0}{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ Extremely\-Randomized\-Tree $>$}.
+
+\hypertarget{classffactory_1_1_p_d_streaming_r_f_a711860e77360cb3fa8ff2a3160657997}{\index{ffactory\-::\-P\-D\-Streaming\-R\-F@{ffactory\-::\-P\-D\-Streaming\-R\-F}!train@{train}}
+\index{train@{train}!ffactory::PDStreamingRF@{ffactory\-::\-P\-D\-Streaming\-R\-F}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-P\-D\-Streaming\-R\-F\-::train (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_p_d_streaming_r_f_a711860e77360cb3fa8ff2a3160657997}
+Train classifier on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value of specified error measure on dataset {\itshape d} 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_weighted_bagging_classifier_a9c083e5508f58695c569dd2a4df50fd3}{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ Extremely\-Randomized\-Tree $>$}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/ensemble/P\-D\-Streaming\-R\-F.\-h\end{DoxyCompactItemize}

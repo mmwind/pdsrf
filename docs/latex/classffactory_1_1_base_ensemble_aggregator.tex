@@ -1,0 +1,78 @@
+\hypertarget{classffactory_1_1_base_ensemble_aggregator}{\section{ffactory\-:\-:Base\-Ensemble\-Aggregator Class Reference}
+\label{classffactory_1_1_base_ensemble_aggregator}\index{ffactory\-::\-Base\-Ensemble\-Aggregator@{ffactory\-::\-Base\-Ensemble\-Aggregator}}
+}
+
+
+{\ttfamily \#include $<$Base\-Ensemble\-Aggregator.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Ensemble\-Aggregator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_base_ensemble_aggregator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classffactory_1_1_base_ensemble_aggregator_aa2dfb6aeef64ec84248b57966afc3fbd}{add\-Class\-Result\-Vector} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$c, Data\-Vector \&v)
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_aggregator_a4de82c0fa84c84daeb6798bbcdbe274b}{void {\bfseries clear} ()}\label{classffactory_1_1_base_ensemble_aggregator_a4de82c0fa84c84daeb6798bbcdbe274b}
+
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_base_ensemble_aggregator_a502352ca8f06449a0abc06f9381a6dc7}{aggregate} ()=0
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_aggregator_a8a656e1521debd9cc3f10450d28457a4}{unsigned int {\bfseries get\-Num\-Classes} ()}\label{classffactory_1_1_base_ensemble_aggregator_a8a656e1521debd9cc3f10450d28457a4}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_aggregator_abc67844972315db87526c59be1b5f321}{virtual void {\bfseries set\-Num\-Classes} (unsigned int num\-Classes)}\label{classffactory_1_1_base_ensemble_aggregator_abc67844972315db87526c59be1b5f321}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_aggregator_a8d1913069526ac8a2306e138e94ae289}{Index\-Type {\bfseries num\-Classes}}\label{classffactory_1_1_base_ensemble_aggregator_a8d1913069526ac8a2306e138e94ae289}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_aggregator_af06791db8fb81e1d14e5f7c91f414e42}{std\-::vector$<$ Classifier\-Result\-Pair $>$ {\bfseries results}}\label{classffactory_1_1_base_ensemble_aggregator_af06791db8fb81e1d14e5f7c91f414e42}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_base}{Base} class to aggregate results of base classifiers in ensemble 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_ensemble_aggregator_aa2dfb6aeef64ec84248b57966afc3fbd}{\index{ffactory\-::\-Base\-Ensemble\-Aggregator@{ffactory\-::\-Base\-Ensemble\-Aggregator}!add\-Class\-Result\-Vector@{add\-Class\-Result\-Vector}}
+\index{add\-Class\-Result\-Vector@{add\-Class\-Result\-Vector}!ffactory::BaseEnsembleAggregator@{ffactory\-::\-Base\-Ensemble\-Aggregator}}
+\subsubsection[{add\-Class\-Result\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Base\-Ensemble\-Aggregator\-::add\-Class\-Result\-Vector (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{c, }
+\item[{Data\-Vector \&}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_ensemble_aggregator_aa2dfb6aeef64ec84248b57966afc3fbd}
+Add classifier and its result 
+\begin{DoxyParams}{Parameters}
+{\em c} & Classifier \\
+\hline
+{\em v} & Resulting class probability \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_base_ensemble_aggregator_a502352ca8f06449a0abc06f9381a6dc7}{\index{ffactory\-::\-Base\-Ensemble\-Aggregator@{ffactory\-::\-Base\-Ensemble\-Aggregator}!aggregate@{aggregate}}
+\index{aggregate@{aggregate}!ffactory::BaseEnsembleAggregator@{ffactory\-::\-Base\-Ensemble\-Aggregator}}
+\subsubsection[{aggregate}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Vector\-Unique\-Ptr ffactory\-::\-Base\-Ensemble\-Aggregator\-::aggregate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_ensemble_aggregator_a502352ca8f06449a0abc06f9381a6dc7}
+Implementation of aggregation procedure here \begin{DoxyReturn}{Returns}
+Resulting ensemble class probability distribution 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classffactory_1_1_average_ensemble_aggregator_acfdd35393c0e5db156573a237a025f11}{ffactory\-::\-Average\-Ensemble\-Aggregator}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/ensemble/aggregator/Base\-Ensemble\-Aggregator.\-h\end{DoxyCompactItemize}

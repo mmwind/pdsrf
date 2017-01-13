@@ -1,0 +1,131 @@
+\hypertarget{classffactory_1_1_prediction}{\section{ffactory\-:\-:Prediction Class Reference}
+\label{classffactory_1_1_prediction}\index{ffactory\-::\-Prediction@{ffactory\-::\-Prediction}}
+}
+
+
+{\ttfamily \#include $<$Prediction.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_prediction_a8f50b9f580626569d44763b2d932d695}{const Data\-Matrix \& {\bfseries get\-Confidences} () const }\label{classffactory_1_1_prediction_a8f50b9f580626569d44763b2d932d695}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a04286e7cee5065b779645e4efa2a8931}{unsigned int {\bfseries get\-Num\-Features} () const }\label{classffactory_1_1_prediction_a04286e7cee5065b779645e4efa2a8931}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_af923d2726316dbf7122df1ae20e3706f}{void {\bfseries set\-Num\-Features} (unsigned int num\-Features)}\label{classffactory_1_1_prediction_af923d2726316dbf7122df1ae20e3706f}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_af6ce28386b271bb595571e2c59cbe67d}{Data\-Vector \& {\bfseries get\-Prediction} ()}\label{classffactory_1_1_prediction_af6ce28386b271bb595571e2c59cbe67d}
+
+\item 
+Data\-Vector \hyperlink{classffactory_1_1_prediction_ac7b95c2dacb142a3f646dfc9a0395f1d}{get\-Confidence} (unsigned int sample\-Index)
+\item 
+\hypertarget{classffactory_1_1_prediction_a92f72561a44ecf465897aae170e23992}{const std\-::string \& {\bfseries get\-Classifier\-Name} () const }\label{classffactory_1_1_prediction_a92f72561a44ecf465897aae170e23992}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a7435bbe5143865e1e5e5023604ddca42}{void {\bfseries set\-Classifier\-Name} (const std\-::string \&classifier\-Name)}\label{classffactory_1_1_prediction_a7435bbe5143865e1e5e5023604ddca42}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a3085c19747dbe56851b6e628761040fc}{void {\bfseries set\-Confidences} (const Data\-Matrix \&confidences)}\label{classffactory_1_1_prediction_a3085c19747dbe56851b6e628761040fc}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a80ff7d4d1245a1e104ed2792afb44446}{unsigned int {\bfseries compute\-Sample\-Prediction} ()}\label{classffactory_1_1_prediction_a80ff7d4d1245a1e104ed2792afb44446}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a44a27558d9e16af4ab6097fbfa11c91d}{unsigned int {\bfseries compute\-Prediction} (unsigned int sample\-Index)}\label{classffactory_1_1_prediction_a44a27558d9e16af4ab6097fbfa11c91d}
+
+\item 
+unsigned int \hyperlink{classffactory_1_1_prediction_a4b9e20296afa9b6af3d14ccabb69f82b}{compute\-Prediction\-Error} (unsigned int sample\-Index, unsigned int actual\-Class)
+\item 
+void \hyperlink{classffactory_1_1_prediction_a3b821011f300ae5fd5464d7ec5d5e722}{set\-Confidence} (unsigned int i, Data\-Vector \&v)
+\item 
+\hypertarget{classffactory_1_1_prediction_aadea9a272450e10e415157fad43dec36}{void {\bfseries set\-Discrete\-Prediction\-Confidence} (Index\-Type sample\-Idx, Index\-Type class\-Label)}\label{classffactory_1_1_prediction_aadea9a272450e10e415157fad43dec36}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a1c3b352c4bc233c187ec912c5ee00934}{unsigned int {\bfseries get\-Num\-Classes} () const }\label{classffactory_1_1_prediction_a1c3b352c4bc233c187ec912c5ee00934}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_ae5c120c2bb7cabc63d6fdc8e5631bd59}{void {\bfseries set\-Num\-Classes} (unsigned int num\-Classes)}\label{classffactory_1_1_prediction_ae5c120c2bb7cabc63d6fdc8e5631bd59}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_ae7ffd475b27b414a600c6a3c9f9eab73}{void {\bfseries set\-Predicted\-Class} (Index\-Type sample\-Idx, Index\-Type class\-Label)}\label{classffactory_1_1_prediction_ae7ffd475b27b414a600c6a3c9f9eab73}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a5732e33092e9a18e74fa7ab67d5a9848}{unsigned int {\bfseries get\-Num\-Samples} ()}\label{classffactory_1_1_prediction_a5732e33092e9a18e74fa7ab67d5a9848}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_ad3eb5c05a259c0ebd17cdf881ab40f27}{void {\bfseries set\-Num\-Samples} (unsigned int num\-Samples)}\label{classffactory_1_1_prediction_ad3eb5c05a259c0ebd17cdf881ab40f27}
+
+\item 
+\hypertarget{classffactory_1_1_prediction_a3fa2a9b4ed1e470ad9e12150cf7b1ac0}{void {\bfseries check} ()}\label{classffactory_1_1_prediction_a3fa2a9b4ed1e470ad9e12150cf7b1ac0}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\-::ostream \& \hyperlink{classffactory_1_1_prediction_a4050dc92621111cb17911b4f2a63d9b7}{operator$<$$<$} (std\-::ostream \&stream, const \hyperlink{classffactory_1_1_prediction}{Prediction} \&s)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class represents result of prediction such as class probabilities. Obtaining of Confusion matrix, final class can be performed. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_prediction_a4b9e20296afa9b6af3d14ccabb69f82b}{\index{ffactory\-::\-Prediction@{ffactory\-::\-Prediction}!compute\-Prediction\-Error@{compute\-Prediction\-Error}}
+\index{compute\-Prediction\-Error@{compute\-Prediction\-Error}!ffactory::Prediction@{ffactory\-::\-Prediction}}
+\subsubsection[{compute\-Prediction\-Error}]{\setlength{\rightskip}{0pt plus 5cm}unsigned int ffactory\-::\-Prediction\-::compute\-Prediction\-Error (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{sample\-Index, }
+\item[{unsigned int}]{actual\-Class}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_prediction_a4b9e20296afa9b6af3d14ccabb69f82b}
+Computation of prediction error for sample with index {\itshape sample\-Index} 
+\begin{DoxyParams}{Parameters}
+{\em sample\-Index} & \\
+\hline
+{\em actual\-Class} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_prediction_ac7b95c2dacb142a3f646dfc9a0395f1d}{\index{ffactory\-::\-Prediction@{ffactory\-::\-Prediction}!get\-Confidence@{get\-Confidence}}
+\index{get\-Confidence@{get\-Confidence}!ffactory::Prediction@{ffactory\-::\-Prediction}}
+\subsubsection[{get\-Confidence}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Vector ffactory\-::\-Prediction\-::get\-Confidence (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{sample\-Index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_prediction_ac7b95c2dacb142a3f646dfc9a0395f1d}
+Get classes probability vector for sample with index {\itshape i} \hypertarget{classffactory_1_1_prediction_a3b821011f300ae5fd5464d7ec5d5e722}{\index{ffactory\-::\-Prediction@{ffactory\-::\-Prediction}!set\-Confidence@{set\-Confidence}}
+\index{set\-Confidence@{set\-Confidence}!ffactory::Prediction@{ffactory\-::\-Prediction}}
+\subsubsection[{set\-Confidence}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Prediction\-::set\-Confidence (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i, }
+\item[{Data\-Vector \&}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_prediction_a3b821011f300ae5fd5464d7ec5d5e722}
+Set classes probability vector  for sample with index {\itshape i} 
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+{\em v} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{classffactory_1_1_prediction_a4050dc92621111cb17911b4f2a63d9b7}{\index{ffactory\-::\-Prediction@{ffactory\-::\-Prediction}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ffactory::Prediction@{ffactory\-::\-Prediction}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}std\-::ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{std\-::ostream \&}]{stream, }
+\item[{const {\bf Prediction} \&}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}}\label{classffactory_1_1_prediction_a4050dc92621111cb17911b4f2a63d9b7}
+Stream output operator $<$$<$ for \hyperlink{classffactory_1_1_prediction}{Prediction} class 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/Prediction.\-h\end{DoxyCompactItemize}

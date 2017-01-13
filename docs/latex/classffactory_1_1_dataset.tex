@@ -1,0 +1,317 @@
+\hypertarget{classffactory_1_1_dataset}{\section{ffactory\-:\-:Dataset Class Reference}
+\label{classffactory_1_1_dataset}\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}}
+}
+
+
+{\ttfamily \#include $<$Dataset.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Dataset\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classffactory_1_1_dataset}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classffactory_1_1_dataset_a199736337b12e0ac97fd36993e00d44b}{set\-Target\-Attribute} (std\-::string name, Attribute\-Type type, String\-Vector $\ast$cat=N\-U\-L\-L)
+\item 
+void \hyperlink{classffactory_1_1_dataset_aee6bb477f697731452a16dcdfdd634e5}{add\-Attribute} (std\-::string name, Attribute\-Type type, String\-Vector $\ast$cat=N\-U\-L\-L)
+\item 
+\hypertarget{classffactory_1_1_dataset_aa5f194a2d71d7662df8c94c2f8b18644}{\hyperlink{classffactory_1_1_attribute}{Attribute} $\ast$ {\bfseries get\-Attribute} (Index\-Type index)}\label{classffactory_1_1_dataset_aa5f194a2d71d7662df8c94c2f8b18644}
+
+\item 
+Index\-Type \hyperlink{classffactory_1_1_dataset_a4fb9e8d154fab278c89765e979f12cfe}{get\-Attribute\-Index\-By\-Name} (std\-::string name)
+\item 
+\hypertarget{classffactory_1_1_dataset_a94f784fa41222351ff541847265d964c}{\hyperlink{classffactory_1_1_attribute}{Attribute} $\ast$ {\bfseries get\-Attribute\-By\-Name} (std\-::string name)}\label{classffactory_1_1_dataset_a94f784fa41222351ff541847265d964c}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_a2c807fcff912bb178613429f8befb50e}{\hyperlink{classffactory_1_1_partition_statistics}{Partition\-Statistics} $\ast$ {\bfseries get\-Statistics} ()}\label{classffactory_1_1_dataset_a2c807fcff912bb178613429f8befb50e}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_a4a3cced96905be07b23ae2a33cbe8a63}{unsigned int {\bfseries get\-Num\-Classes} ()}\label{classffactory_1_1_dataset_a4a3cced96905be07b23ae2a33cbe8a63}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_a6ba6095ed22d5cae25ff497d21be1cba}{void {\bfseries init\-Statistics} ()}\label{classffactory_1_1_dataset_a6ba6095ed22d5cae25ff497d21be1cba}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_a5bcea50dae4da648a15104e9283a6fce}{void {\bfseries compute\-Statistics} ()}\label{classffactory_1_1_dataset_a5bcea50dae4da648a15104e9283a6fce}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_ab850fb87df1ed9916b457cdb32cd1fef}{void {\bfseries set\-Num\-Classes} (unsigned int num\-Classes)}\label{classffactory_1_1_dataset_ab850fb87df1ed9916b457cdb32cd1fef}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_ae7e0905c373e08b5ac4d0b6494116113}{unsigned int {\bfseries get\-Num\-Features} ()}\label{classffactory_1_1_dataset_ae7e0905c373e08b5ac4d0b6494116113}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_adde747e1d56656c1ab69e74a99c9f5b3}{void {\bfseries set\-Num\-Features} (unsigned int num\-Features)}\label{classffactory_1_1_dataset_adde747e1d56656c1ab69e74a99c9f5b3}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_a054cfd19c38faf3ecda47dc2856be301}{unsigned int {\bfseries get\-Num\-Samples} ()}\label{classffactory_1_1_dataset_a054cfd19c38faf3ecda47dc2856be301}
+
+\item 
+\hypertarget{classffactory_1_1_dataset_acc9e899186524016f4fc445496cc51e5}{std\-::vector$<$ \hyperlink{classffactory_1_1_sample}{Sample} $>$ $\ast$ {\bfseries get\-Samples} ()}\label{classffactory_1_1_dataset_acc9e899186524016f4fc445496cc51e5}
+
+\item 
+void \hyperlink{classffactory_1_1_dataset_ae11f7cb8026bcae1b7213c7e956799c0}{set\-Samples} (std\-::vector$<$ \hyperlink{classffactory_1_1_sample}{Sample} $>$ $\ast$samples)
+\item 
+\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} \hyperlink{classffactory_1_1_dataset_a77c4ab02a3d3c479d0d3ae27543a3f8b}{calculate\-Ranges\-Masked} (Mask\-Vector $\ast$sample\-Mask=N\-U\-L\-L)
+\item 
+\hypertarget{classffactory_1_1_dataset_a6361c1633c343a831e859ab7b4276e50}{void {\bfseries calculate\-Ranges} ()}\label{classffactory_1_1_dataset_a6361c1633c343a831e859ab7b4276e50}
+
+\item 
+void \hyperlink{classffactory_1_1_dataset_a2577ab7582afd11a22b05b0a7b33e470}{clear} ()
+\item 
+void \hyperlink{classffactory_1_1_dataset_a57862bb9ae4e77f217d1714ba0337d7c}{add} (\hyperlink{classffactory_1_1_sample}{Sample} \&s)
+\item 
+void \hyperlink{classffactory_1_1_dataset_a02e99a1c9c4a1bc52bda35705414d23f}{remove} (Index\-Type sample\-Idx)
+\item 
+\hyperlink{classffactory_1_1_sample}{Sample} $\ast$ \hyperlink{classffactory_1_1_dataset_a02aa634dccdde4e814b852b6a9123883}{get\-Sample} (unsigned int i)
+\item 
+\hyperlink{classffactory_1_1_sample}{Sample} \hyperlink{classffactory_1_1_dataset_a374a6c76e72fb99533cf8fc1c488a3e0}{copy\-Sample} (unsigned int i)
+\item 
+Data\-Vector $\ast$ \hyperlink{classffactory_1_1_dataset_adc0cba7d6fc2bbf0fa17b639e2dca2bc}{get\-Sample\-Vector} (unsigned int i)
+\item 
+void \hyperlink{classffactory_1_1_dataset_a4575aa266a4c8fa4358c786a90392cda}{shuffle} ()
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_dataset_a3017145c5f83813b81918aa0b2a9679b}{get\-Info} ()
+\item 
+Dataset\-Unique\-Ptr \hyperlink{classffactory_1_1_dataset_aae17a45d92581512d063c69d0d4ec938}{get\-Subset} (Index\-Vector $\ast$vec, bool excluding=false)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classffactory_1_1_dataset_a42144aeec889715783787c840a6aec93}{push} (\hyperlink{classffactory_1_1_sample}{Sample} s)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data container class 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_dataset_a57862bb9ae4e77f217d1714ba0337d7c}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!add@{add}}
+\index{add@{add}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{add}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::add (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} \&}]{s}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a57862bb9ae4e77f217d1714ba0337d7c}
+Method adds new sample to dataset and recalculate ranges 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_dataset_aee6bb477f697731452a16dcdfdd634e5}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!add\-Attribute@{add\-Attribute}}
+\index{add\-Attribute@{add\-Attribute}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{add\-Attribute}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::add\-Attribute (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{name, }
+\item[{Attribute\-Type}]{type, }
+\item[{String\-Vector $\ast$}]{cat = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_aee6bb477f697731452a16dcdfdd634e5}
+Add new attribute to dataset 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em type} & \\
+\hline
+{\em cat} & (optional) vector of categories \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_dataset_a77c4ab02a3d3c479d0d3ae27543a3f8b}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!calculate\-Ranges\-Masked@{calculate\-Ranges\-Masked}}
+\index{calculate\-Ranges\-Masked@{calculate\-Ranges\-Masked}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{calculate\-Ranges\-Masked}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Data\-Ranges} ffactory\-::\-Dataset\-::calculate\-Ranges\-Masked (
+\begin{DoxyParamCaption}
+\item[{Mask\-Vector $\ast$}]{sample\-Mask = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a77c4ab02a3d3c479d0d3ae27543a3f8b}
+Calculate ranges of dataset features \hypertarget{classffactory_1_1_dataset_a2577ab7582afd11a22b05b0a7b33e470}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!clear@{clear}}
+\index{clear@{clear}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a2577ab7582afd11a22b05b0a7b33e470}
+Delete all points \hypertarget{classffactory_1_1_dataset_a374a6c76e72fb99533cf8fc1c488a3e0}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!copy\-Sample@{copy\-Sample}}
+\index{copy\-Sample@{copy\-Sample}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{copy\-Sample}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sample} ffactory\-::\-Dataset\-::copy\-Sample (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a374a6c76e72fb99533cf8fc1c488a3e0}
+Get copy of sample with index {\itshape i} 
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classffactory_1_1_sample}{Sample} Object 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_dataset_a4fb9e8d154fab278c89765e979f12cfe}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!get\-Attribute\-Index\-By\-Name@{get\-Attribute\-Index\-By\-Name}}
+\index{get\-Attribute\-Index\-By\-Name@{get\-Attribute\-Index\-By\-Name}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{get\-Attribute\-Index\-By\-Name}]{\setlength{\rightskip}{0pt plus 5cm}Index\-Type ffactory\-::\-Dataset\-::get\-Attribute\-Index\-By\-Name (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{name}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a4fb9e8d154fab278c89765e979f12cfe}
+Get attribute's Index By Name 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+attribute index if it was found or Num\-Features if not 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_dataset_a3017145c5f83813b81918aa0b2a9679b}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string ffactory\-::\-Dataset\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classffactory_1_1_dataset_a3017145c5f83813b81918aa0b2a9679b}
+Standatd info \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_a061e6165abeadad3fac626253d14a0c6}{ffactory\-::\-Base}.
+
+\hypertarget{classffactory_1_1_dataset_a02aa634dccdde4e814b852b6a9123883}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!get\-Sample@{get\-Sample}}
+\index{get\-Sample@{get\-Sample}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{get\-Sample}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Sample} $\ast$ ffactory\-::\-Dataset\-::get\-Sample (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a02aa634dccdde4e814b852b6a9123883}
+Get pointer to sample with index {\itshape i} 
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+pointer 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_dataset_adc0cba7d6fc2bbf0fa17b639e2dca2bc}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!get\-Sample\-Vector@{get\-Sample\-Vector}}
+\index{get\-Sample\-Vector@{get\-Sample\-Vector}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{get\-Sample\-Vector}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Vector $\ast$ ffactory\-::\-Dataset\-::get\-Sample\-Vector (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{i}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_adc0cba7d6fc2bbf0fa17b639e2dca2bc}
+Get pointer to data vector of sample with index {\itshape i} 
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+Get copy of sample with index {\itshape i} 
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classffactory_1_1_sample}{Sample} Object Get pointer to data vector of sample with index {\itshape i} 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_dataset_aae17a45d92581512d063c69d0d4ec938}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!get\-Subset@{get\-Subset}}
+\index{get\-Subset@{get\-Subset}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{get\-Subset}]{\setlength{\rightskip}{0pt plus 5cm}Dataset\-Unique\-Ptr ffactory\-::\-Dataset\-::get\-Subset (
+\begin{DoxyParamCaption}
+\item[{Index\-Vector $\ast$}]{vec, }
+\item[{bool}]{excluding = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_aae17a45d92581512d063c69d0d4ec938}
+
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+{\em vec} & \\
+\hline
+{\em excluding} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_dataset_a42144aeec889715783787c840a6aec93}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!push@{push}}
+\index{push@{push}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::push (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample}}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}}\label{classffactory_1_1_dataset_a42144aeec889715783787c840a6aec93}
+Method adds new sample to dataset without ranges recalculation 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_dataset_a02e99a1c9c4a1bc52bda35705414d23f}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!remove@{remove}}
+\index{remove@{remove}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{remove}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::remove (
+\begin{DoxyParamCaption}
+\item[{Index\-Type}]{sample\-Idx}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a02e99a1c9c4a1bc52bda35705414d23f}
+Method removes sample with index {\itshape sample\-Idx} from dataset and recalculate ranges 
+\begin{DoxyParams}{Parameters}
+{\em sample\-Idx} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_dataset_ae11f7cb8026bcae1b7213c7e956799c0}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!set\-Samples@{set\-Samples}}
+\index{set\-Samples@{set\-Samples}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{set\-Samples}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::set\-Samples (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ {\bf Sample} $>$ $\ast$}]{samples}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_ae11f7cb8026bcae1b7213c7e956799c0}
+Set samples vector with computing of ranges and class samples numbers 
+\begin{DoxyParams}{Parameters}
+{\em samples} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_dataset_a199736337b12e0ac97fd36993e00d44b}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!set\-Target\-Attribute@{set\-Target\-Attribute}}
+\index{set\-Target\-Attribute@{set\-Target\-Attribute}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{set\-Target\-Attribute}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::set\-Target\-Attribute (
+\begin{DoxyParamCaption}
+\item[{std\-::string}]{name, }
+\item[{Attribute\-Type}]{type, }
+\item[{String\-Vector $\ast$}]{cat = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a199736337b12e0ac97fd36993e00d44b}
+Set target attribute for dataset 
+\begin{DoxyParams}{Parameters}
+{\em name} & \\
+\hline
+{\em type} & \\
+\hline
+{\em cat} & (optional) vector of categories \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_dataset_a4575aa266a4c8fa4358c786a90392cda}{\index{ffactory\-::\-Dataset@{ffactory\-::\-Dataset}!shuffle@{shuffle}}
+\index{shuffle@{shuffle}!ffactory::Dataset@{ffactory\-::\-Dataset}}
+\subsubsection[{shuffle}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Dataset\-::shuffle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classffactory_1_1_dataset_a4575aa266a4c8fa4358c786a90392cda}
+Shuffle all the samples randomly
+
+Compute samples number for each class in the dataset Get precomputed samples number of class {\itshape c} in the dataset \begin{DoxyReturn}{Returns}
+Shuffle all the samples randomly 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/data/Dataset.\-h\item 
+src/data/Dataset.\-cpp\end{DoxyCompactItemize}

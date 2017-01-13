@@ -1,0 +1,88 @@
+\hypertarget{classffactory_1_1_data_ranges}{\section{ffactory\-:\-:Data\-Ranges Class Reference}
+\label{classffactory_1_1_data_ranges}\index{ffactory\-::\-Data\-Ranges@{ffactory\-::\-Data\-Ranges}}
+}
+
+
+{\ttfamily \#include $<$Data\-Ranges.\-h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_data_ranges_a030ee8838df1e3a4739bf17270ad11e3}{{\bfseries Data\-Ranges} (Data\-Vector \&min\-Range\-Vec, Data\-Vector \&max\-Range\-Vec)}\label{classffactory_1_1_data_ranges_a030ee8838df1e3a4739bf17270ad11e3}
+
+\item 
+\hypertarget{classffactory_1_1_data_ranges_a7184914acdd43a9d2ec269ba3d7b47e9}{{\bfseries Data\-Ranges} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$dr)}\label{classffactory_1_1_data_ranges_a7184914acdd43a9d2ec269ba3d7b47e9}
+
+\item 
+\hypertarget{classffactory_1_1_data_ranges_a6d488ebe76ca0a14b7ff06f1e5de416b}{virtual std\-::string {\bfseries get\-Info} ()}\label{classffactory_1_1_data_ranges_a6d488ebe76ca0a14b7ff06f1e5de416b}
+
+\item 
+bool \hyperlink{classffactory_1_1_data_ranges_ac71d2b6b9621948075373cbe90b85422}{is\-Equal} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$dr)
+\item 
+\hypertarget{classffactory_1_1_data_ranges_a667df88fa397cb1b87ed64c0159fb80e}{bool {\bfseries is\-In\-Ranges\-Exclude\-Greater} (Data\-Vector $\ast$v)}\label{classffactory_1_1_data_ranges_a667df88fa397cb1b87ed64c0159fb80e}
+
+\item 
+bool \hyperlink{classffactory_1_1_data_ranges_a7d7c2afc6fc81fa5e32f6b509e6afcfa}{is\-In\-Feature\-Ranges} (Data\-Vector $\ast$v, Index\-Type feature\-Num, bool exclude\-Low\-Bound=true)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_data_ranges_a6b44ba22ecd2601c42f48faf0657a681}{Data\-Vector {\bfseries min\-Values}}\label{classffactory_1_1_data_ranges_a6b44ba22ecd2601c42f48faf0657a681}
+
+\item 
+\hypertarget{classffactory_1_1_data_ranges_ae260ecd84bd0d4ec9b08615f3e3fb067}{Data\-Vector {\bfseries max\-Values}}\label{classffactory_1_1_data_ranges_ae260ecd84bd0d4ec9b08615f3e3fb067}
+
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_data_ranges_a6f74e94fd009b6d282fc27fd7b604cb0}{std\-::ostream \& {\bfseries operator$<$$<$} (std\-::ostream \&stream, \hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} \&b)}\label{classffactory_1_1_data_ranges_a6f74e94fd009b6d282fc27fd7b604cb0}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} first minimal sample range values second maximal sample range values 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_data_ranges_ac71d2b6b9621948075373cbe90b85422}{\index{ffactory\-::\-Data\-Ranges@{ffactory\-::\-Data\-Ranges}!is\-Equal@{is\-Equal}}
+\index{is\-Equal@{is\-Equal}!ffactory::DataRanges@{ffactory\-::\-Data\-Ranges}}
+\subsubsection[{is\-Equal}]{\setlength{\rightskip}{0pt plus 5cm}bool ffactory\-::\-Data\-Ranges\-::is\-Equal (
+\begin{DoxyParamCaption}
+\item[{{\bf Data\-Ranges} $\ast$}]{dr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_data_ranges_ac71d2b6b9621948075373cbe90b85422}
+Check if current data range is equal to {\itshape dr} 
+\begin{DoxyParams}{Parameters}
+{\em dr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_data_ranges_a7d7c2afc6fc81fa5e32f6b509e6afcfa}{\index{ffactory\-::\-Data\-Ranges@{ffactory\-::\-Data\-Ranges}!is\-In\-Feature\-Ranges@{is\-In\-Feature\-Ranges}}
+\index{is\-In\-Feature\-Ranges@{is\-In\-Feature\-Ranges}!ffactory::DataRanges@{ffactory\-::\-Data\-Ranges}}
+\subsubsection[{is\-In\-Feature\-Ranges}]{\setlength{\rightskip}{0pt plus 5cm}bool ffactory\-::\-Data\-Ranges\-::is\-In\-Feature\-Ranges (
+\begin{DoxyParamCaption}
+\item[{Data\-Vector $\ast$}]{v, }
+\item[{Index\-Type}]{feature\-Num, }
+\item[{bool}]{exclude\-Low\-Bound = {\ttfamily true}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_data_ranges_a7d7c2afc6fc81fa5e32f6b509e6afcfa}
+Check if point is in specific range (including the values which are equal to range values) P\-L\-E\-S\-E N\-O\-T\-E\-: There're some differences from \hyperlink{classffactory_1_1_partition_statistics_abfc82c4f58a2aac9e1e973f523eb518f}{Partition\-Statistics.\-is\-In\-Ranges} ! 
+\begin{DoxyParams}{Parameters}
+{\em v} & \\
+\hline
+{\em feature\-Num} & \\
+\hline
+{\em exclude\-Low\-Bound} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/data/Data\-Ranges.\-h\end{DoxyCompactItemize}

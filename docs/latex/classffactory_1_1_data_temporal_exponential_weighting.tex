@@ -1,0 +1,61 @@
+\hypertarget{classffactory_1_1_data_temporal_exponential_weighting}{\section{ffactory\-:\-:Data\-Temporal\-Exponential\-Weighting Class Reference}
+\label{classffactory_1_1_data_temporal_exponential_weighting}\index{ffactory\-::\-Data\-Temporal\-Exponential\-Weighting@{ffactory\-::\-Data\-Temporal\-Exponential\-Weighting}}
+}
+
+
+{\ttfamily \#include $<$Data\-Temporal\-Exponential\-Weighting.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Data\-Temporal\-Exponential\-Weighting\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_data_temporal_exponential_weighting}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_data_temporal_exponential_weighting_a7442853330f60976df9ae1fcdb37b528}{{\bfseries Data\-Temporal\-Exponential\-Weighting} (Data\-Type w)}\label{classffactory_1_1_data_temporal_exponential_weighting_a7442853330f60976df9ae1fcdb37b528}
+
+\item 
+virtual Data\-Type \hyperlink{classffactory_1_1_data_temporal_exponential_weighting_a975d766ef91e42aa5e323160749e045e}{set\-Weight} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$s, Data\-Type t)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_data_temporal_exponential_weighting_ae239749dcae99777ae11a07be072937c}{Data\-Type {\bfseries w}}\label{classffactory_1_1_data_temporal_exponential_weighting_ae239749dcae99777ae11a07be072937c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Exponential data weighting function $ W(s,t) = e^(wt) $ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_data_temporal_exponential_weighting_a975d766ef91e42aa5e323160749e045e}{\index{ffactory\-::\-Data\-Temporal\-Exponential\-Weighting@{ffactory\-::\-Data\-Temporal\-Exponential\-Weighting}!set\-Weight@{set\-Weight}}
+\index{set\-Weight@{set\-Weight}!ffactory::DataTemporalExponentialWeighting@{ffactory\-::\-Data\-Temporal\-Exponential\-Weighting}}
+\subsubsection[{set\-Weight}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Type ffactory\-::\-Data\-Temporal\-Exponential\-Weighting\-::set\-Weight (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$}]{s, }
+\item[{Data\-Type}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classffactory_1_1_data_temporal_exponential_weighting_a975d766ef91e42aa5e323160749e045e}
+Method sets weight to \hyperlink{classffactory_1_1_sample}{Sample} object according to time {\itshape t} 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+{\em t} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sample {\itshape s} weight 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_data_temporal_weighting_function_a9388ef364b911239b8cdaa1f24d35f7b}{ffactory\-::\-Data\-Temporal\-Weighting\-Function}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/data/weighting/Data\-Temporal\-Exponential\-Weighting.\-h\item 
+src/data/weighting/Data\-Temporal\-Exponential\-Weighting.\-cpp\end{DoxyCompactItemize}

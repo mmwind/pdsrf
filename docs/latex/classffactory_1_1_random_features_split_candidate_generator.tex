@@ -1,0 +1,68 @@
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator}{\section{ffactory\-:\-:Random\-Features\-Split\-Candidate\-Generator$<$ T $>$ Class Template Reference}
+\label{classffactory_1_1_random_features_split_candidate_generator}\index{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator$<$ T $>$@{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator$<$ T $>$}}
+}
+
+
+{\ttfamily \#include $<$Random\-Features\-Split\-Candidate\-Generator.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Random\-Features\-Split\-Candidate\-Generator$<$ T $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classffactory_1_1_random_features_split_candidate_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+T \hyperlink{classffactory_1_1_random_features_split_candidate_generator_ac7341a0ec1174465c4fd95339ba3010d}{get\-Generator} ()
+\item 
+virtual void \hyperlink{classffactory_1_1_random_features_split_candidate_generator_a393347e40e556e7b15953601e23c5bbd}{generate} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$ranges=N\-U\-L\-L)
+\item 
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator_af34ed58e1f3e417d81a5b964775498f8}{unsigned int {\bfseries get\-Mtry} ()}\label{classffactory_1_1_random_features_split_candidate_generator_af34ed58e1f3e417d81a5b964775498f8}
+
+\item 
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator_a762ec2f46ab649b77633d4dd4469e57b}{void {\bfseries set\-Mtry} (unsigned int mtry)}\label{classffactory_1_1_random_features_split_candidate_generator_a762ec2f46ab649b77633d4dd4469e57b}
+
+\item 
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator_a27d5568488bf2a6c8c54ab138eacd0d7}{unsigned int {\bfseries get\-Random\-Seed} ()}\label{classffactory_1_1_random_features_split_candidate_generator_a27d5568488bf2a6c8c54ab138eacd0d7}
+
+\item 
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator_a7e5986eddd1e2efd1e946848a64384c8}{void {\bfseries set\-Random\-Seed} (unsigned int random\-Seed)}\label{classffactory_1_1_random_features_split_candidate_generator_a7e5986eddd1e2efd1e946848a64384c8}
+
+\item 
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator_afdcca6dbdc53c3528dc0dc8948f81781}{std\-::string {\bfseries get\-Info} ()}\label{classffactory_1_1_random_features_split_candidate_generator_afdcca6dbdc53c3528dc0dc8948f81781}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename T$>$class ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator$<$ T $>$}
+
+\hyperlink{classffactory_1_1_base}{Base} Class template for random subset of features. T must have \hyperlink{classffactory_1_1_base_split_candidate_generator}{Base\-Split\-Candidate\-Generator} class. It uses idea of Random Subspace Method proposed by Tin Kam Ho in \cite{ho1998random} 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator_a393347e40e556e7b15953601e23c5bbd}{\index{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator@{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator}!generate@{generate}}
+\index{generate@{generate}!ffactory::RandomFeaturesSplitCandidateGenerator@{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator}}
+\subsubsection[{generate}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ virtual void {\bf ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator}$<$ T $>$\-::generate (
+\begin{DoxyParamCaption}
+\item[{{\bf Data\-Ranges} $\ast$}]{ranges = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_random_features_split_candidate_generator_a393347e40e556e7b15953601e23c5bbd}
+Produce random feature subset split-\/candidates for class T on each generation \begin{DoxyReturn}{Returns}
+Vector of generated splits 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_random_features_split_candidate_generator_ac7341a0ec1174465c4fd95339ba3010d}{\index{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator@{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator}!get\-Generator@{get\-Generator}}
+\index{get\-Generator@{get\-Generator}!ffactory::RandomFeaturesSplitCandidateGenerator@{ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator}}
+\subsubsection[{get\-Generator}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T$>$ T {\bf ffactory\-::\-Random\-Features\-Split\-Candidate\-Generator}$<$ T $>$\-::get\-Generator (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_random_features_split_candidate_generator_ac7341a0ec1174465c4fd95339ba3010d}
+Get base \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/splits/split\-Candidate\-Generator/Random\-Features\-Split\-Candidate\-Generator.\-h\end{DoxyCompactItemize}

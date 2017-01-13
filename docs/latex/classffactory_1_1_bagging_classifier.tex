@@ -1,0 +1,103 @@
+\hypertarget{classffactory_1_1_bagging_classifier}{\section{ffactory\-:\-:Bagging\-Classifier$<$ C $>$ Class Template Reference}
+\label{classffactory_1_1_bagging_classifier}\index{ffactory\-::\-Bagging\-Classifier$<$ C $>$@{ffactory\-::\-Bagging\-Classifier$<$ C $>$}}
+}
+
+
+{\ttfamily \#include $<$Bagging\-Classifier.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Bagging\-Classifier$<$ C $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classffactory_1_1_bagging_classifier}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_bagging_classifier_ac8efae7493fe5fa73188c3104100faa7}{Index\-Vector $\ast$ {\bfseries get\-Ensemble\-Subset} (Index\-Type cidx)}\label{classffactory_1_1_bagging_classifier_ac8efae7493fe5fa73188c3104100faa7}
+
+\item 
+\hypertarget{classffactory_1_1_bagging_classifier_ac237abc196fba89c3e84b608957533dc}{Dataset\-Unique\-Ptr {\bfseries get\-O\-O\-B} (Index\-Type cidx)}\label{classffactory_1_1_bagging_classifier_ac237abc196fba89c3e84b608957533dc}
+
+\item 
+void \hyperlink{classffactory_1_1_bagging_classifier_ad5a99acbc8c7760ee7757317981b3c50}{train\-New\-Classifier} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+virtual double \hyperlink{classffactory_1_1_bagging_classifier_ac99041bbde5f875cee90fcd7075c1f60}{train} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_bagging_classifier_ac6361c440269860eb1f7d4ff3d9ef4e3}{predict\-Class\-Prob} (\hyperlink{classffactory_1_1_sample}{Sample} \&sample)
+\item 
+\hypertarget{classffactory_1_1_bagging_classifier_afb7b8b7e668e366ab83bec48bf6ddbf7}{unsigned int {\bfseries get\-Classifiers\-Number} ()}\label{classffactory_1_1_bagging_classifier_afb7b8b7e668e366ab83bec48bf6ddbf7}
+
+\item 
+\hypertarget{classffactory_1_1_bagging_classifier_a91bfb18290a1a0f761fee9b237ed25ee}{unsigned int {\bfseries get\-Random\-Seed} () const }\label{classffactory_1_1_bagging_classifier_a91bfb18290a1a0f761fee9b237ed25ee}
+
+\item 
+\hypertarget{classffactory_1_1_bagging_classifier_a5f3fb156115904b433c397f76b15f02e}{void {\bfseries set\-Random\-Seed} (unsigned int random\-Seed)}\label{classffactory_1_1_bagging_classifier_a5f3fb156115904b433c397f76b15f02e}
+
+\item 
+\hypertarget{classffactory_1_1_bagging_classifier_a6e4505eaad83937f9e4b77ff5c6be302}{unsigned int {\bfseries get\-Train\-Subset\-Size} ()}\label{classffactory_1_1_bagging_classifier_a6e4505eaad83937f9e4b77ff5c6be302}
+
+\item 
+\hypertarget{classffactory_1_1_bagging_classifier_a9bf32f51bf6a4ab658c187e0a7907ae4}{void {\bfseries set\-Train\-Subset\-Size} (unsigned int train\-Subset\-Size)}\label{classffactory_1_1_bagging_classifier_a9bf32f51bf6a4ab658c187e0a7907ae4}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename C$>$class ffactory\-::\-Bagging\-Classifier$<$ C $>$}
+
+\hyperlink{classffactory_1_1_base}{Base} class for all ensemble classifiers 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_bagging_classifier_ac6361c440269860eb1f7d4ff3d9ef4e3}{\index{ffactory\-::\-Bagging\-Classifier@{ffactory\-::\-Bagging\-Classifier}!predict\-Class\-Prob@{predict\-Class\-Prob}}
+\index{predict\-Class\-Prob@{predict\-Class\-Prob}!ffactory::BaggingClassifier@{ffactory\-::\-Bagging\-Classifier}}
+\subsubsection[{predict\-Class\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename C $>$ virtual Data\-Vector\-Unique\-Ptr {\bf ffactory\-::\-Bagging\-Classifier}$<$ C $>$\-::predict\-Class\-Prob (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} \&}]{sample}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_bagging_classifier_ac6361c440269860eb1f7d4ff3d9ef4e3}
+Predict class probability of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index of class 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_bagging_classifier_ac99041bbde5f875cee90fcd7075c1f60}{\index{ffactory\-::\-Bagging\-Classifier@{ffactory\-::\-Bagging\-Classifier}!train@{train}}
+\index{train@{train}!ffactory::BaggingClassifier@{ffactory\-::\-Bagging\-Classifier}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename C $>$ virtual double {\bf ffactory\-::\-Bagging\-Classifier}$<$ C $>$\-::train (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_bagging_classifier_ac99041bbde5f875cee90fcd7075c1f60}
+Train classifier on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value of specified error measure on dataset {\itshape d} 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_ensemble_classifier_a6ea804da2a71766b49372cbddb12cd50}{ffactory\-::\-Base\-Ensemble\-Classifier}.
+
+\hypertarget{classffactory_1_1_bagging_classifier_ad5a99acbc8c7760ee7757317981b3c50}{\index{ffactory\-::\-Bagging\-Classifier@{ffactory\-::\-Bagging\-Classifier}!train\-New\-Classifier@{train\-New\-Classifier}}
+\index{train\-New\-Classifier@{train\-New\-Classifier}!ffactory::BaggingClassifier@{ffactory\-::\-Bagging\-Classifier}}
+\subsubsection[{train\-New\-Classifier}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename C $>$ void {\bf ffactory\-::\-Bagging\-Classifier}$<$ C $>$\-::train\-New\-Classifier (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_bagging_classifier_ad5a99acbc8c7760ee7757317981b3c50}
+Generate new subset of train dataset and train new classifier on it. Result is pushed to vectors {\itshape ensemble} and {\itshape ensemble\-Subsets} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \hyperlink{classffactory_1_1_dataset}{Dataset} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/ensemble/Bagging\-Classifier.\-h\end{DoxyCompactItemize}

@@ -1,0 +1,71 @@
+\hypertarget{classffactory_1_1_probability_error_measure}{\section{ffactory\-:\-:Probability\-Error\-Measure Class Reference}
+\label{classffactory_1_1_probability_error_measure}\index{ffactory\-::\-Probability\-Error\-Measure@{ffactory\-::\-Probability\-Error\-Measure}}
+}
+
+
+{\ttfamily \#include $<$Probability\-Error\-Measure.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Probability\-Error\-Measure\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_probability_error_measure}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \hyperlink{classffactory_1_1_probability_error_measure_abfc0dd59747fd479663e9167c8510157}{get\-Error} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$c, \hyperlink{classffactory_1_1_sample}{Sample} \&s)
+\item 
+virtual double \hyperlink{classffactory_1_1_probability_error_measure_ac633b58b1e3be6feafb3b9fdd7fd1388}{get\-Error} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$c, \hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_probability_error_measure}{Probability\-Error\-Measure} is missclassification error measure class with taking probability of right answers into account 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_probability_error_measure_abfc0dd59747fd479663e9167c8510157}{\index{ffactory\-::\-Probability\-Error\-Measure@{ffactory\-::\-Probability\-Error\-Measure}!get\-Error@{get\-Error}}
+\index{get\-Error@{get\-Error}!ffactory::ProbabilityErrorMeasure@{ffactory\-::\-Probability\-Error\-Measure}}
+\subsubsection[{get\-Error}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Probability\-Error\-Measure\-::get\-Error (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{c, }
+\item[{{\bf Sample} \&}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_probability_error_measure_abfc0dd59747fd479663e9167c8510157}
+Get error on current sample {\itshape s} taking confidence into account 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+probability of wrong classes 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_error_measure_a8eb4fef1cb479834c3fc1baac589d8b1}{ffactory\-::\-Base\-Error\-Measure}.
+
+\hypertarget{classffactory_1_1_probability_error_measure_ac633b58b1e3be6feafb3b9fdd7fd1388}{\index{ffactory\-::\-Probability\-Error\-Measure@{ffactory\-::\-Probability\-Error\-Measure}!get\-Error@{get\-Error}}
+\index{get\-Error@{get\-Error}!ffactory::ProbabilityErrorMeasure@{ffactory\-::\-Probability\-Error\-Measure}}
+\subsubsection[{get\-Error}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Probability\-Error\-Measure\-::get\-Error (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{c, }
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_probability_error_measure_ac633b58b1e3be6feafb3b9fdd7fd1388}
+Get error on entire dataset {\itshape d} taking confidence into account 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+error measure value 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_error_measure_a59333613908d58b1a5ff7208bd93d6fb}{ffactory\-::\-Base\-Error\-Measure}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/error\-Measures/Probability\-Error\-Measure.\-h\end{DoxyCompactItemize}

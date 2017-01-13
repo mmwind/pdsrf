@@ -1,0 +1,223 @@
+\hypertarget{classffactory_1_1_base_tree}{\section{ffactory\-:\-:Base\-Tree Class Reference}
+\label{classffactory_1_1_base_tree}\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}}
+}
+
+
+{\ttfamily \#include $<$Base\-Tree.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Tree\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.196347cm]{classffactory_1_1_base_tree}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$ \hyperlink{classffactory_1_1_base_tree_a28a8e1d4cf9733ea57af59083d7ee354}{add\-Root} ()
+\item 
+\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$ \hyperlink{classffactory_1_1_base_tree_a3ca64e97f88521e39a706aac4493257f}{add\-Node} (\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$parent\-Node, \hyperlink{namespaceffactory_a405b9095f0a093ae4770f7638f0eb730}{Binary\-Tree\-Node\-Type} type)
+\item 
+\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$ \hyperlink{classffactory_1_1_base_tree_ad2921574143761edc31911d530556700}{get\-Node\-By\-Id} (Index\-Type id)
+\item 
+virtual double \hyperlink{classffactory_1_1_base_tree_ad93e4fb475d3159a378b5148b127a58a}{train} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$ \hyperlink{classffactory_1_1_base_tree_a1ace4078f8e6ac07ef00303a0abde23a}{learn} (\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$new\-Node)
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_base_tree_a962907c4083f23175550bf82059d35f0}{predict\-Class\-Prob} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$sample)
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_base_tree_a21d7faa1c68bb531522a73c36b10a95c}{get\-Info} ()
+\item 
+\hypertarget{classffactory_1_1_base_tree_a7159c76721ce11ed8f0e05d57cd19650}{Index\-Type {\bfseries get\-Predicted\-Leaf\-Id} ()}\label{classffactory_1_1_base_tree_a7159c76721ce11ed8f0e05d57cd19650}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a05887de99f2723512d200f95a9517662}{unsigned int {\bfseries get\-Id\-Counter} () const }\label{classffactory_1_1_base_tree_a05887de99f2723512d200f95a9517662}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a32b114258f2a338748626a0dfdfa3769}{void {\bfseries set\-Id\-Counter} (unsigned int id\-Counter)}\label{classffactory_1_1_base_tree_a32b114258f2a338748626a0dfdfa3769}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a0f805be68fba84631b7f14a35015e4f7}{\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$ {\bfseries get\-Root} ()}\label{classffactory_1_1_base_tree_a0f805be68fba84631b7f14a35015e4f7}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a005a1f829660fd96b5f122489ad4ed97}{void {\bfseries set\-Root} (Base\-Tree\-Node\-Unique\-Ptr root)}\label{classffactory_1_1_base_tree_a005a1f829660fd96b5f122489ad4ed97}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a6a3451d7304a3a97229d56a531fc9dd5}{\hyperlink{classffactory_1_1_tree_node_factory}{Tree\-Node\-Factory} $\ast$ {\bfseries get\-Node\-Factory} ()}\label{classffactory_1_1_base_tree_a6a3451d7304a3a97229d56a531fc9dd5}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a1f06198d23a0c51e19b0fa54856869bd}{std\-::string {\bfseries get\-Node\-Type} ()}\label{classffactory_1_1_base_tree_a1f06198d23a0c51e19b0fa54856869bd}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_aaeba2efc8bfeb6886c989f5f519739fb}{void {\bfseries set\-Node\-Type} (std\-::string node\-Type)}\label{classffactory_1_1_base_tree_aaeba2efc8bfeb6886c989f5f519739fb}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$ \hyperlink{classffactory_1_1_base_tree_a945b1bea9f210079c6688ec5a0c87018}{get\-Tree\-Node\-By\-Id} (\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$First\-Node, Index\-Type id)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_tree_a8a5d418c6bddeee0a4495dadaf6b8136}{Base\-Tree\-Node\-Unique\-Ptr {\bfseries Root}}\label{classffactory_1_1_base_tree_a8a5d418c6bddeee0a4495dadaf6b8136}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_af31f1583719f797c6c8bbf1c1c82050b}{\hyperlink{classffactory_1_1_tree_node_factory}{Tree\-Node\-Factory} {\bfseries node\-Factory}}\label{classffactory_1_1_base_tree_af31f1583719f797c6c8bbf1c1c82050b}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a6d076f850764b5707baa35cdc4c0a8ca}{std\-::string {\bfseries node\-Type}}\label{classffactory_1_1_base_tree_a6d076f850764b5707baa35cdc4c0a8ca}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a505141e97bcfffde60679169405937e3}{Index\-Type {\bfseries id\-Counter}}\label{classffactory_1_1_base_tree_a505141e97bcfffde60679169405937e3}
+
+\item 
+\hypertarget{classffactory_1_1_base_tree_a8678b16b0abe5ea9106c72ed5310e202}{Index\-Type {\bfseries predicted\-Leaf\-Id}}\label{classffactory_1_1_base_tree_a8678b16b0abe5ea9106c72ed5310e202}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_base}{Base} class for all (binary) trees 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_tree_a3ca64e97f88521e39a706aac4493257f}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!add\-Node@{add\-Node}}
+\index{add\-Node@{add\-Node}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{add\-Node}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Tree\-Node}$\ast$ ffactory\-::\-Base\-Tree\-::add\-Node (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Tree\-Node} $\ast$}]{parent\-Node, }
+\item[{{\bf Binary\-Tree\-Node\-Type}}]{type}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_tree_a3ca64e97f88521e39a706aac4493257f}
+Add {\itshape new\-Node} to right (or left) branch of {\itshape parent\-Node} 
+\begin{DoxyParams}{Parameters}
+{\em new\-Node} & \\
+\hline
+{\em parent\-Node} & \\
+\hline
+{\em to\-Right} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classffactory_1_1_base_tree_a28a8e1d4cf9733ea57af59083d7ee354}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!add\-Root@{add\-Root}}
+\index{add\-Root@{add\-Root}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{add\-Root}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Tree\-Node}$\ast$ ffactory\-::\-Base\-Tree\-::add\-Root (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_tree_a28a8e1d4cf9733ea57af59083d7ee354}
+Create root node \begin{DoxyReturn}{Returns}
+pointer to node 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_base_tree_a21d7faa1c68bb531522a73c36b10a95c}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Base\-Tree\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_base_tree_a21d7faa1c68bb531522a73c36b10a95c}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about classifier 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000003}{Todo}]Написать вывод полной инфы о дереве \end{DoxyRefDesc}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_classifier_af6b0a89fd34ba70626104500d612d836}{ffactory\-::\-Base\-Classifier}.
+
+
+
+Reimplemented in \hyperlink{classffactory_1_1_base_online_tree_ad814d53893b7321f3384677b864ba2de}{ffactory\-::\-Base\-Online\-Tree}.
+
+\hypertarget{classffactory_1_1_base_tree_ad2921574143761edc31911d530556700}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!get\-Node\-By\-Id@{get\-Node\-By\-Id}}
+\index{get\-Node\-By\-Id@{get\-Node\-By\-Id}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{get\-Node\-By\-Id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Tree\-Node}$\ast$ ffactory\-::\-Base\-Tree\-::get\-Node\-By\-Id (
+\begin{DoxyParamCaption}
+\item[{Index\-Type}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_tree_ad2921574143761edc31911d530556700}
+
+\begin{DoxyParams}{Parameters}
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_base_tree_a945b1bea9f210079c6688ec5a0c87018}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!get\-Tree\-Node\-By\-Id@{get\-Tree\-Node\-By\-Id}}
+\index{get\-Tree\-Node\-By\-Id@{get\-Tree\-Node\-By\-Id}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{get\-Tree\-Node\-By\-Id}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Tree\-Node}$\ast$ ffactory\-::\-Base\-Tree\-::get\-Tree\-Node\-By\-Id (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Tree\-Node} $\ast$}]{First\-Node, }
+\item[{Index\-Type}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}}\label{classffactory_1_1_base_tree_a945b1bea9f210079c6688ec5a0c87018}
+Get pointer to node with specified {\itshape id} from {\itshape First\-Node} 
+\begin{DoxyParams}{Parameters}
+{\em First\-Node} & \\
+\hline
+{\em id} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} pointer from Base\-Tree\-Node\-Unique\-Ptr 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_base_tree_a1ace4078f8e6ac07ef00303a0abde23a}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!learn@{learn}}
+\index{learn@{learn}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{learn}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Base\-Tree\-Node}$\ast$ ffactory\-::\-Base\-Tree\-::learn (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Tree\-Node} $\ast$}]{new\-Node}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_tree_a1ace4078f8e6ac07ef00303a0abde23a}
+Recursive function of tree learning 
+\begin{DoxyParams}{Parameters}
+{\em new\-Node} & \\
+\hline
+{\em m} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_base_tree_a962907c4083f23175550bf82059d35f0}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!predict\-Class\-Prob@{predict\-Class\-Prob}}
+\index{predict\-Class\-Prob@{predict\-Class\-Prob}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{predict\-Class\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Vector\-Unique\-Ptr ffactory\-::\-Base\-Tree\-::predict\-Class\-Prob (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$}]{sample}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_base_tree_a962907c4083f23175550bf82059d35f0}
+Predict class probability of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index of class 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_classifier_a6758932ce8f59eeffd0e66404a0332e4}{ffactory\-::\-Base\-Classifier}.
+
+\hypertarget{classffactory_1_1_base_tree_ad93e4fb475d3159a378b5148b127a58a}{\index{ffactory\-::\-Base\-Tree@{ffactory\-::\-Base\-Tree}!train@{train}}
+\index{train@{train}!ffactory::BaseTree@{ffactory\-::\-Base\-Tree}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Base\-Tree\-::train (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_base_tree_ad93e4fb475d3159a378b5148b127a58a}
+Train classifier on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value of specified error measure on dataset {\itshape d} 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_classifier_a150000cb5cd9b2bb4380b47f33a462f2}{ffactory\-::\-Base\-Classifier}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/Base\-Tree.\-h\end{DoxyCompactItemize}

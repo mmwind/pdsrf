@@ -1,0 +1,61 @@
+\begin{theindex}
+
+  \item {add}
+    \subitem {ffactory\+::\+Dataset}, \hyperpage{7}
+
+  \indexspace
+
+  \item {ffactory\+::\+Base\+Classifier}, \hyperpage{3}
+    \subitem {predict}, \hyperpage{3}
+    \subitem {test}, \hyperpage{5}
+    \subitem {train}, \hyperpage{5}
+    \subitem {update}, \hyperpage{5}
+  \item {ffactory\+::\+Base\+Error\+Measure}, \hyperpage{5}
+    \subitem {get\+Error}, \hyperpage{6}
+  \item {ffactory\+::\+Dataloader}, \hyperpage{6}
+  \item {ffactory\+::\+Dataset}, \hyperpage{7}
+    \subitem {add}, \hyperpage{7}
+  \item {ffactory\+::\+Prediction}, \hyperpage{7}
+  \item {ffactory\+::\+Sample}, \hyperpage{8}
+    \subitem {full\+Random}, \hyperpage{8}
+    \subitem {full\+With}, \hyperpage{9}
+    \subitem {operator$<$$<$}, \hyperpage{9}
+    \subitem {resize}, \hyperpage{9}
+  \item {full\+Random}
+    \subitem {ffactory\+::\+Sample}, \hyperpage{8}
+  \item {full\+With}
+    \subitem {ffactory\+::\+Sample}, \hyperpage{9}
+
+  \indexspace
+
+  \item {get\+Error}
+    \subitem {ffactory\+::\+Base\+Error\+Measure}, \hyperpage{6}
+
+  \indexspace
+
+  \item {operator$<$$<$}
+    \subitem {ffactory\+::\+Sample}, \hyperpage{9}
+
+  \indexspace
+
+  \item {predict}
+    \subitem {ffactory\+::\+Base\+Classifier}, \hyperpage{3}
+
+  \indexspace
+
+  \item {resize}
+    \subitem {ffactory\+::\+Sample}, \hyperpage{9}
+
+  \indexspace
+
+  \item {test}
+    \subitem {ffactory\+::\+Base\+Classifier}, \hyperpage{5}
+  \item {train}
+    \subitem {ffactory\+::\+Base\+Classifier}, \hyperpage{5}
+
+  \indexspace
+
+  \item {update}
+    \subitem {ffactory\+::\+Base\+Classifier}, \hyperpage{5}
+
+\end{theindex}

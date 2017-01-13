@@ -1,0 +1,168 @@
+\hypertarget{classffactory_1_1_weighted_bagging_classifier}{\section{ffactory\-:\-:Weighted\-Bagging\-Classifier$<$ C $>$ Class Template Reference}
+\label{classffactory_1_1_weighted_bagging_classifier}\index{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ C $>$@{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ C $>$}}
+}
+
+
+{\ttfamily \#include $<$Weighted\-Bagging\-Classifier.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Weighted\-Bagging\-Classifier$<$ C $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=5.000000cm]{classffactory_1_1_weighted_bagging_classifier}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_abbf3f8950f9adfceee5cfae0268a2a1f}{Index\-Vector $\ast$ {\bfseries get\-Ensemble\-Subset} (Index\-Type cidx)}\label{classffactory_1_1_weighted_bagging_classifier_abbf3f8950f9adfceee5cfae0268a2a1f}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_ad684b7114dbb2e21e43e79836bd5cc5c}{{\bfseries Weighted\-Bagging\-Classifier} (unsigned int random\-Seed)}\label{classffactory_1_1_weighted_bagging_classifier_ad684b7114dbb2e21e43e79836bd5cc5c}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a11a47f385b7a304afe763662d8692a25}{Dataset\-Unique\-Ptr {\bfseries get\-O\-O\-B} (Index\-Type cidx)}\label{classffactory_1_1_weighted_bagging_classifier_a11a47f385b7a304afe763662d8692a25}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_ab73ccec9e74925fc02a041dcf8c649e9}{Data\-Type {\bfseries get\-Classifier\-O\-O\-B\-Error} (Index\-Type cidx)}\label{classffactory_1_1_weighted_bagging_classifier_ab73ccec9e74925fc02a041dcf8c649e9}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a1bd1f5ba735324155cb61a83474f4e60}{Data\-Type {\bfseries get\-O\-O\-B\-Error} ()}\label{classffactory_1_1_weighted_bagging_classifier_a1bd1f5ba735324155cb61a83474f4e60}
+
+\item 
+virtual void \hyperlink{classffactory_1_1_weighted_bagging_classifier_a4e29b9710c24ecbf3a2f1748b062cce0}{setup\-New\-Classifier} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$clf)
+\item 
+virtual void \hyperlink{classffactory_1_1_weighted_bagging_classifier_ab6a99cdccca8417c3a9209d1ea3073db}{train\-New\-Classifier} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a024d6487f21e8910ea84efd06a371608}{void {\bfseries set\-Classifier\-Weight} (Index\-Type cidx, Data\-Type w)}\label{classffactory_1_1_weighted_bagging_classifier_a024d6487f21e8910ea84efd06a371608}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_afe71b3cafb89eb0d3591905983b3b4a1}{Data\-Type {\bfseries get\-Classifier\-Weight} (Index\-Type cidx)}\label{classffactory_1_1_weighted_bagging_classifier_afe71b3cafb89eb0d3591905983b3b4a1}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a1d08b3cf6e474cbc027e91b19cac25b5}{void {\bfseries set\-Classifers\-Weights} (Data\-Vector \&mat)}\label{classffactory_1_1_weighted_bagging_classifier_a1d08b3cf6e474cbc027e91b19cac25b5}
+
+\item 
+virtual double \hyperlink{classffactory_1_1_weighted_bagging_classifier_a9c083e5508f58695c569dd2a4df50fd3}{train} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_weighted_bagging_classifier_ae9653ff238505bd33cca67ed4e20513c}{predict\-Class\-Prob} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$sample)
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a7662e0e6ad60d325a04199ba7baa309c}{unsigned int {\bfseries get\-Classifiers\-Number} ()}\label{classffactory_1_1_weighted_bagging_classifier_a7662e0e6ad60d325a04199ba7baa309c}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a922f0fd0eae4cd2cbae28b2ced7ee859}{unsigned int {\bfseries get\-Random\-Seed} () const }\label{classffactory_1_1_weighted_bagging_classifier_a922f0fd0eae4cd2cbae28b2ced7ee859}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a7388a4585bf360bd12571277f5de9014}{void {\bfseries set\-Random\-Seed} (unsigned int random\-Seed)}\label{classffactory_1_1_weighted_bagging_classifier_a7388a4585bf360bd12571277f5de9014}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a3c7818243bdbdb1227dbf4d6bfc89f7c}{unsigned int {\bfseries get\-Train\-Subset\-Size} ()}\label{classffactory_1_1_weighted_bagging_classifier_a3c7818243bdbdb1227dbf4d6bfc89f7c}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a05b054bf4d03977fc7a3cfdb156a7d94}{void {\bfseries set\-Train\-Subset\-Size} (unsigned int train\-Subset\-Size)}\label{classffactory_1_1_weighted_bagging_classifier_a05b054bf4d03977fc7a3cfdb156a7d94}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a92fbe90420ce241a9cd30d4fdfb0746e}{std\-::vector$<$ Index\-Vector $>$ {\bfseries ensemble\-Subsets}}\label{classffactory_1_1_weighted_bagging_classifier_a92fbe90420ce241a9cd30d4fdfb0746e}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_ace87c620b0398030ae02e5e31774a618}{std\-::vector$<$ Data\-Type $>$ {\bfseries ensemble\-Weights}}\label{classffactory_1_1_weighted_bagging_classifier_ace87c620b0398030ae02e5e31774a618}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a62ae261cacb54b46d7c15037e31020e0}{unsigned int {\bfseries random\-Seed}}\label{classffactory_1_1_weighted_bagging_classifier_a62ae261cacb54b46d7c15037e31020e0}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a1be29fdf1b274faf2926d0dc8f77dac2}{Index\-Type {\bfseries train\-Subset\-Size}}\label{classffactory_1_1_weighted_bagging_classifier_a1be29fdf1b274faf2926d0dc8f77dac2}
+
+\item 
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a972ff83e14e960f9cbb697817348a14c}{Randomizer {\bfseries r}}\label{classffactory_1_1_weighted_bagging_classifier_a972ff83e14e960f9cbb697817348a14c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename C$>$class ffactory\-::\-Weighted\-Bagging\-Classifier$<$ C $>$}
+
+Weighted Bagging ensemble classifiers for any classifier 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_ae9653ff238505bd33cca67ed4e20513c}{\index{ffactory\-::\-Weighted\-Bagging\-Classifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}!predict\-Class\-Prob@{predict\-Class\-Prob}}
+\index{predict\-Class\-Prob@{predict\-Class\-Prob}!ffactory::WeightedBaggingClassifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}}
+\subsubsection[{predict\-Class\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename C$>$ virtual Data\-Vector\-Unique\-Ptr {\bf ffactory\-::\-Weighted\-Bagging\-Classifier}$<$ C $>$\-::predict\-Class\-Prob (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$}]{sample}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_weighted_bagging_classifier_ae9653ff238505bd33cca67ed4e20513c}
+Predict class probability of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index of class 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_ensemble_classifier_ac6da7b47a25c7c6481d6476891085d16}{ffactory\-::\-Base\-Ensemble\-Classifier}.
+
+
+
+Reimplemented in \hyperlink{classffactory_1_1_p_d_streaming_r_f_a4a3fc1045d27d15c0a4209378ea7789b}{ffactory\-::\-P\-D\-Streaming\-R\-F}.
+
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a4e29b9710c24ecbf3a2f1748b062cce0}{\index{ffactory\-::\-Weighted\-Bagging\-Classifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}!setup\-New\-Classifier@{setup\-New\-Classifier}}
+\index{setup\-New\-Classifier@{setup\-New\-Classifier}!ffactory::WeightedBaggingClassifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}}
+\subsubsection[{setup\-New\-Classifier}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename C$>$ virtual void {\bf ffactory\-::\-Weighted\-Bagging\-Classifier}$<$ C $>$\-::setup\-New\-Classifier (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{clf}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_weighted_bagging_classifier_a4e29b9710c24ecbf3a2f1748b062cce0}
+Method propose facilities to setup base classifier after construction 
+\begin{DoxyParams}{Parameters}
+{\em clf} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented in \hyperlink{classffactory_1_1_p_d_streaming_r_f_a4e9a1bdf1dcf3951dd7ef2d1c35330ab}{ffactory\-::\-P\-D\-Streaming\-R\-F}.
+
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_a9c083e5508f58695c569dd2a4df50fd3}{\index{ffactory\-::\-Weighted\-Bagging\-Classifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}!train@{train}}
+\index{train@{train}!ffactory::WeightedBaggingClassifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename C$>$ virtual double {\bf ffactory\-::\-Weighted\-Bagging\-Classifier}$<$ C $>$\-::train (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_weighted_bagging_classifier_a9c083e5508f58695c569dd2a4df50fd3}
+Train classifier on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value of specified error measure on dataset {\itshape d} 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_ensemble_classifier_a6ea804da2a71766b49372cbddb12cd50}{ffactory\-::\-Base\-Ensemble\-Classifier}.
+
+
+
+Reimplemented in \hyperlink{classffactory_1_1_p_d_streaming_r_f_a711860e77360cb3fa8ff2a3160657997}{ffactory\-::\-P\-D\-Streaming\-R\-F}.
+
+\hypertarget{classffactory_1_1_weighted_bagging_classifier_ab6a99cdccca8417c3a9209d1ea3073db}{\index{ffactory\-::\-Weighted\-Bagging\-Classifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}!train\-New\-Classifier@{train\-New\-Classifier}}
+\index{train\-New\-Classifier@{train\-New\-Classifier}!ffactory::WeightedBaggingClassifier@{ffactory\-::\-Weighted\-Bagging\-Classifier}}
+\subsubsection[{train\-New\-Classifier}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename C$>$ virtual void {\bf ffactory\-::\-Weighted\-Bagging\-Classifier}$<$ C $>$\-::train\-New\-Classifier (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_weighted_bagging_classifier_ab6a99cdccca8417c3a9209d1ea3073db}
+Generate new subset of train dataset and train new classifier on it. Result is pushed to vectors {\itshape ensemble} and {\itshape ensemble\-Subsets} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \hyperlink{classffactory_1_1_dataset}{Dataset} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/ensemble/Weighted\-Bagging\-Classifier.\-h\end{DoxyCompactItemize}

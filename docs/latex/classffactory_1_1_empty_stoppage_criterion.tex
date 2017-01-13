@@ -1,0 +1,67 @@
+\hypertarget{classffactory_1_1_empty_stoppage_criterion}{\section{ffactory\-:\-:Empty\-Stoppage\-Criterion Class Reference}
+\label{classffactory_1_1_empty_stoppage_criterion}\index{ffactory\-::\-Empty\-Stoppage\-Criterion@{ffactory\-::\-Empty\-Stoppage\-Criterion}}
+}
+
+
+{\ttfamily \#include $<$empty\-Stoppage\-Criterion.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Empty\-Stoppage\-Criterion\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_empty_stoppage_criterion}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \hyperlink{classffactory_1_1_empty_stoppage_criterion_a5dca6353a6a813e09c77b53db8e57fd9}{Is\-Stoppage\-Needed} (\hyperlink{classffactory_1_1_base_tree_node}{Base\-Tree\-Node} $\ast$current\-Node, Data\-Vector \&class\-Prob\-Distr)
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_empty_stoppage_criterion_a19181caac08aad7d05fcc07307c93c70}{get\-Info} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Don't stop tree growing at all 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_empty_stoppage_criterion_a19181caac08aad7d05fcc07307c93c70}{\index{ffactory\-::\-Empty\-Stoppage\-Criterion@{ffactory\-::\-Empty\-Stoppage\-Criterion}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::EmptyStoppageCriterion@{ffactory\-::\-Empty\-Stoppage\-Criterion}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Empty\-Stoppage\-Criterion\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_empty_stoppage_criterion_a19181caac08aad7d05fcc07307c93c70}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about object 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_stoppage_criterion_a0543f9c748cb8092e08314a8d2d40c79}{ffactory\-::\-Base\-Stoppage\-Criterion}.
+
+\hypertarget{classffactory_1_1_empty_stoppage_criterion_a5dca6353a6a813e09c77b53db8e57fd9}{\index{ffactory\-::\-Empty\-Stoppage\-Criterion@{ffactory\-::\-Empty\-Stoppage\-Criterion}!Is\-Stoppage\-Needed@{Is\-Stoppage\-Needed}}
+\index{Is\-Stoppage\-Needed@{Is\-Stoppage\-Needed}!ffactory::EmptyStoppageCriterion@{ffactory\-::\-Empty\-Stoppage\-Criterion}}
+\subsubsection[{Is\-Stoppage\-Needed}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool ffactory\-::\-Empty\-Stoppage\-Criterion\-::\-Is\-Stoppage\-Needed (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Tree\-Node} $\ast$}]{current\-Node, }
+\item[{Data\-Vector \&}]{class\-Prob\-Distr}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_empty_stoppage_criterion_a5dca6353a6a813e09c77b53db8e57fd9}
+Empty stoppage criterion, it never stops 
+\begin{DoxyParams}{Parameters}
+{\em current\-Node} & \\
+\hline
+{\em class\-Prob\-Distr} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_stoppage_criterion_a47728f0c9b241133e228ea5956248241}{ffactory\-::\-Base\-Stoppage\-Criterion}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/stoppage\-Criteria/empty\-Stoppage\-Criterion.\-h\end{DoxyCompactItemize}

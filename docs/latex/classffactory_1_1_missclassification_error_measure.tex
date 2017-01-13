@@ -1,0 +1,71 @@
+\hypertarget{classffactory_1_1_missclassification_error_measure}{\section{ffactory\-:\-:Missclassification\-Error\-Measure Class Reference}
+\label{classffactory_1_1_missclassification_error_measure}\index{ffactory\-::\-Missclassification\-Error\-Measure@{ffactory\-::\-Missclassification\-Error\-Measure}}
+}
+
+
+{\ttfamily \#include $<$Missclassification\-Error\-Measure.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Missclassification\-Error\-Measure\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_missclassification_error_measure}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \hyperlink{classffactory_1_1_missclassification_error_measure_adedf3d4ccccf1dd24995d9e5d109afd3}{get\-Error} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$c, \hyperlink{classffactory_1_1_sample}{Sample} \&s)
+\item 
+virtual double \hyperlink{classffactory_1_1_missclassification_error_measure_a962d88274011caaba227e7c7f6ce3bdf}{get\-Error} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$c, \hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Missclassification error measure class 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_missclassification_error_measure_adedf3d4ccccf1dd24995d9e5d109afd3}{\index{ffactory\-::\-Missclassification\-Error\-Measure@{ffactory\-::\-Missclassification\-Error\-Measure}!get\-Error@{get\-Error}}
+\index{get\-Error@{get\-Error}!ffactory::MissclassificationErrorMeasure@{ffactory\-::\-Missclassification\-Error\-Measure}}
+\subsubsection[{get\-Error}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Missclassification\-Error\-Measure\-::get\-Error (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{c, }
+\item[{{\bf Sample} \&}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_missclassification_error_measure_adedf3d4ccccf1dd24995d9e5d109afd3}
+Get error on current sample {\itshape s} 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+probability of wrong classes 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_error_measure_a8eb4fef1cb479834c3fc1baac589d8b1}{ffactory\-::\-Base\-Error\-Measure}.
+
+\hypertarget{classffactory_1_1_missclassification_error_measure_a962d88274011caaba227e7c7f6ce3bdf}{\index{ffactory\-::\-Missclassification\-Error\-Measure@{ffactory\-::\-Missclassification\-Error\-Measure}!get\-Error@{get\-Error}}
+\index{get\-Error@{get\-Error}!ffactory::MissclassificationErrorMeasure@{ffactory\-::\-Missclassification\-Error\-Measure}}
+\subsubsection[{get\-Error}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Missclassification\-Error\-Measure\-::get\-Error (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{c, }
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_missclassification_error_measure_a962d88274011caaba227e7c7f6ce3bdf}
+Get error on entire dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+average 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_error_measure_a59333613908d58b1a5ff7208bd93d6fb}{ffactory\-::\-Base\-Error\-Measure}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/error\-Measures/Missclassification\-Error\-Measure.\-h\end{DoxyCompactItemize}

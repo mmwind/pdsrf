@@ -1,0 +1,87 @@
+\hypertarget{classffactory_1_1_random_split_candidate_generator}{\section{ffactory\-:\-:Random\-Split\-Candidate\-Generator Class Reference}
+\label{classffactory_1_1_random_split_candidate_generator}\index{ffactory\-::\-Random\-Split\-Candidate\-Generator@{ffactory\-::\-Random\-Split\-Candidate\-Generator}}
+}
+
+
+{\ttfamily \#include $<$random\-Split\-Candidate\-Generator.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Random\-Split\-Candidate\-Generator\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_random_split_candidate_generator}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classffactory_1_1_random_split_candidate_generator_a7ac06ac7c9e728347f6cb40d1032d642}{Random\-Split\-Candidate\-Generator} (Index\-Type split\-Num, Index\-Type feat\-Num)
+\item 
+virtual void \hyperlink{classffactory_1_1_random_split_candidate_generator_a488f87c1cc5ddccc44d5827db6f02964}{generate} (\hyperlink{classffactory_1_1_data_ranges}{Data\-Ranges} $\ast$ranges=N\-U\-L\-L)
+\item 
+\hypertarget{classffactory_1_1_random_split_candidate_generator_ac18baf9a950270a1971450639eb07bd9}{unsigned int {\bfseries get\-Split\-Number} () const }\label{classffactory_1_1_random_split_candidate_generator_ac18baf9a950270a1971450639eb07bd9}
+
+\item 
+\hypertarget{classffactory_1_1_random_split_candidate_generator_a2639b83da4a7b30b5d3a45d3840ba5ee}{void {\bfseries set\-Split\-Number} (unsigned int split\-Number)}\label{classffactory_1_1_random_split_candidate_generator_a2639b83da4a7b30b5d3a45d3840ba5ee}
+
+\item 
+\hypertarget{classffactory_1_1_random_split_candidate_generator_abe262a149a84cb1a1c73acecd9c4bd42}{unsigned int {\bfseries get\-Random\-Seed} ()}\label{classffactory_1_1_random_split_candidate_generator_abe262a149a84cb1a1c73acecd9c4bd42}
+
+\item 
+\hypertarget{classffactory_1_1_random_split_candidate_generator_a2cad77875ce9f7b94c897939b181bb37}{void {\bfseries set\-Random\-Seed} (unsigned int random\-Seed)}\label{classffactory_1_1_random_split_candidate_generator_a2cad77875ce9f7b94c897939b181bb37}
+
+\item 
+std\-::string \hyperlink{classffactory_1_1_random_split_candidate_generator_ab5ec1be9458ea7f7626f47bce9754bd6}{get\-Info} ()
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Class generates random splits 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classffactory_1_1_random_split_candidate_generator_a7ac06ac7c9e728347f6cb40d1032d642}{\index{ffactory\-::\-Random\-Split\-Candidate\-Generator@{ffactory\-::\-Random\-Split\-Candidate\-Generator}!Random\-Split\-Candidate\-Generator@{Random\-Split\-Candidate\-Generator}}
+\index{Random\-Split\-Candidate\-Generator@{Random\-Split\-Candidate\-Generator}!ffactory::RandomSplitCandidateGenerator@{ffactory\-::\-Random\-Split\-Candidate\-Generator}}
+\subsubsection[{Random\-Split\-Candidate\-Generator}]{\setlength{\rightskip}{0pt plus 5cm}ffactory\-::\-Random\-Split\-Candidate\-Generator\-::\-Random\-Split\-Candidate\-Generator (
+\begin{DoxyParamCaption}
+\item[{Index\-Type}]{split\-Num, }
+\item[{Index\-Type}]{feat\-Num}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_random_split_candidate_generator_a7ac06ac7c9e728347f6cb40d1032d642}
+\begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000001}{Bug}]\end{DoxyRefDesc}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_random_split_candidate_generator_a488f87c1cc5ddccc44d5827db6f02964}{\index{ffactory\-::\-Random\-Split\-Candidate\-Generator@{ffactory\-::\-Random\-Split\-Candidate\-Generator}!generate@{generate}}
+\index{generate@{generate}!ffactory::RandomSplitCandidateGenerator@{ffactory\-::\-Random\-Split\-Candidate\-Generator}}
+\subsubsection[{generate}]{\setlength{\rightskip}{0pt plus 5cm}virtual void ffactory\-::\-Random\-Split\-Candidate\-Generator\-::generate (
+\begin{DoxyParamCaption}
+\item[{{\bf Data\-Ranges} $\ast$}]{ranges = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_random_split_candidate_generator_a488f87c1cc5ddccc44d5827db6f02964}
+Produce split-\/candidates \begin{DoxyReturn}{Returns}
+Vector of generated splits 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_split_candidate_generator_a79da89383882bdad7a846f5458f794b2}{ffactory\-::\-Base\-Split\-Candidate\-Generator}.
+
+\hypertarget{classffactory_1_1_random_split_candidate_generator_ab5ec1be9458ea7f7626f47bce9754bd6}{\index{ffactory\-::\-Random\-Split\-Candidate\-Generator@{ffactory\-::\-Random\-Split\-Candidate\-Generator}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::RandomSplitCandidateGenerator@{ffactory\-::\-Random\-Split\-Candidate\-Generator}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}std\-::string ffactory\-::\-Random\-Split\-Candidate\-Generator\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_random_split_candidate_generator_ab5ec1be9458ea7f7626f47bce9754bd6}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about object 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_split_candidate_generator_a9247b20b96b60d227f3f3484e5614f39}{ffactory\-::\-Base\-Split\-Candidate\-Generator}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/splits/split\-Candidate\-Generator/random\-Split\-Candidate\-Generator.\-h\end{DoxyCompactItemize}

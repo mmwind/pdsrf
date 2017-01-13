@@ -1,0 +1,48 @@
+\hypertarget{classffactory_1_1_base_accuracy_dependent_weight}{\section{ffactory\-:\-:Base\-Accuracy\-Dependent\-Weight Class Reference}
+\label{classffactory_1_1_base_accuracy_dependent_weight}\index{ffactory\-::\-Base\-Accuracy\-Dependent\-Weight@{ffactory\-::\-Base\-Accuracy\-Dependent\-Weight}}
+}
+
+
+{\ttfamily \#include $<$Base\-Accuracy\-Dependent\-Weight.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Accuracy\-Dependent\-Weight\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_base_accuracy_dependent_weight}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_base_accuracy_dependent_weight_a0baa145415e5e75b3b90c787c7e5a879}{get\-Weights} (Data\-Vector $\ast$const error\-Vector)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract class for base classifier weights computer. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_accuracy_dependent_weight_a0baa145415e5e75b3b90c787c7e5a879}{\index{ffactory\-::\-Base\-Accuracy\-Dependent\-Weight@{ffactory\-::\-Base\-Accuracy\-Dependent\-Weight}!get\-Weights@{get\-Weights}}
+\index{get\-Weights@{get\-Weights}!ffactory::BaseAccuracyDependentWeight@{ffactory\-::\-Base\-Accuracy\-Dependent\-Weight}}
+\subsubsection[{get\-Weights}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Vector\-Unique\-Ptr ffactory\-::\-Base\-Accuracy\-Dependent\-Weight\-::get\-Weights (
+\begin{DoxyParamCaption}
+\item[{Data\-Vector $\ast$const}]{error\-Vector}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_accuracy_dependent_weight_a0baa145415e5e75b3b90c787c7e5a879}
+
+\begin{DoxyParams}{Parameters}
+{\em error\-Vector} & is a vector of errors of base classifiers (unnormalized) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+weights of base classifiers 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classffactory_1_1_accuracy_dependent_weight_a7b912fc0846d557aea10d933501daade}{ffactory\-::\-Accuracy\-Dependent\-Weight}, and \hyperlink{classffactory_1_1_without_weighing_a8c5dec3d0dd648e4f4816162ec9f3677}{ffactory\-::\-Without\-Weighing}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/ensemble/weighting/Base\-Accuracy\-Dependent\-Weight.\-h\end{DoxyCompactItemize}

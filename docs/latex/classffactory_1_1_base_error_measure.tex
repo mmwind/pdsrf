@@ -1,0 +1,71 @@
+\hypertarget{classffactory_1_1_base_error_measure}{\section{ffactory\-:\-:Base\-Error\-Measure Class Reference}
+\label{classffactory_1_1_base_error_measure}\index{ffactory\-::\-Base\-Error\-Measure@{ffactory\-::\-Base\-Error\-Measure}}
+}
+
+
+{\ttfamily \#include $<$base\-Error\-Measure.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Error\-Measure\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_base_error_measure}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \hyperlink{classffactory_1_1_base_error_measure_a8eb4fef1cb479834c3fc1baac589d8b1}{get\-Error} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$c, \hyperlink{classffactory_1_1_sample}{Sample} \&s)=0
+\item 
+virtual double \hyperlink{classffactory_1_1_base_error_measure_a59333613908d58b1a5ff7208bd93d6fb}{get\-Error} (\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$c, \hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)=0
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Generic error measure class 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_error_measure_a8eb4fef1cb479834c3fc1baac589d8b1}{\index{ffactory\-::\-Base\-Error\-Measure@{ffactory\-::\-Base\-Error\-Measure}!get\-Error@{get\-Error}}
+\index{get\-Error@{get\-Error}!ffactory::BaseErrorMeasure@{ffactory\-::\-Base\-Error\-Measure}}
+\subsubsection[{get\-Error}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Base\-Error\-Measure\-::get\-Error (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{c, }
+\item[{{\bf Sample} \&}]{s}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_error_measure_a8eb4fef1cb479834c3fc1baac589d8b1}
+Get error on current sample {\itshape s} 
+\begin{DoxyParams}{Parameters}
+{\em s} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+error measure value 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classffactory_1_1_missclassification_error_measure_adedf3d4ccccf1dd24995d9e5d109afd3}{ffactory\-::\-Missclassification\-Error\-Measure}, and \hyperlink{classffactory_1_1_probability_error_measure_abfc0dd59747fd479663e9167c8510157}{ffactory\-::\-Probability\-Error\-Measure}.
+
+\hypertarget{classffactory_1_1_base_error_measure_a59333613908d58b1a5ff7208bd93d6fb}{\index{ffactory\-::\-Base\-Error\-Measure@{ffactory\-::\-Base\-Error\-Measure}!get\-Error@{get\-Error}}
+\index{get\-Error@{get\-Error}!ffactory::BaseErrorMeasure@{ffactory\-::\-Base\-Error\-Measure}}
+\subsubsection[{get\-Error}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Base\-Error\-Measure\-::get\-Error (
+\begin{DoxyParamCaption}
+\item[{{\bf Base\-Classifier} $\ast$}]{c, }
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_error_measure_a59333613908d58b1a5ff7208bd93d6fb}
+Get error on entire dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+error measure value 
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{classffactory_1_1_missclassification_error_measure_a962d88274011caaba227e7c7f6ce3bdf}{ffactory\-::\-Missclassification\-Error\-Measure}, and \hyperlink{classffactory_1_1_probability_error_measure_ac633b58b1e3be6feafb3b9fdd7fd1388}{ffactory\-::\-Probability\-Error\-Measure}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/error\-Measures/base\-Error\-Measure.\-h\end{DoxyCompactItemize}

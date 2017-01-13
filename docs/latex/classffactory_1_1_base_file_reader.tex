@@ -1,0 +1,67 @@
+\hypertarget{classffactory_1_1_base_file_reader}{\section{ffactory\-:\-:Base\-File\-Reader Class Reference}
+\label{classffactory_1_1_base_file_reader}\index{ffactory\-::\-Base\-File\-Reader@{ffactory\-::\-Base\-File\-Reader}}
+}
+
+
+{\ttfamily \#include $<$Base\-File\-Reader.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-File\-Reader\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.786070cm]{classffactory_1_1_base_file_reader}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_a8d6a6ae99b1c1e5425e56fc90176e018}{{\bfseries Base\-File\-Reader} (std\-::string \-\_\-filename=\char`\"{}\char`\"{}, \hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$\-\_\-dataset=N\-U\-L\-L)}\label{classffactory_1_1_base_file_reader_a8d6a6ae99b1c1e5425e56fc90176e018}
+
+\item 
+virtual void \hyperlink{classffactory_1_1_base_file_reader_ab8683144beea50394ec833163d575615}{read} ()=0
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_a99ed2cb12be72b43273501146fc29163}{const std\-::string \& {\bfseries get\-Filename} () const }\label{classffactory_1_1_base_file_reader_a99ed2cb12be72b43273501146fc29163}
+
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_a18d352a589ce02c9ab61793eb0a3e5a9}{void {\bfseries set\-Filename} (const std\-::string \&filename)}\label{classffactory_1_1_base_file_reader_a18d352a589ce02c9ab61793eb0a3e5a9}
+
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_a3be5e024b10a4cc818e5c91c6c560262}{\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$ {\bfseries get\-Dataset} ()}\label{classffactory_1_1_base_file_reader_a3be5e024b10a4cc818e5c91c6c560262}
+
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_a9b232c85c50435272cd73512ab67723e}{void {\bfseries set\-Dataset} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$dataset)}\label{classffactory_1_1_base_file_reader_a9b232c85c50435272cd73512ab67723e}
+
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_accd449482bd147dda3aa63393e100d3e}{bool {\bfseries is\-Verbose} () const }\label{classffactory_1_1_base_file_reader_accd449482bd147dda3aa63393e100d3e}
+
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_a543b5cae0d6a5503a09e857c5f06ca5e}{void {\bfseries set\-Verbose} (bool verbose)}\label{classffactory_1_1_base_file_reader_a543b5cae0d6a5503a09e857c5f06ca5e}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_file_reader_ae5927a2027c87679275ebbe871699d1a}{bool {\bfseries verbose}}\label{classffactory_1_1_base_file_reader_ae5927a2027c87679275ebbe871699d1a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Abstract class to provide interface to read many file formats datasets 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_file_reader_ab8683144beea50394ec833163d575615}{\index{ffactory\-::\-Base\-File\-Reader@{ffactory\-::\-Base\-File\-Reader}!read@{read}}
+\index{read@{read}!ffactory::BaseFileReader@{ffactory\-::\-Base\-File\-Reader}}
+\subsubsection[{read}]{\setlength{\rightskip}{0pt plus 5cm}virtual void ffactory\-::\-Base\-File\-Reader\-::read (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_file_reader_ab8683144beea50394ec833163d575615}
+Read file abstract method 
+
+Implemented in \hyperlink{classffactory_1_1_csv_file_reader_a82882543777400ac3779a89b986a5e98}{ffactory\-::\-Csv\-File\-Reader}, \hyperlink{classffactory_1_1_a_r_f_f_file_reader_ac2fe97202f44108f3379a787962c5721}{ffactory\-::\-A\-R\-F\-F\-File\-Reader}, and \hyperlink{classffactory_1_1_binary_eigen_file_reader_ab56d0d075f40f5a659b30f66f84811a4}{ffactory\-::\-Binary\-Eigen\-File\-Reader}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/data/file\-Formats/Base\-File\-Reader.\-h\end{DoxyCompactItemize}

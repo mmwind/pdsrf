@@ -1,0 +1,78 @@
+\hypertarget{classffactory_1_1_decision_stump}{\section{ffactory\-:\-:Decision\-Stump Class Reference}
+\label{classffactory_1_1_decision_stump}\index{ffactory\-::\-Decision\-Stump@{ffactory\-::\-Decision\-Stump}}
+}
+Inheritance diagram for ffactory\-:\-:Decision\-Stump\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classffactory_1_1_decision_stump}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual double \hyperlink{classffactory_1_1_decision_stump_ad8ad08ac61f113ca160f01e1e5f9e0f0}{train} (\hyperlink{classffactory_1_1_dataset}{Dataset} d)
+\item 
+virtual \hyperlink{classffactory_1_1_prediction}{Prediction} \hyperlink{classffactory_1_1_decision_stump_a503571ad46097bec7453e6657c940f2f}{predict} (\hyperlink{classffactory_1_1_sample}{Sample} \&sample)
+\item 
+virtual std\-::string \hyperlink{classffactory_1_1_decision_stump_af2c5492cfe13d297b11a7aa491695998}{get\-Info} ()
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_decision_stump_abdea50b825108d8d99410d7edc240024}{std\-::ostream \& {\bfseries operator$<$$<$} (std\-::ostream \&stream, \hyperlink{classffactory_1_1_decision_stump}{Decision\-Stump} \&s)}\label{classffactory_1_1_decision_stump_abdea50b825108d8d99410d7edc240024}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_decision_stump_af2c5492cfe13d297b11a7aa491695998}{\index{ffactory\-::\-Decision\-Stump@{ffactory\-::\-Decision\-Stump}!get\-Info@{get\-Info}}
+\index{get\-Info@{get\-Info}!ffactory::DecisionStump@{ffactory\-::\-Decision\-Stump}}
+\subsubsection[{get\-Info}]{\setlength{\rightskip}{0pt plus 5cm}virtual std\-::string ffactory\-::\-Decision\-Stump\-::get\-Info (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}}\label{classffactory_1_1_decision_stump_af2c5492cfe13d297b11a7aa491695998}
+Generates information string \begin{DoxyReturn}{Returns}
+std\-::string contains information about classifier 
+\end{DoxyReturn}
+
+
+Reimplemented from \hyperlink{classffactory_1_1_base_classifier_af6b0a89fd34ba70626104500d612d836}{ffactory\-::\-Base\-Classifier}.
+
+\hypertarget{classffactory_1_1_decision_stump_a503571ad46097bec7453e6657c940f2f}{\index{ffactory\-::\-Decision\-Stump@{ffactory\-::\-Decision\-Stump}!predict@{predict}}
+\index{predict@{predict}!ffactory::DecisionStump@{ffactory\-::\-Decision\-Stump}}
+\subsubsection[{predict}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Prediction} ffactory\-::\-Decision\-Stump\-::predict (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} \&}]{sample}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classffactory_1_1_decision_stump_a503571ad46097bec7453e6657c940f2f}
+Predict class of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classffactory_1_1_prediction}{Prediction} 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_decision_stump_ad8ad08ac61f113ca160f01e1e5f9e0f0}{\index{ffactory\-::\-Decision\-Stump@{ffactory\-::\-Decision\-Stump}!train@{train}}
+\index{train@{train}!ffactory::DecisionStump@{ffactory\-::\-Decision\-Stump}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}double ffactory\-::\-Decision\-Stump\-::train (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset}}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classffactory_1_1_decision_stump_ad8ad08ac61f113ca160f01e1e5f9e0f0}
+Train classifier on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+F\-I\-X\-M\-E\-: split\-Score for now. Must be value of specified error measure on dataset {\itshape d} 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/models/decision\-Stump/decision\-Stump.\-h\item 
+src/classifiers/trees/models/decision\-Stump/decision\-Stump.\-cpp\end{DoxyCompactItemize}

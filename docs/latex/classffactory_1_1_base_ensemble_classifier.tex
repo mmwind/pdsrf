@@ -1,0 +1,136 @@
+\hypertarget{classffactory_1_1_base_ensemble_classifier}{\section{ffactory\-:\-:Base\-Ensemble\-Classifier Class Reference}
+\label{classffactory_1_1_base_ensemble_classifier}\index{ffactory\-::\-Base\-Ensemble\-Classifier@{ffactory\-::\-Base\-Ensemble\-Classifier}}
+}
+
+
+{\ttfamily \#include $<$Base\-Ensemble\-Classifier.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Base\-Ensemble\-Classifier\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.421320cm]{classffactory_1_1_base_ensemble_classifier}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_afb635fc0bfe88a5100647c85afe373b3}{virtual void {\bfseries add\-Classifier} (Base\-Classifier\-Unique\-Ptr c)}\label{classffactory_1_1_base_ensemble_classifier_afb635fc0bfe88a5100647c85afe373b3}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_aea58a83aaec930aa021e67e704c251fc}{\hyperlink{classffactory_1_1_base_classifier}{Base\-Classifier} $\ast$ {\bfseries get\-Classifier} (Index\-Type idx)}\label{classffactory_1_1_base_ensemble_classifier_aea58a83aaec930aa021e67e704c251fc}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_ad026a89254a4c015efc0991015d85f01}{void {\bfseries remove\-Classifier} (Index\-Type idx)}\label{classffactory_1_1_base_ensemble_classifier_ad026a89254a4c015efc0991015d85f01}
+
+\item 
+virtual double \hyperlink{classffactory_1_1_base_ensemble_classifier_a6ea804da2a71766b49372cbddb12cd50}{train} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)=0
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_base_ensemble_classifier_ac6da7b47a25c7c6481d6476891085d16}{predict\-Class\-Prob} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$sample)=0
+\item 
+std\-::vector\\*
+$<$ Base\-Classifier\-Unique\-Ptr $>$ $\ast$ \hyperlink{classffactory_1_1_base_ensemble_classifier_a99dfac2d9fe4f6f380ded546070befb4}{get\-Ensemble} ()
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_a9870bacad8acefb8014289bf99f82741}{\hyperlink{classffactory_1_1_base_ensemble_aggregator}{Base\-Ensemble\-Aggregator} $\ast$ {\bfseries get\-Aggregator} ()}\label{classffactory_1_1_base_ensemble_classifier_a9870bacad8acefb8014289bf99f82741}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_aa4a2fd1d18c05cbcc916657441bb63f1}{void {\bfseries set\-Aggregator} (Base\-Ensemble\-Aggregator\-Unique\-Ptr aggregator)}\label{classffactory_1_1_base_ensemble_classifier_aa4a2fd1d18c05cbcc916657441bb63f1}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_afd0663c86f1f0313bdac18cb93d07030}{Index\-Type {\bfseries get\-Num\-Classifiers\-To\-Train} ()}\label{classffactory_1_1_base_ensemble_classifier_afd0663c86f1f0313bdac18cb93d07030}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_a5f35f1379fa4e849ce5e5be7fb8ac0b7}{Index\-Type {\bfseries get\-Num\-Classifiers} ()}\label{classffactory_1_1_base_ensemble_classifier_a5f35f1379fa4e849ce5e5be7fb8ac0b7}
+
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_a8523f3c50cb72816f0ac23bd2c1f6365}{void {\bfseries set\-Num\-Classifiers\-To\-Train} (Index\-Type num\-Classifiers\-To\-Train)}\label{classffactory_1_1_base_ensemble_classifier_a8523f3c50cb72816f0ac23bd2c1f6365}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_base_ensemble_classifier_a8215e2bc0eefca0076058fc54b5c211c}{std\-::vector\\*
+$<$ Base\-Classifier\-Unique\-Ptr $>$ {\bfseries ensemble}}\label{classffactory_1_1_base_ensemble_classifier_a8215e2bc0eefca0076058fc54b5c211c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_base}{Base} class for all ensemble classifiers 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_base_ensemble_classifier_a99dfac2d9fe4f6f380ded546070befb4}{\index{ffactory\-::\-Base\-Ensemble\-Classifier@{ffactory\-::\-Base\-Ensemble\-Classifier}!get\-Ensemble@{get\-Ensemble}}
+\index{get\-Ensemble@{get\-Ensemble}!ffactory::BaseEnsembleClassifier@{ffactory\-::\-Base\-Ensemble\-Classifier}}
+\subsubsection[{get\-Ensemble}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$Base\-Classifier\-Unique\-Ptr$>$$\ast$ ffactory\-::\-Base\-Ensemble\-Classifier\-::get\-Ensemble (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_base_ensemble_classifier_a99dfac2d9fe4f6f380ded546070befb4}
+Predict class of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{classffactory_1_1_prediction}{Prediction} Predict class for dataset 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Get pointer to ensemble vector 
+
+std\-::vector$<$\-Base\-Classifier$\ast$$>$$\ast$ 
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_base_ensemble_classifier_ac6da7b47a25c7c6481d6476891085d16}{\index{ffactory\-::\-Base\-Ensemble\-Classifier@{ffactory\-::\-Base\-Ensemble\-Classifier}!predict\-Class\-Prob@{predict\-Class\-Prob}}
+\index{predict\-Class\-Prob@{predict\-Class\-Prob}!ffactory::BaseEnsembleClassifier@{ffactory\-::\-Base\-Ensemble\-Classifier}}
+\subsubsection[{predict\-Class\-Prob}]{\setlength{\rightskip}{0pt plus 5cm}virtual Data\-Vector\-Unique\-Ptr ffactory\-::\-Base\-Ensemble\-Classifier\-::predict\-Class\-Prob (
+\begin{DoxyParamCaption}
+\item[{{\bf Sample} $\ast$}]{sample}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_ensemble_classifier_ac6da7b47a25c7c6481d6476891085d16}
+Predict class probability of one sample 
+\begin{DoxyParams}{Parameters}
+{\em sample} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Index of class 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_classifier_a6758932ce8f59eeffd0e66404a0332e4}{ffactory\-::\-Base\-Classifier}.
+
+
+
+Implemented in \hyperlink{classffactory_1_1_p_e_r_t_a5a5c35207769f3027dce04b69843bcc9}{ffactory\-::\-P\-E\-R\-T}, \hyperlink{classffactory_1_1_extremely_randomized_trees_aed8da96894903e5c8ee7a87add67d78d}{ffactory\-::\-Extremely\-Randomized\-Trees}, \hyperlink{classffactory_1_1_weighted_bagging_classifier_ae9653ff238505bd33cca67ed4e20513c}{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ C $>$}, \hyperlink{classffactory_1_1_weighted_bagging_classifier_ae9653ff238505bd33cca67ed4e20513c}{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ Extremely\-Randomized\-Tree $>$}, and \hyperlink{classffactory_1_1_p_d_streaming_r_f_a4a3fc1045d27d15c0a4209378ea7789b}{ffactory\-::\-P\-D\-Streaming\-R\-F}.
+
+\hypertarget{classffactory_1_1_base_ensemble_classifier_a6ea804da2a71766b49372cbddb12cd50}{\index{ffactory\-::\-Base\-Ensemble\-Classifier@{ffactory\-::\-Base\-Ensemble\-Classifier}!train@{train}}
+\index{train@{train}!ffactory::BaseEnsembleClassifier@{ffactory\-::\-Base\-Ensemble\-Classifier}}
+\subsubsection[{train}]{\setlength{\rightskip}{0pt plus 5cm}virtual double ffactory\-::\-Base\-Ensemble\-Classifier\-::train (
+\begin{DoxyParamCaption}
+\item[{{\bf Dataset} $\ast$}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_base_ensemble_classifier_a6ea804da2a71766b49372cbddb12cd50}
+Train classifier on dataset {\itshape d} 
+\begin{DoxyParams}{Parameters}
+{\em d} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Value of specified error measure on dataset {\itshape d} 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_classifier_a150000cb5cd9b2bb4380b47f33a462f2}{ffactory\-::\-Base\-Classifier}.
+
+
+
+Implemented in \hyperlink{classffactory_1_1_p_e_r_t_a7e8906ac8c355ab9832578d8acd41db0}{ffactory\-::\-P\-E\-R\-T}, \hyperlink{classffactory_1_1_extremely_randomized_trees_aa422b510fa91c27fb61eecbd5663cbd8}{ffactory\-::\-Extremely\-Randomized\-Trees}, \hyperlink{classffactory_1_1_weighted_bagging_classifier_a9c083e5508f58695c569dd2a4df50fd3}{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ C $>$}, \hyperlink{classffactory_1_1_weighted_bagging_classifier_a9c083e5508f58695c569dd2a4df50fd3}{ffactory\-::\-Weighted\-Bagging\-Classifier$<$ Extremely\-Randomized\-Tree $>$}, \hyperlink{classffactory_1_1_bagging_classifier_ac99041bbde5f875cee90fcd7075c1f60}{ffactory\-::\-Bagging\-Classifier$<$ C $>$}, and \hyperlink{classffactory_1_1_p_d_streaming_r_f_a711860e77360cb3fa8ff2a3160657997}{ffactory\-::\-P\-D\-Streaming\-R\-F}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/ensemble/Base\-Ensemble\-Classifier.\-h\end{DoxyCompactItemize}

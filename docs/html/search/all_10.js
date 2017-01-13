@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['update',['update',['../classffactory_1_1_base_online_classifier.html#a1f4c58973708b188e99651ed0b82631d',1,'ffactory::BaseOnlineClassifier::update(Dataset *newdata)'],['../classffactory_1_1_base_online_classifier.html#ae2ea31e0e89fb2131dda743d9803856b',1,'ffactory::BaseOnlineClassifier::update(Sample *newdata)=0'],['../classffactory_1_1_base_online_property.html#a9cfb11c90f0c4e0a21a6c2d2b871d2fa',1,'ffactory::BaseOnlineProperty::update(Dataset *newdata)'],['../classffactory_1_1_base_online_property.html#a770c65109a57a4cca772cb3ec143fe68',1,'ffactory::BaseOnlineProperty::update(Sample *newdata)=0'],['../classffactory_1_1_base_online_node.html#aae14e67d789d867081aa9dbdb55181cf',1,'ffactory::BaseOnlineNode::update()'],['../classffactory_1_1_base_online_tree.html#a89983c60bab64b9f4c0946bf8c1ba40d',1,'ffactory::BaseOnlineTree::update()'],['../classffactory_1_1_online_random_forest.html#af0c36073053407883c7ddd1fce631d7f',1,'ffactory::OnlineRandomForest::update()']]],
+  ['useallfeatures',['useAllFeatures',['../classffactory_1_1_base_split_candidate_generator.html#afe4971fb46570d6658dad28eefe6d52c',1,'ffactory::BaseSplitCandidateGenerator']]]
+];

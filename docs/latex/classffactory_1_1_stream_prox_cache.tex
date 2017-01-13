@@ -1,0 +1,250 @@
+\hypertarget{classffactory_1_1_stream_prox_cache}{\section{ffactory\-:\-:Stream\-Prox\-Cache Class Reference}
+\label{classffactory_1_1_stream_prox_cache}\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}}
+}
+Inheritance diagram for ffactory\-:\-:Stream\-Prox\-Cache\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classffactory_1_1_stream_prox_cache}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_aed430b8e348a710c1fd128d7ed4c59a9}{{\bfseries Stream\-Prox\-Cache} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$datastream, Index\-Type block=40, Index\-Type cache=0, Index\-Type num\-Nearest\-Neighbours=5, Data\-Type sample\-Weight=0.\-01, std\-::string clf\-Weighing=\char`\"{}binary\char`\"{}, bool \-\_\-verbose=false, Index\-Type epochs\-Number=0, Index\-Type \-\_\-treecount=15, \hyperlink{namespaceffactory_a4c245a9eacd4f260ee05929d46f1e3bb}{Proximity\-Measure\-Type} \-\_\-proximity\-Measure=P\-R\-O\-X\-I\-M\-I\-T\-Y\-\_\-\-R\-F)}\label{classffactory_1_1_stream_prox_cache_aed430b8e348a710c1fd128d7ed4c59a9}
+
+\item 
+void \hyperlink{classffactory_1_1_stream_prox_cache_ad1022eb9dcd9f6e47cfe9046d1916c1c}{add\-First\-Block\-To\-Dataset} ()
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_ac17591412b9e1b901fafadaebbd23ad2}{void {\bfseries prepare\-Newblock\-Dataset} ()}\label{classffactory_1_1_stream_prox_cache_ac17591412b9e1b901fafadaebbd23ad2}
+
+\item 
+Data\-Type \hyperlink{classffactory_1_1_stream_prox_cache_a040dd6d7e781ef4350ffdb91498d6bdc}{test\-New\-Block} ()
+\item 
+void \hyperlink{classffactory_1_1_stream_prox_cache_a0156b6c88a88b8b25a10e9a5bcb606d2}{add\-Block\-To\-Dataset} ()
+\item 
+void \hyperlink{classffactory_1_1_stream_prox_cache_a1906dffe0b3da06fc4dd2f0c77950ac3}{reset\-Classifiers\-Weights} ()
+\item 
+void \hyperlink{classffactory_1_1_stream_prox_cache_a433df2e8aebb5e77ba64e5f32261500c}{first\-Build\-Prox\-Errors} ()
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_ac77d09960d5a84cdf813f9a960413c0a}{Data\-Type {\bfseries evaluate\-Classifiers\-Error} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)}\label{classffactory_1_1_stream_prox_cache_ac77d09960d5a84cdf813f9a960413c0a}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_af194e47219e788235ed55dff640b8023}{Data\-Type {\bfseries evaluate\-New\-Block\-Dataset} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$d)}\label{classffactory_1_1_stream_prox_cache_af194e47219e788235ed55dff640b8023}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_abe3c87e15fbdc1bf97f0cc7ffaf5d38e}{void {\bfseries test\-Stream1} ()}\label{classffactory_1_1_stream_prox_cache_abe3c87e15fbdc1bf97f0cc7ffaf5d38e}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_adf2e0db357a9731601f3571a265953e7}{void {\bfseries test\-Stream} ()}\label{classffactory_1_1_stream_prox_cache_adf2e0db357a9731601f3571a265953e7}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a01ab2a54a7c59a7d0b432311e09d90fc}{void {\bfseries print\-Error} (std\-::ostream \&s)}\label{classffactory_1_1_stream_prox_cache_a01ab2a54a7c59a7d0b432311e09d90fc}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a39382c67817cdedfd00190cc5388bebb}{void {\bfseries predict} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$s, Data\-Vector \&result)}\label{classffactory_1_1_stream_prox_cache_a39382c67817cdedfd00190cc5388bebb}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_acfc1bedf69eabe70fe64cc5048029e6b}{Data\-Type {\bfseries get\-Proximity} (Data\-Vector $\ast$leaf\-Ids, Index\-Type idx)}\label{classffactory_1_1_stream_prox_cache_acfc1bedf69eabe70fe64cc5048029e6b}
+
+\item 
+void \hyperlink{classffactory_1_1_stream_prox_cache_a39cf61205bb1c626c5b8fc0be3ec2c13}{compute\-Nearest\-Samples} (Data\-Vector $\ast$leaf\-Ids, Index\-Type number\-Of\-Samples)
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a8d01292ee250b227949f014527bf4c73}{void {\bfseries compute\-Nearest\-Samples\-Eucledian} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$s, Index\-Type number\-Of\-Samples)}\label{classffactory_1_1_stream_prox_cache_a8d01292ee250b227949f014527bf4c73}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a73732b1c653fd8dea1c4741625b4676d}{void {\bfseries add\-Sample} (\hyperlink{classffactory_1_1_sample}{Sample} $\ast$s)}\label{classffactory_1_1_stream_prox_cache_a73732b1c653fd8dea1c4741625b4676d}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a6eafd0806e0449b16f848b06a327e5b7}{void {\bfseries remove\-Sample} (Index\-Type sample\-Idx)}\label{classffactory_1_1_stream_prox_cache_a6eafd0806e0449b16f848b06a327e5b7}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a76c060149f1e946fa69f196a47efa767}{void {\bfseries add\-New\-Classifier} (\hyperlink{classffactory_1_1_base_tree}{Base\-Tree} $\ast$t)}\label{classffactory_1_1_stream_prox_cache_a76c060149f1e946fa69f196a47efa767}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_ae897bbee4e19db040a4c65695866c1c9}{void {\bfseries remove\-Classifier} (Index\-Type cidx)}\label{classffactory_1_1_stream_prox_cache_ae897bbee4e19db040a4c65695866c1c9}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_ab65c791672eb2fdab02a4afa8915f885}{void {\bfseries replace\-The\-Looser} ()}\label{classffactory_1_1_stream_prox_cache_ab65c791672eb2fdab02a4afa8915f885}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a1b7228a16e10daef4ab2278e0bc3f445}{\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$ {\bfseries get\-Dataset} ()}\label{classffactory_1_1_stream_prox_cache_a1b7228a16e10daef4ab2278e0bc3f445}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a4f44c14542351618c788dd1c18a21009}{\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$ {\bfseries get\-Datastream} ()}\label{classffactory_1_1_stream_prox_cache_a4f44c14542351618c788dd1c18a21009}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a4e291eacbea9e777eb39eba55e76cb57}{void {\bfseries set\-Datastream} (\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$datastream)}\label{classffactory_1_1_stream_prox_cache_a4e291eacbea9e777eb39eba55e76cb57}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a6d67e923ecdce001acbe6b93ba184a5b}{double {\bfseries get\-Time} () const }\label{classffactory_1_1_stream_prox_cache_a6d67e923ecdce001acbe6b93ba184a5b}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a758091a9417b7d5c2baaa249d06d159d}{void {\bfseries set\-Time} (double \hyperlink{classffactory_1_1_stream_prox_cache_a3626cb46c72194156648c61c210203be}{time})}\label{classffactory_1_1_stream_prox_cache_a758091a9417b7d5c2baaa249d06d159d}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_aff7b35796c283e88a783f16d5eae896a}{Data\-Vector {\bfseries tests\-Accuracy\-After}}\label{classffactory_1_1_stream_prox_cache_aff7b35796c283e88a783f16d5eae896a}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a2527fa9f3c975e73de1989527417df92}{Data\-Vector {\bfseries tests\-Accuracy\-Before}}\label{classffactory_1_1_stream_prox_cache_a2527fa9f3c975e73de1989527417df92}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_aa92c97483f32ab90103e06901886129e}{Data\-Vector {\bfseries cache\-Accuracy}}\label{classffactory_1_1_stream_prox_cache_aa92c97483f32ab90103e06901886129e}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a4409c3023479022676712798218942d8}{void {\bfseries init\-Matrixes} (Index\-Type T, Index\-Type N)}\label{classffactory_1_1_stream_prox_cache_a4409c3023479022676712798218942d8}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_ae094f3d56c377293d37892e298d19460}{\hyperlink{classffactory_1_1_p_d_streaming_r_f}{P\-D\-Streaming\-R\-F} {\bfseries rf}}\label{classffactory_1_1_stream_prox_cache_ae094f3d56c377293d37892e298d19460}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a082becdc30561bd9e91950a6ff2f1d83}{\hyperlink{namespaceffactory_a4c245a9eacd4f260ee05929d46f1e3bb}{Proximity\-Measure\-Type} {\bfseries proximity\-Measure}}\label{classffactory_1_1_stream_prox_cache_a082becdc30561bd9e91950a6ff2f1d83}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_aa54d9713de7b452b5e9116cca0dfc70b}{Index\-Type {\bfseries epoch}}\label{classffactory_1_1_stream_prox_cache_aa54d9713de7b452b5e9116cca0dfc70b}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a19cf5471e8576f6c14224856a80cea35}{Index\-Type {\bfseries epochs}}\label{classffactory_1_1_stream_prox_cache_a19cf5471e8576f6c14224856a80cea35}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a721ecc4a6a1f67345815e5b0b0ec31e4}{bool {\bfseries verbose}}\label{classffactory_1_1_stream_prox_cache_a721ecc4a6a1f67345815e5b0b0ec31e4}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_accb9762220510383d165def97153ccf0}{\hyperlink{classffactory_1_1_dataset}{Dataset} $\ast$ {\bfseries datastream}}\label{classffactory_1_1_stream_prox_cache_accb9762220510383d165def97153ccf0}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_ab649c0bb3d868d075d8e5fd4ef1b85eb}{Dataset\-Unique\-Ptr {\bfseries dataset}}\label{classffactory_1_1_stream_prox_cache_ab649c0bb3d868d075d8e5fd4ef1b85eb}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_aba6b39d139f87032c870d8275e48f283}{Dataset\-Unique\-Ptr {\bfseries newblock\-Dataset}}\label{classffactory_1_1_stream_prox_cache_aba6b39d139f87032c870d8275e48f283}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a52a9ca2720ad7248f5125abab1cacdaf}{std\-::vector$<$ Data\-Type $>$ {\bfseries times}}\label{classffactory_1_1_stream_prox_cache_a52a9ca2720ad7248f5125abab1cacdaf}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a0fe49988981608bbf56de62df5f7e890}{Data\-Matrix {\bfseries predicted\-Leafs}}\label{classffactory_1_1_stream_prox_cache_a0fe49988981608bbf56de62df5f7e890}
+
+\item 
+Data\-Matrix \hyperlink{classffactory_1_1_stream_prox_cache_a732bbc8e3b41d6fd9c12558bad80d031}{predicted\-Errors}
+\item 
+Data\-Type \hyperlink{classffactory_1_1_stream_prox_cache_a3626cb46c72194156648c61c210203be}{time}
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a0a24df85ffa934c509b94b8560e80f07}{std\-::vector$<$ std\-::pair\\*
+$<$ Index\-Type, Data\-Type $>$ $>$ {\bfseries nearest\-Samples}}\label{classffactory_1_1_stream_prox_cache_a0a24df85ffa934c509b94b8560e80f07}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a1bab52a2fde55818bd262dbd9894225a}{Index\-Type {\bfseries current\-Stream\-Position}}\label{classffactory_1_1_stream_prox_cache_a1bab52a2fde55818bd262dbd9894225a}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a35d64dcadac9784987a491cd080435b1}{Index\-Type {\bfseries block\-Size}}\label{classffactory_1_1_stream_prox_cache_a35d64dcadac9784987a491cd080435b1}
+
+\item 
+Index\-Type \hyperlink{classffactory_1_1_stream_prox_cache_a994b7d54a8341bc3a4f20da808bc7f5c}{cache\-Size}
+\item 
+Index\-Type \hyperlink{classffactory_1_1_stream_prox_cache_a438552682a58bdd977b171d1ae568033}{nearest\-Neighbours}
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a1396a4217b4e79fb3e2771cea5c47cd3}{Index\-Type {\bfseries treecount}}\label{classffactory_1_1_stream_prox_cache_a1396a4217b4e79fb3e2771cea5c47cd3}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_afd33d8b1fb40b3acc282fa0f12d053dc}{Data\-Vector {\bfseries new\-Block\-Errors}}\label{classffactory_1_1_stream_prox_cache_afd33d8b1fb40b3acc282fa0f12d053dc}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_a0eaba2e04cfbdb35089fb9ce39e84838}{Index\-Type {\bfseries predicted\-Class}}\label{classffactory_1_1_stream_prox_cache_a0eaba2e04cfbdb35089fb9ce39e84838}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_adc739434e0cfc254d08875539a94fb91}{Index\-Type {\bfseries old\-Predicted\-Class}}\label{classffactory_1_1_stream_prox_cache_adc739434e0cfc254d08875539a94fb91}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_aff73cce3f37ae42a053df701d3f3fd45}{Data\-Temporal\-Weighting\-Function\-Unique\-Ptr {\bfseries sample\-Weighting}}\label{classffactory_1_1_stream_prox_cache_aff73cce3f37ae42a053df701d3f3fd45}
+
+\item 
+\hypertarget{classffactory_1_1_stream_prox_cache_adbeed613bb3e9526de614e1f978cbfbd}{Base\-Accuracy\-Dependent\-Weight\-Unique\-Ptr {\bfseries classifer\-Weighting}}\label{classffactory_1_1_stream_prox_cache_adbeed613bb3e9526de614e1f978cbfbd}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_stream_prox_cache_a0156b6c88a88b8b25a10e9a5bcb606d2}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!add\-Block\-To\-Dataset@{add\-Block\-To\-Dataset}}
+\index{add\-Block\-To\-Dataset@{add\-Block\-To\-Dataset}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{add\-Block\-To\-Dataset}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Stream\-Prox\-Cache\-::add\-Block\-To\-Dataset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_stream_prox_cache_a0156b6c88a88b8b25a10e9a5bcb606d2}
+add\-Block\-To\-Dataset добавляет первый блок из потока в кэш \begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000003}{Bug}]пока кэш не лимитирован, нужно исправить позже \end{DoxyRefDesc}
+\hypertarget{classffactory_1_1_stream_prox_cache_ad1022eb9dcd9f6e47cfe9046d1916c1c}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!add\-First\-Block\-To\-Dataset@{add\-First\-Block\-To\-Dataset}}
+\index{add\-First\-Block\-To\-Dataset@{add\-First\-Block\-To\-Dataset}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{add\-First\-Block\-To\-Dataset}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Stream\-Prox\-Cache\-::add\-First\-Block\-To\-Dataset (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_stream_prox_cache_ad1022eb9dcd9f6e47cfe9046d1916c1c}
+add\-First\-Block\-To\-Dataset добавляет первый блок из потока в кэш \begin{DoxyRefDesc}{Bug}
+\item[\hyperlink{bug__bug000002}{Bug}]пока кэш не лимитирован, нужно исправить позже \end{DoxyRefDesc}
+\hypertarget{classffactory_1_1_stream_prox_cache_a39cf61205bb1c626c5b8fc0be3ec2c13}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!compute\-Nearest\-Samples@{compute\-Nearest\-Samples}}
+\index{compute\-Nearest\-Samples@{compute\-Nearest\-Samples}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{compute\-Nearest\-Samples}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Stream\-Prox\-Cache\-::compute\-Nearest\-Samples (
+\begin{DoxyParamCaption}
+\item[{Data\-Vector $\ast$}]{leaf\-Ids, }
+\item[{Index\-Type}]{number\-Of\-Samples}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_stream_prox_cache_a39cf61205bb1c626c5b8fc0be3ec2c13}
+\begin{DoxyRefDesc}{Todo}
+\item[\hyperlink{todo__todo000009}{Todo}]Use more effective sort 
+\begin{DoxyParams}{Parameters}
+{\em leaf\-Ids} & \\
+\hline
+{\em number\-Of\-Samples} & \\
+\hline
+\end{DoxyParams}
+\end{DoxyRefDesc}
+\hypertarget{classffactory_1_1_stream_prox_cache_a433df2e8aebb5e77ba64e5f32261500c}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!first\-Build\-Prox\-Errors@{first\-Build\-Prox\-Errors}}
+\index{first\-Build\-Prox\-Errors@{first\-Build\-Prox\-Errors}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{first\-Build\-Prox\-Errors}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Stream\-Prox\-Cache\-::first\-Build\-Prox\-Errors (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_stream_prox_cache_a433df2e8aebb5e77ba64e5f32261500c}
+Создаём первый блок \hypertarget{classffactory_1_1_stream_prox_cache_a1906dffe0b3da06fc4dd2f0c77950ac3}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!reset\-Classifiers\-Weights@{reset\-Classifiers\-Weights}}
+\index{reset\-Classifiers\-Weights@{reset\-Classifiers\-Weights}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{reset\-Classifiers\-Weights}]{\setlength{\rightskip}{0pt plus 5cm}void ffactory\-::\-Stream\-Prox\-Cache\-::reset\-Classifiers\-Weights (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_stream_prox_cache_a1906dffe0b3da06fc4dd2f0c77950ac3}
+Восстановить простое голосование по большинству \hypertarget{classffactory_1_1_stream_prox_cache_a040dd6d7e781ef4350ffdb91498d6bdc}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!test\-New\-Block@{test\-New\-Block}}
+\index{test\-New\-Block@{test\-New\-Block}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{test\-New\-Block}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Type ffactory\-::\-Stream\-Prox\-Cache\-::test\-New\-Block (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_stream_prox_cache_a040dd6d7e781ef4350ffdb91498d6bdc}
+Get accuracy of current classifier test on the new block 
+
+\subsection{Member Data Documentation}
+\hypertarget{classffactory_1_1_stream_prox_cache_a994b7d54a8341bc3a4f20da808bc7f5c}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!cache\-Size@{cache\-Size}}
+\index{cache\-Size@{cache\-Size}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{cache\-Size}]{\setlength{\rightskip}{0pt plus 5cm}Index\-Type ffactory\-::\-Stream\-Prox\-Cache\-::cache\-Size\hspace{0.3cm}{\ttfamily [protected]}}}\label{classffactory_1_1_stream_prox_cache_a994b7d54a8341bc3a4f20da808bc7f5c}
+Stream block size (chunk size) \hypertarget{classffactory_1_1_stream_prox_cache_a438552682a58bdd977b171d1ae568033}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!nearest\-Neighbours@{nearest\-Neighbours}}
+\index{nearest\-Neighbours@{nearest\-Neighbours}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{nearest\-Neighbours}]{\setlength{\rightskip}{0pt plus 5cm}Index\-Type ffactory\-::\-Stream\-Prox\-Cache\-::nearest\-Neighbours\hspace{0.3cm}{\ttfamily [protected]}}}\label{classffactory_1_1_stream_prox_cache_a438552682a58bdd977b171d1ae568033}
+Maximal dataset size \hypertarget{classffactory_1_1_stream_prox_cache_a732bbc8e3b41d6fd9c12558bad80d031}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!predicted\-Errors@{predicted\-Errors}}
+\index{predicted\-Errors@{predicted\-Errors}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{predicted\-Errors}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Matrix ffactory\-::\-Stream\-Prox\-Cache\-::predicted\-Errors\hspace{0.3cm}{\ttfamily [protected]}}}\label{classffactory_1_1_stream_prox_cache_a732bbc8e3b41d6fd9c12558bad80d031}
+cols -\/ trees, rows -\/ samples \hypertarget{classffactory_1_1_stream_prox_cache_a3626cb46c72194156648c61c210203be}{\index{ffactory\-::\-Stream\-Prox\-Cache@{ffactory\-::\-Stream\-Prox\-Cache}!time@{time}}
+\index{time@{time}!ffactory::StreamProxCache@{ffactory\-::\-Stream\-Prox\-Cache}}
+\subsubsection[{time}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Type ffactory\-::\-Stream\-Prox\-Cache\-::time\hspace{0.3cm}{\ttfamily [protected]}}}\label{classffactory_1_1_stream_prox_cache_a3626cb46c72194156648c61c210203be}
+cols -\/ trees, rows -\/ samples 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/trees/Stream\-Prox\-Cache.\-h\end{DoxyCompactItemize}

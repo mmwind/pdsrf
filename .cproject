@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952" name="Debug" parent="cdt.managedbuild.config.gnu.mingw.exe.debug">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.1125218512" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.1325402279" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/ForestFactory}/Debug" id="org.eclipse.cdt.build.core.internal.builder.1618714350" keepEnvironmentInBuildfile="false" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder">
+								<outputEntries>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Debug"/>
+									<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="outputPath" name="Release"/>
+								</outputEntries>
+							</builder>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1915210062" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.222550134" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="gnu.cpp.compiler.option.include.paths.807190181" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/testing}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/gtests}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1609671881" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__cplusplus=201103L"/>
+									<listOptionValue builtIn="false" value="__GXX_EXPERIMENTAL_CXX0X__"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.optimization.level.376294366" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.678418400" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.345072917" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.other.other.2043927258" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fopenmp" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.681119631" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1865699447" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1252297087" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1010652238" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.std.956724717" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1956028467" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" value="" valueType="string"/>
+								<option id="gnu.c.compiler.option.include.paths.1094810673" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/tests}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/gtests}&quot;"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/tests"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/tests"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.1148976030" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__cplusplus=201103L"/>
+									<listOptionValue builtIn="false" value="__GXX_EXPERIMENTAL_CXX0X__"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1610669" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1381088621" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.224959927" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="gnu.cpp.link.option.libs.253957257" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="pthread"/>
+									<listOptionValue builtIn="false" value="iomp5"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.2039680183" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.251596283" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.400055871" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/tests}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/gtests}&quot;"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/tests"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/tests"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.238846290" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952.1050414980" name="/" resourcePath="tests">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.879769271" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base" unusedChildren="">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1321256687" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base.1915210062"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1717373263" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base.222550134">
+								<option id="gnu.cpp.compiler.option.include.paths.1165147642" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/tests}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/ForestFactory/ForestFactory/gtests}&quot;"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory/tests"/>
+									<listOptionValue builtIn="false" value="../ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/tests"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2122130555" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1346209621" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base.1865699447">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.740146808" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1653565214" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base.1381088621"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.469298558" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base.224959927"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.2043805163" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base.251596283">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.89575113" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952.1193359639" name="/" resourcePath="include">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.1797152248" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1343036079" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.915637381" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="gnu.cpp.compiler.option.include.paths.243596617" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/include"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/tests"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1384480758" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__cplusplus=201103L"/>
+									<listOptionValue builtIn="false" value="__GXX_EXPERIMENTAL_CXX0X__"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.optimization.level.491064593" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.83685629" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.dialect.std.92491241" name="Language standard" superClass="gnu.cpp.compiler.option.dialect.std" value="gnu.cpp.compiler.dialect.c++11" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.other.other.1610232940" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fopenmp" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.310482433" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1309812462" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1422698700" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1489901177" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.std.457200654" name="Language standard" superClass="gnu.c.compiler.option.dialect.std" value="gnu.c.compiler.dialect.default" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.dialect.flags.1178022946" name="Other dialect flags" superClass="gnu.c.compiler.option.dialect.flags" value="" valueType="string"/>
+								<option id="gnu.c.compiler.option.include.paths.963487484" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/include"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/tests"/>
+								</option>
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.179428339" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__cplusplus=201103L"/>
+									<listOptionValue builtIn="false" value="__GXX_EXPERIMENTAL_CXX0X__"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1675561213" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.1326995688" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.770095293" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.75451912" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.967088194" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/include"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/gtests"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/src"/>
+									<listOptionValue builtIn="false" value="/home/lladmin/git/forestfactory/zRF/ForestFactory/ForestFactory/tests"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1943291292" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="gtests"/>
+						<entry excluding="classifiers/trees/models/decisionStump|classifiers/prediction_test.cpp|utils/exceptions_test.cpp|classifiers/trees/NodeStatistics.cpp|tests/classifiers/prediction_test.cpp|classifiers/trees/BaseOnlineTree.cpp|tests/data/dataloader_test.cpp|tests/data/sample_test.cpp|tests/classifiers/baseClassifier_test.cpp|tests/classifiers/errorMeasures/baseErrorMeasure_test.cpp|tests/data/attribute_test.cpp|tests/utils/exceptions_test.cpp|tests/data/dataset_test.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="SampleSplitCandidateGenerator_test.cpp|BaseTree_test.cpp|ARFFFile_test.cpp|covtypeTester.cpp|PDStreamingRF_test.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="testing"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.gnu.mingw.exe.release.2065262914">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.mingw.exe.release.2065262914" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.gnu.mingw.exe.release.2065262914" name="Release" parent="cdt.managedbuild.config.gnu.mingw.exe.release">
+					<folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.release.2065262914." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.release.1800334970" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.release">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.PE;org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.mingw.exe.release.1473848285" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.mingw.exe.release"/>
+							<builder buildPath="${workspace_loc:/tests}/Release" id="cdt.managedbuild.tool.gnu.builder.mingw.base.2004491049" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CDT Internal Builder" superClass="cdt.managedbuild.tool.gnu.builder.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release.581947533" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.969692772" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1251137706" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1638935371" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release">
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.optimization.level.9348531" name="Optimization Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.mingw.exe.release.option.debugging.level.563606835" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.773473298" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__cplusplus=201103L"/>
+									<listOptionValue builtIn="false" value="__GXX_EXPERIMENTAL_CXX0X__"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.2037918003" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.14545891" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.mingw.exe.release.option.optimization.level.425720888" name="Optimization Level" superClass="gnu.c.compiler.mingw.exe.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.mingw.exe.release.option.debugging.level.802300311" name="Debug Level" superClass="gnu.c.compiler.mingw.exe.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.625448325" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release.887225664" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.release"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release.1153054684" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.release">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1522089433" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="gtests"/>
+						<entry excluding="factories|classifiers/trees/models/decisionStump|utils/exceptions_test.cpp|classifiers/trees/NodeStatistics.cpp|tests/classifiers/prediction_test.cpp|classifiers/trees/BaseOnlineTree.cpp|tests/data/dataloader_test.cpp|tests/data/sample_test.cpp|tests/classifiers/baseClassifier_test.cpp|tests/classifiers/errorMeasures/baseErrorMeasure_test.cpp|tests/data/attribute_test.cpp|tests/utils/exceptions_test.cpp|tests/data/dataset_test.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="SampleSplitCandidateGenerator_test.cpp|BaseTree_test.cpp|ARFFFile_test.cpp|covtypeTester.cpp|PDStreamingRF_test.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="testing"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="tests.cdt.managedbuild.target.gnu.mingw.exe.2131046035" name="Executable" projectType="cdt.managedbuild.target.gnu.mingw.exe"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/zRF"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/zRF"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+		<buildTargets>
+			<target name="RandmoSplitTest" path="tests/classifiers/trees/splits/splitCandidateGenerator" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>RandmoSplitTest</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="ForestFactory" path="src" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>ForestFactory</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="Exceptions test" path="src/utils" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>Exceptions test</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="predictionTest" path="src/classifiers" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildArguments/>
+				<buildTarget>predictionTest</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+			<target name="decisionStumpTest" path="src/classifiers" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>make</buildCommand>
+				<buildTarget>decisionStumpTest</buildTarget>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>true</useDefaultCommand>
+				<runAllBuilders>true</runAllBuilders>
+			</target>
+		</buildTargets>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings">
+		<doc-comment-owner id="org.eclipse.cdt.ui.doxygen">
+			<path value=""/>
+		</doc-comment-owner>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952;cdt.managedbuild.config.gnu.mingw.exe.debug.576162952.;cdt.managedbuild.tool.gnu.c.compiler.base.1865699447;cdt.managedbuild.tool.gnu.c.compiler.input.1610669">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952;cdt.managedbuild.config.gnu.mingw.exe.debug.576162952.;cdt.managedbuild.tool.gnu.cpp.compiler.base.222550134;cdt.managedbuild.tool.gnu.cpp.compiler.input.681119631">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952;cdt.managedbuild.config.gnu.mingw.exe.debug.576162952.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.1487540949;cdt.managedbuild.tool.gnu.cpp.compiler.input.1728357723">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.2065262914;cdt.managedbuild.config.gnu.mingw.exe.release.2065262914.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.release.1638935371;cdt.managedbuild.tool.gnu.cpp.compiler.input.2037918003">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.debug.576162952;cdt.managedbuild.config.gnu.mingw.exe.debug.576162952.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.937144377;cdt.managedbuild.tool.gnu.c.compiler.input.989003819">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.mingw.exe.release.2065262914;cdt.managedbuild.config.gnu.mingw.exe.release.2065262914.;cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.release.14545891;cdt.managedbuild.tool.gnu.c.compiler.input.625448325">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

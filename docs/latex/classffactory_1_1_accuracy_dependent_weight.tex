@@ -1,0 +1,49 @@
+\hypertarget{classffactory_1_1_accuracy_dependent_weight}{\section{ffactory\-:\-:Accuracy\-Dependent\-Weight Class Reference}
+\label{classffactory_1_1_accuracy_dependent_weight}\index{ffactory\-::\-Accuracy\-Dependent\-Weight@{ffactory\-::\-Accuracy\-Dependent\-Weight}}
+}
+
+
+{\ttfamily \#include $<$Accuracy\-Dependent\-Weight.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Accuracy\-Dependent\-Weight\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classffactory_1_1_accuracy_dependent_weight}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual Data\-Vector\-Unique\-Ptr \hyperlink{classffactory_1_1_accuracy_dependent_weight_a7b912fc0846d557aea10d933501daade}{get\-Weights} (Data\-Vector $\ast$const error\-Vector)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classffactory_1_1_base}{Base} classifier weighting function $ W_c(error) = \frac{1}{error+\delta} $ 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_accuracy_dependent_weight_a7b912fc0846d557aea10d933501daade}{\index{ffactory\-::\-Accuracy\-Dependent\-Weight@{ffactory\-::\-Accuracy\-Dependent\-Weight}!get\-Weights@{get\-Weights}}
+\index{get\-Weights@{get\-Weights}!ffactory::AccuracyDependentWeight@{ffactory\-::\-Accuracy\-Dependent\-Weight}}
+\subsubsection[{get\-Weights}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Vector\-Unique\-Ptr ffactory\-::\-Accuracy\-Dependent\-Weight\-::get\-Weights (
+\begin{DoxyParamCaption}
+\item[{Data\-Vector $\ast$const}]{error\-Vector}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classffactory_1_1_accuracy_dependent_weight_a7b912fc0846d557aea10d933501daade}
+
+\begin{DoxyParams}{Parameters}
+{\em error\-Vector} & is a vector of errors of base classifiers (unnormalized) \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+weights of base classifiers 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classffactory_1_1_base_accuracy_dependent_weight_a0baa145415e5e75b3b90c787c7e5a879}{ffactory\-::\-Base\-Accuracy\-Dependent\-Weight}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+src/classifiers/ensemble/weighting/Accuracy\-Dependent\-Weight.\-h\item 
+src/classifiers/ensemble/weighting/Accuracy\-Dependent\-Weight.\-cpp\end{DoxyCompactItemize}

@@ -1,0 +1,91 @@
+\hypertarget{classffactory_1_1_abstract_factory}{\section{ffactory\-:\-:Abstract\-Factory$<$ B\-C $>$ Class Template Reference}
+\label{classffactory_1_1_abstract_factory}\index{ffactory\-::\-Abstract\-Factory$<$ B\-C $>$@{ffactory\-::\-Abstract\-Factory$<$ B\-C $>$}}
+}
+
+
+{\ttfamily \#include $<$Abstract\-Factory.\-h$>$}
+
+Inheritance diagram for ffactory\-:\-:Abstract\-Factory$<$ B\-C $>$\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classffactory_1_1_abstract_factory}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classffactory_1_1_abstract_factory_a8223dea004ca4e4f78389729e886c4f4}{{\footnotesize template$<$class C $>$ }\\void {\bfseries add} (const std\-::string \&id)}\label{classffactory_1_1_abstract_factory_a8223dea004ca4e4f78389729e886c4f4}
+
+\item 
+B\-C $\ast$ \hyperlink{classffactory_1_1_abstract_factory_a822566f16b8bb4894f4930941b461ae8}{create} (const std\-::string \&id)
+\item 
+std\-::unique\-\_\-ptr$<$ B\-C $>$ \hyperlink{classffactory_1_1_abstract_factory_a50805631d6ed2790482d693b4388fe76}{create\-Unique} (const std\-::string \&id)
+\item 
+virtual void \hyperlink{classffactory_1_1_abstract_factory_acc3b114aecc19f8b4de596dba5bc7786}{Register} ()=0
+\item 
+std\-::string \hyperlink{classffactory_1_1_abstract_factory_ac34466fa6bbf769504437c90ae7b1a90}{list} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\subsubsection*{template$<$typename B\-C$>$class ffactory\-::\-Abstract\-Factory$<$ B\-C $>$}
+
+Abstract factory pattern class for objects of base class B\-C 
+
+\subsection{Member Function Documentation}
+\hypertarget{classffactory_1_1_abstract_factory_a822566f16b8bb4894f4930941b461ae8}{\index{ffactory\-::\-Abstract\-Factory@{ffactory\-::\-Abstract\-Factory}!create@{create}}
+\index{create@{create}!ffactory::AbstractFactory@{ffactory\-::\-Abstract\-Factory}}
+\subsubsection[{create}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename B\-C$>$ B\-C$\ast$ {\bf ffactory\-::\-Abstract\-Factory}$<$ B\-C $>$\-::create (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_abstract_factory_a822566f16b8bb4894f4930941b461ae8}
+Raw unsafe function to make class instance 
+\begin{DoxyParams}{Parameters}
+{\em id} & -\/ key of class \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_abstract_factory_a50805631d6ed2790482d693b4388fe76}{\index{ffactory\-::\-Abstract\-Factory@{ffactory\-::\-Abstract\-Factory}!create\-Unique@{create\-Unique}}
+\index{create\-Unique@{create\-Unique}!ffactory::AbstractFactory@{ffactory\-::\-Abstract\-Factory}}
+\subsubsection[{create\-Unique}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename B\-C$>$ std\-::unique\-\_\-ptr$<$ B\-C $>$ {\bf ffactory\-::\-Abstract\-Factory}$<$ B\-C $>$\-::create\-Unique (
+\begin{DoxyParamCaption}
+\item[{const std\-::string \&}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_abstract_factory_a50805631d6ed2790482d693b4388fe76}
+Safe function to make class instance 
+\begin{DoxyParams}{Parameters}
+{\em id} & -\/ key of class \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_abstract_factory_ac34466fa6bbf769504437c90ae7b1a90}{\index{ffactory\-::\-Abstract\-Factory@{ffactory\-::\-Abstract\-Factory}!list@{list}}
+\index{list@{list}!ffactory::AbstractFactory@{ffactory\-::\-Abstract\-Factory}}
+\subsubsection[{list}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename B\-C$>$ std\-::string {\bf ffactory\-::\-Abstract\-Factory}$<$ B\-C $>$\-::list (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classffactory_1_1_abstract_factory_ac34466fa6bbf769504437c90ae7b1a90}
+Generates string with key names of factory \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{classffactory_1_1_abstract_factory_acc3b114aecc19f8b4de596dba5bc7786}{\index{ffactory\-::\-Abstract\-Factory@{ffactory\-::\-Abstract\-Factory}!Register@{Register}}
+\index{Register@{Register}!ffactory::AbstractFactory@{ffactory\-::\-Abstract\-Factory}}
+\subsubsection[{Register}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename B\-C$>$ virtual void {\bf ffactory\-::\-Abstract\-Factory}$<$ B\-C $>$\-::Register (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{classffactory_1_1_abstract_factory_acc3b114aecc19f8b4de596dba5bc7786}
+Function must be called before using the class 
+
+Implemented in \hyperlink{classffactory_1_1_file_reader_factory_a0f0b807dc1c92452b1cb97187ddf9f33}{ffactory\-::\-File\-Reader\-Factory}, \hyperlink{classffactory_1_1_accuracy_dependent_weight_factory_a67f333ed900e4b3ad41b3241a3eeb860}{ffactory\-::\-Accuracy\-Dependent\-Weight\-Factory}, and \hyperlink{classffactory_1_1_tree_node_factory_a99f98ac98e39bf3afc1e7d16ec2fec90}{ffactory\-::\-Tree\-Node\-Factory}.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+src/utils/patterns/Abstract\-Factory.\-h\end{DoxyCompactItemize}
